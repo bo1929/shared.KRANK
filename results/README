@@ -1,0 +1,1 @@
+There are many other k-mer ranking methods we considered, but ignored here as they performed no better than the used heuristic: weighted sum of species counts w.r.t. k-mer coverages.
