@@ -3,8 +3,7 @@ require(readr)
 require(cowplot)
 require(dplyr)
 
-# scores <- read_csv("../results/cscores-10kSpecies_-_combined.csv")
-scores <- read_csv("../results/cscores-10kSpecies_-_KRANK-candidates.csv")
+scores <- read_csv("../results/cscores-10kSpecies_-_combined.csv")
 
 scores$Taxonomic_rank <- factor(
   scores$Taxonomic_rank,
