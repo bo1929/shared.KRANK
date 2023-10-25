@@ -1,1 +1,2 @@
 There are many other k-mer ranking methods we considered, but ignored here as they performed no better than the used heuristic: weighted sum of species counts w.r.t. k-mer coverages.
+To see all methods and versions included, run `cut -f9 -d',' <results>.csv | sort | uniq`.
