@@ -205,3 +205,80 @@ ggplot(
     legend.justification = "center",
     legend.direction = "vertical"
   )
+
+
+
+
+
+
+
+
+
+pr = function(x,k,p,h=0)
+  vapply(x,
+         function(di) sum(choose(k,0:p)*di^(0:p)*(1-di)^(k-0:p)*(2*(1-h/k)^(0:p)-((1-h/k)^(0:p))^2)),
+         c(1))
+
+pr(0.15,30,4)
+
+(pr(0.1,30,0)*vote(30,0)+
+    pr(0.1,30,1)*vote(30,1)+
+    pr(0.1,30,2)*vote(30,2)+
+    pr(0.1,30,3)*vote(30,3)+
+    pr(0.1,30,4)*vote(30,4)+
+    pr(0.1,30,5)*vote(30,5))*120/10
+
+
+ggplot()+stat_function(fun=function(x) pr(x,30,14,5))+
+  stat_function(fun=function(x) pr(x,32,15,5),color="red")+
+  coord_cartesian(xlim=c(0,.635))
+
+vote = function(k,d) (1-d/k)^k
+
+vote(30,4)*2
+
+ggplot()+stat_function(fun=function(x) vote(30,x*5))+
+  stat_function(fun=function(x) vote(32,x*5),color="red")+
+  coord_cartesian(xlim=c(0,1))
+
+require(ggplot2)
+require(readr)
+require(cowplot)
+require(dplyr)
+
+taxon_dist <- read_tsv("../data/closest_taxon_wrank.txt")
+
+ggplot(taxon_dist) + aes(x=rank, y=dist, color=rank) +
+  geom_boxplot() +
+  geom_point()
+
+changed = function(k,d) 1-(1-d)^k
+atleasttwosame =  function(k,d,n=n) 1 - (dbinom(n-1,n,changed(k,d)) + dbinom(n,n,changed(k,d)))
+sharedkmers = function(k,d,n=n,L=L) (n*L-n*L*atleasttwosame(k,d,n=n))/(n*L)
+
+pr = function(x,k,p,h=0)
+  vapply(x,
+         function(di) sum(choose(k,0:p)*di^(0:p)*(1-di)^(k-0:p)*(2*(1-h/k)^(0:p)-((1-h/k)^(0:p))^2)),
+         c(1))
+
+pr(0.15,30,4)
+
+(pr(0.1,30,0)*vote(30,0)+
+    pr(0.1,30,1)*vote(30,1)+
+    pr(0.1,30,2)*vote(30,2)+
+    pr(0.1,30,3)*vote(30,3)+
+    pr(0.1,30,4)*vote(30,4)+
+    pr(0.1,30,5)*vote(30,5))*120/10
+
+
+ggplot()+stat_function(fun=function(x) pr(x,30,14,5))+
+  stat_function(fun=function(x) pr(x,32,15,5),color="red")+
+  coord_cartesian(xlim=c(0,.635))
+
+vote = function(k,d) (1-d/k)^k
+
+vote(30,4)*2
+
+ggplot()+stat_function(fun=function(x) vote(30,x*5))+
+  stat_function(fun=function(x) vote(32,x*5),color="red")+
+  coord_cartesian(xlim=c(0,1))
