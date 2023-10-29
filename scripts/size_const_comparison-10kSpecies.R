@@ -11,7 +11,7 @@ scores$Taxonomic_rank <- factor(
 )
 scores <- scores %>% filter(Distance_to_closest < 0.35)
 # scores$Taxon <- as.factor(scores$Taxon)
-
+options(scipen=10000)
 scores$Method[scores$Method == "k=32 w=35 h=12 b=16 l=2 no const. (0.00)"] <- "None"
 scores$Method[scores$Method == "k=32 w=35 h=12 b=16 l=2 species-count const. (0.00)"] <- "species"
 scores$Method[scores$Method == "k=32 w=35 h=12 b=16 l=2 mixed const. (mer-count and no) (0.00)"] <- "Mixed"
@@ -22,7 +22,7 @@ p1 <- ggplot(
     Reference_genome_in_phylum = cut(
       Reference_genome_in_phylum,
       include.lowest = TRUE,
-      breaks = c(0, 50, 500, 5000)
+      breaks = c(1, 50, 500, 5000)
     )
   ) %>% 
     group_by(Taxonomic_rank, Reference_genome_in_phylum, Method) %>%
@@ -40,7 +40,7 @@ p1 <- ggplot(
   theme(
     axis.text.y = element_text(),
     axis.text.x = element_text(angle = 20)
-  ) + guides(color=guide_legend(nrow=1, byrow=TRUE), shape=guide_none())
+  ) + guides(color=guide_legend(nrow=1, byrow=TRUE))
 p1
 
 p2 <- ggplot(
@@ -70,18 +70,22 @@ prow <- plot_grid(
   p1 + theme(legend.position = "none"),
   p2 + theme(legend.position = "none"),
   ncol = 2,
-  rel_heights = c(1, 1),
+  rel_heights = c(1, 1.25),
   vjust = 2,
-  hjust = 2
+  hjust = 2,
+  labels = c("B", "C"),
+  label_size = 20,
+  label_x = 0.075, label_y = 1
 )
+prow
 legend <- get_legend(
-  p2 + theme(legend.box.margin = margin(-6, 0, 3, 0)) + 
+  p1 + theme(legend.box.margin = margin(6, 0, 0, 0)) + 
     theme(
       legend.position = "bottom",
       legend.justification = "center",
       legend.direction = "horizontal",
       legend.box = "vertical"
-  ) + guides(color=guide_legend(nrow=1, byrow=TRUE))
+    ) + guides(color=guide_legend(nrow=1, byrow=TRUE))
 )
 
 taxa_counts <- read_tsv("../data/ref_taxa_counts.txt")
@@ -91,19 +95,20 @@ taxa_counts$Rank <- factor(
 )
 
 p3 <- ggplot(taxa_counts %>% filter(Rank != "kingdom"),
-       aes(x=Rank, y=Count, color=Rank)) +
-  geom_violin(scale = "width", color="gray40", trim = TRUE) +
-  geom_point(aes(x=Rank, y=Count), alpha = 0.85, size = 1.25, position = "jitter") +
+             aes(x=Rank, y=Count)) +
+  geom_violin(aes(color=Rank), linewidth=0.8, scale = "width", color="gray20", trim = TRUE, draw_quantiles = TRUE) +
+  geom_point(aes(x=Rank, y=Count, color=Rank), alpha = 0.75, size = 1, position = "jitter") +
+  stat_summary(color="black", fun = median) +
   scale_y_continuous(trans = "log2") +
   theme_cowplot(font_size = 18) +
   theme(strip.background = element_rect(fill = "gray")) +
-  scale_colour_brewer(palette = "Paired") +
+  scale_colour_manual(values = palette.colors(palette = "Paired", n = 7)[-1]) +
   theme(
     panel.spacing.x = unit(1, "lines"),
     axis.title.x = element_blank() 
-    ) +
-  labs(y = "Number of genomes\nin taxon", x = "")
+  ) +
+  labs(y = "Number of\ngenomes in taxon", x = "")
 p3
 
-plot_grid(p3 + theme(legend.position = "none"), plot_grid(prow, legend, rel_heights =  c(3, .3), nrow=2), ncol=1, rel_heights = c(1.2, 3))
-ggsave2("../figures/size_const_comparison-10kSpecies.pdf", width = 14, height = 10)
+plot_grid(p3 + theme(legend.position = "none"), plot_grid(prow, legend, rel_heights =  c(3, .4), nrow=2), ncol=1, rel_widths = c(1, 5), rel_heights = c(1, 3), labels = c("A", ""), label_size = 20)
+ggsave2("../figures/size_const_comparison-10kSpecies.pdf", width = 14, height = 9.5)
