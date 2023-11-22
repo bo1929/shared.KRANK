@@ -54,6 +54,7 @@ p1 <- ggplot(
   ) + 
   scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
   scale_y_continuous(breaks = scales::pretty_breaks(n = 5))
+p1
 
 p2 <- ggplot(
   scores %>%
@@ -75,6 +76,7 @@ p2 <- ggplot(
   ) + 
   scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
   scale_y_continuous(breaks = scales::pretty_breaks(n = 5))
+p2
 
 p3 <- ggplot(
   scores %>%
@@ -96,6 +98,7 @@ p3 <- ggplot(
   ) + 
   scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
   scale_y_continuous(breaks = scales::pretty_breaks(n = 5))
+p3
 
 prow <- plot_grid(
   p1 + theme(legend.position = "none"),

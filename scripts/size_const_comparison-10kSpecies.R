@@ -22,7 +22,7 @@ p1 <- ggplot(
     Reference_genome_in_phylum = cut(
       Reference_genome_in_phylum,
       include.lowest = TRUE,
-      breaks = c(1, 50, 500, 5000)
+      breaks = c(0, 50, 500, 5000)
     )
   ) %>% 
     group_by(Taxonomic_rank, Reference_genome_in_phylum, Method) %>%
@@ -109,6 +109,7 @@ p3 <- ggplot(taxa_counts %>% filter(Rank != "kingdom"),
   ) +
   labs(y = "Number of\ngenomes in taxon", x = "")
 p3
+ggsave2("../figures/num_genomes_per_taxon.pdf", width = 12, height = 4)
 
 plot_grid(p3 + theme(legend.position = "none"), plot_grid(prow, legend, rel_heights =  c(3, .4), nrow=2), ncol=1, rel_widths = c(1, 5), rel_heights = c(1, 3), labels = c("A", ""), label_size = 20)
 ggsave2("../figures/size_const_comparison-10kSpecies.pdf", width = 14, height = 9.5)
