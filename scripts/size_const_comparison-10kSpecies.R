@@ -7,7 +7,7 @@ scores <- read_csv("../results/cscores-10kSpecies_-_KRANK-sizeconst_comparison.c
 scores
 scores$Taxonomic_rank <- factor(
   scores$Taxonomic_rank,
-  levels = c("superkingdom", "phylum", "class", "order", "family", "genus", "species")
+  levels = c("kingdom", "phylum", "class", "order", "family", "genus", "species")
 )
 scores <- scores %>% filter(Distance_to_closest < 0.35)
 # scores$Taxon <- as.factor(scores$Taxon)
@@ -32,7 +32,7 @@ p1 <- ggplot(
   facet_wrap(.~Reference_genome_in_phylum) +
   geom_line(aes(group=Taxonomic_rank))+
   geom_point(size = 2.5, alpha = 0.85) +
-  labs(shape = "Constraint", colour = "Rank", linetype = "Constraint", x = "Constraint", y = "F1") +
+  labs(shape = "Constraint", colour = "Taxonomic rank", linetype = "Constraint", x = "Constraint", y = "F1") +
   scale_colour_brewer(palette = "Paired") +
   scale_shape_manual(values = c(15,17,19,8)) +
   theme_cowplot(font_size = 18) +
@@ -46,7 +46,7 @@ p1
 p2 <- ggplot(
   scores %>% 
     filter(Method %in% c("Mixed", "None")) %>%
-    filter(Taxonomic_rank != "superkingdom") %>%
+    filter(Taxonomic_rank != "kingdom") %>%
     mutate(
       Distance_to_closest = cut(
         Distance_to_closest,
@@ -59,9 +59,9 @@ p2 <- ggplot(
 ) + aes(color = Taxonomic_rank, x=Precision, y=Recall, shape=reorder(Method, Recall)) + 
   geom_point(size = 2.5, alpha = 0.85) +
   facet_wrap(vars(Distance_to_closest), scales = "free", nrow = 2) +
-  labs(shape = "Constraint", colour = "Rank", x = "Precision", y = "Recall") +
+  labs(shape = "Constraint", colour = "Taxonomic rank", x = "Precision", y = "Recall") +
   geom_line(aes(group=Taxonomic_rank),color="grey60")+
-  scale_colour_brewer(palette = "Paired") +
+  scale_colour_manual(values = palette.colors(palette = "Paired", n = 7)[-1]) +
   theme_cowplot(font_size = 18) +
   theme(panel.spacing.x = unit(1.15, "lines"))
 p2

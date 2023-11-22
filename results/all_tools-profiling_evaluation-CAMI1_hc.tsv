@@ -1,0 +1,2621 @@
+tool	rank	metric	sample	value
+CLARK (149.6Gb)	kingdom	Bray-Curtis distance	1	1.7143297345568742e-05
+CLARK (149.6Gb)	phylum	Bray-Curtis distance	1	0.09120958328488868
+CLARK (149.6Gb)	class	Bray-Curtis distance	1	0.12807370810707716
+CLARK (149.6Gb)	order	Bray-Curtis distance	1	0.4038968444274762
+CLARK (149.6Gb)	family	Bray-Curtis distance	1	0.30593016588692107
+CLARK (149.6Gb)	genus	Bray-Curtis distance	1	0.3703939425877497
+CLARK (149.6Gb)	species	Bray-Curtis distance	1	0.8043533791705376
+CLARK (149.6Gb)	kingdom	Shannon diversity	1	0.04982423627560502
+CLARK (149.6Gb)	kingdom	Shannon equitability	1	0.07188117859089536
+CLARK (149.6Gb)	phylum	Shannon diversity	1	1.1503271339127505
+CLARK (149.6Gb)	phylum	Shannon equitability	1	0.23019377022506887
+CLARK (149.6Gb)	class	Shannon diversity	1	1.913109052881565
+CLARK (149.6Gb)	class	Shannon equitability	1	0.4127768975791464
+CLARK (149.6Gb)	order	Shannon diversity	1	2.930269580476994
+CLARK (149.6Gb)	order	Shannon equitability	1	0.5392748430192568
+CLARK (149.6Gb)	family	Shannon diversity	1	3.7074123721990895
+CLARK (149.6Gb)	family	Shannon equitability	1	0.5894403857221304
+CLARK (149.6Gb)	genus	Shannon diversity	1	4.636589663626421
+CLARK (149.6Gb)	genus	Shannon equitability	1	0.6010436525125833
+CLARK (149.6Gb)	species	Shannon diversity	1	5.607351677448133
+CLARK (149.6Gb)	species	Shannon equitability	1	0.6282520724467245
+CLARK (149.6Gb)	kingdom	True positives	1	2.0
+CLARK (149.6Gb)	kingdom	False negatives	1	0.0
+CLARK (149.6Gb)	kingdom	False positives	1	0.0
+CLARK (149.6Gb)	kingdom	Completeness	1	1.0
+CLARK (149.6Gb)	kingdom	Purity	1	1.0
+CLARK (149.6Gb)	kingdom	F1 score	1	1.0
+CLARK (149.6Gb)	kingdom	Jaccard index	1	1.0
+CLARK (149.6Gb)	phylum	True positives	1	12.0
+CLARK (149.6Gb)	phylum	False negatives	1	0.0
+CLARK (149.6Gb)	phylum	False positives	1	136.0
+CLARK (149.6Gb)	phylum	Completeness	1	1.0
+CLARK (149.6Gb)	phylum	Purity	1	0.08108108108108109
+CLARK (149.6Gb)	phylum	F1 score	1	0.15
+CLARK (149.6Gb)	phylum	Jaccard index	1	0.08108108108108109
+CLARK (149.6Gb)	class	True positives	1	21.0
+CLARK (149.6Gb)	class	False negatives	1	0.0
+CLARK (149.6Gb)	class	False positives	1	82.0
+CLARK (149.6Gb)	class	Completeness	1	1.0
+CLARK (149.6Gb)	class	Purity	1	0.20388349514563106
+CLARK (149.6Gb)	class	F1 score	1	0.33870967741935487
+CLARK (149.6Gb)	class	Jaccard index	1	0.20388349514563106
+CLARK (149.6Gb)	order	True positives	1	40.0
+CLARK (149.6Gb)	order	False negatives	1	0.0
+CLARK (149.6Gb)	order	False positives	1	189.0
+CLARK (149.6Gb)	order	Completeness	1	1.0
+CLARK (149.6Gb)	order	Purity	1	0.17467248908296942
+CLARK (149.6Gb)	order	F1 score	1	0.29739776951672864
+CLARK (149.6Gb)	order	Jaccard index	1	0.17467248908296942
+CLARK (149.6Gb)	family	True positives	1	83.0
+CLARK (149.6Gb)	family	False negatives	1	5.0
+CLARK (149.6Gb)	family	False positives	1	456.0
+CLARK (149.6Gb)	family	Completeness	1	0.9431818181818182
+CLARK (149.6Gb)	family	Purity	1	0.15398886827458255
+CLARK (149.6Gb)	family	F1 score	1	0.2647527910685805
+CLARK (149.6Gb)	family	Jaccard index	1	0.15257352941176472
+CLARK (149.6Gb)	genus	True positives	1	175.0
+CLARK (149.6Gb)	genus	False negatives	1	19.0
+CLARK (149.6Gb)	genus	False positives	1	2065.0
+CLARK (149.6Gb)	genus	Completeness	1	0.9020618556701031
+CLARK (149.6Gb)	genus	Purity	1	0.078125
+CLARK (149.6Gb)	genus	F1 score	1	0.1437962202136401
+CLARK (149.6Gb)	genus	Jaccard index	1	0.07746790615316512
+CLARK (149.6Gb)	species	True positives	1	56.0
+CLARK (149.6Gb)	species	False negatives	1	185.0
+CLARK (149.6Gb)	species	False positives	1	7464.0
+CLARK (149.6Gb)	species	Completeness	1	0.23236514522821577
+CLARK (149.6Gb)	species	Purity	1	0.007446808510638298
+CLARK (149.6Gb)	species	F1 score	1	0.014431130009019457
+CLARK (149.6Gb)	species	Jaccard index	1	0.007268007787151201
+CLARK (149.6Gb)	strain	True positives	1	0.0
+CLARK (149.6Gb)	strain	False negatives	1	596.0
+CLARK (149.6Gb)	strain	False positives	1	0.0
+CLARK (149.6Gb)	strain	Completeness	1	0.0
+CLARK (149.6Gb)	strain	Purity	1	0.0
+CLARK (149.6Gb)	strain	Jaccard index	1	0.0
+CLARK (149.6Gb)	kingdom	L1 norm error	1	3.4286594691137484e-05
+CLARK (149.6Gb)	phylum	L1 norm error	1	0.18241916656977747
+CLARK (149.6Gb)	class	L1 norm error	1	0.2561474162141543
+CLARK (149.6Gb)	order	L1 norm error	1	0.8077936888549528
+CLARK (149.6Gb)	family	L1 norm error	1	0.6118603317738424
+CLARK (149.6Gb)	genus	L1 norm error	1	0.7407878851755002
+CLARK (149.6Gb)	species	L1 norm error	1	1.608706758341086
+CLARK (149.6Gb)	na	Weighted UniFrac error	1	0.03229081953061066
+CLARK (149.6Gb)	na	Unweighted UniFrac error	1	9.586213854732819
+CLARK (149.6Gb)	na	Weighted UniFrac (CAMI)	1	5.012627692044255
+CLARK (149.6Gb)	na	Unweighted UniFrac (CAMI)	1	65410.12957534858
+CLARK (149.6Gb)	kingdom	Sum of abundances	1	1.0
+CLARK (149.6Gb)	phylum	Sum of abundances	1	1.0
+CLARK (149.6Gb)	class	Sum of abundances	1	1.0
+CLARK (149.6Gb)	order	Sum of abundances	1	1.0000000000000002
+CLARK (149.6Gb)	family	Sum of abundances	1	0.9999999999999994
+CLARK (149.6Gb)	genus	Sum of abundances	1	1.0000000000000029
+CLARK (149.6Gb)	species	Sum of abundances	1	1.000000000000008
+CLARK (149.6Gb)	kingdom	Taxon counts	1	2.0
+CLARK (149.6Gb)	phylum	Taxon counts	1	148.0
+CLARK (149.6Gb)	class	Taxon counts	1	103.0
+CLARK (149.6Gb)	order	Taxon counts	1	229.0
+CLARK (149.6Gb)	family	Taxon counts	1	539.0
+CLARK (149.6Gb)	genus	Taxon counts	1	2240.0
+CLARK (149.6Gb)	species	Taxon counts	1	7520.0
+CLARK (149.6Gb)	kingdom	Bray-Curtis distance	2	0.0007050761928607651
+CLARK (149.6Gb)	phylum	Bray-Curtis distance	2	0.09128920904081739
+CLARK (149.6Gb)	class	Bray-Curtis distance	2	0.13625136868247528
+CLARK (149.6Gb)	order	Bray-Curtis distance	2	0.4141140889144259
+CLARK (149.6Gb)	family	Bray-Curtis distance	2	0.30164282174106843
+CLARK (149.6Gb)	genus	Bray-Curtis distance	2	0.3830153677495907
+CLARK (149.6Gb)	species	Bray-Curtis distance	2	0.8242885768911075
+CLARK (149.6Gb)	kingdom	Shannon diversity	2	0.04653620437952824
+CLARK (149.6Gb)	kingdom	Shannon equitability	2	0.06713755128014065
+CLARK (149.6Gb)	phylum	Shannon diversity	2	1.1439135634613298
+CLARK (149.6Gb)	phylum	Shannon equitability	2	0.22922132371689088
+CLARK (149.6Gb)	class	Shannon diversity	2	1.9440437096577552
+CLARK (149.6Gb)	class	Shannon equitability	2	0.4194514317007211
+CLARK (149.6Gb)	order	Shannon diversity	2	2.9251137134350267
+CLARK (149.6Gb)	order	Shannon equitability	2	0.5387599009787727
+CLARK (149.6Gb)	family	Shannon diversity	2	3.7208155032465444
+CLARK (149.6Gb)	family	Shannon equitability	2	0.5913970618000317
+CLARK (149.6Gb)	genus	Shannon diversity	2	4.712287093654143
+CLARK (149.6Gb)	genus	Shannon equitability	2	0.610750388881976
+CLARK (149.6Gb)	species	Shannon diversity	2	5.67128120036978
+CLARK (149.6Gb)	species	Shannon equitability	2	0.6349903214088385
+CLARK (149.6Gb)	kingdom	True positives	2	2.0
+CLARK (149.6Gb)	kingdom	False negatives	2	0.0
+CLARK (149.6Gb)	kingdom	False positives	2	0.0
+CLARK (149.6Gb)	kingdom	Completeness	2	1.0
+CLARK (149.6Gb)	kingdom	Purity	2	1.0
+CLARK (149.6Gb)	kingdom	F1 score	2	1.0
+CLARK (149.6Gb)	kingdom	Jaccard index	2	1.0
+CLARK (149.6Gb)	phylum	True positives	2	12.0
+CLARK (149.6Gb)	phylum	False negatives	2	0.0
+CLARK (149.6Gb)	phylum	False positives	2	135.0
+CLARK (149.6Gb)	phylum	Completeness	2	1.0
+CLARK (149.6Gb)	phylum	Purity	2	0.08163265306122448
+CLARK (149.6Gb)	phylum	F1 score	2	0.15094339622641506
+CLARK (149.6Gb)	phylum	Jaccard index	2	0.08163265306122448
+CLARK (149.6Gb)	class	True positives	2	21.0
+CLARK (149.6Gb)	class	False negatives	2	0.0
+CLARK (149.6Gb)	class	False positives	2	82.0
+CLARK (149.6Gb)	class	Completeness	2	1.0
+CLARK (149.6Gb)	class	Purity	2	0.20388349514563106
+CLARK (149.6Gb)	class	F1 score	2	0.33870967741935487
+CLARK (149.6Gb)	class	Jaccard index	2	0.20388349514563106
+CLARK (149.6Gb)	order	True positives	2	40.0
+CLARK (149.6Gb)	order	False negatives	2	0.0
+CLARK (149.6Gb)	order	False positives	2	188.0
+CLARK (149.6Gb)	order	Completeness	2	1.0
+CLARK (149.6Gb)	order	Purity	2	0.17543859649122806
+CLARK (149.6Gb)	order	F1 score	2	0.29850746268656714
+CLARK (149.6Gb)	order	Jaccard index	2	0.17543859649122806
+CLARK (149.6Gb)	family	True positives	2	83.0
+CLARK (149.6Gb)	family	False negatives	2	5.0
+CLARK (149.6Gb)	family	False positives	2	457.0
+CLARK (149.6Gb)	family	Completeness	2	0.9431818181818182
+CLARK (149.6Gb)	family	Purity	2	0.1537037037037037
+CLARK (149.6Gb)	family	F1 score	2	0.2643312101910828
+CLARK (149.6Gb)	family	Jaccard index	2	0.15229357798165138
+CLARK (149.6Gb)	genus	True positives	2	175.0
+CLARK (149.6Gb)	genus	False negatives	2	19.0
+CLARK (149.6Gb)	genus	False positives	2	2068.0
+CLARK (149.6Gb)	genus	Completeness	2	0.9020618556701031
+CLARK (149.6Gb)	genus	Purity	2	0.0780205082478823
+CLARK (149.6Gb)	genus	F1 score	2	0.14361920393926958
+CLARK (149.6Gb)	genus	Jaccard index	2	0.07736516357206012
+CLARK (149.6Gb)	species	True positives	2	56.0
+CLARK (149.6Gb)	species	False negatives	2	185.0
+CLARK (149.6Gb)	species	False positives	2	7509.0
+CLARK (149.6Gb)	species	Completeness	2	0.23236514522821577
+CLARK (149.6Gb)	species	Purity	2	0.007402511566424323
+CLARK (149.6Gb)	species	F1 score	2	0.014347937483986679
+CLARK (149.6Gb)	species	Jaccard index	2	0.007225806451612903
+CLARK (149.6Gb)	strain	True positives	2	0.0
+CLARK (149.6Gb)	strain	False negatives	2	596.0
+CLARK (149.6Gb)	strain	False positives	2	0.0
+CLARK (149.6Gb)	strain	Completeness	2	0.0
+CLARK (149.6Gb)	strain	Purity	2	0.0
+CLARK (149.6Gb)	strain	Jaccard index	2	0.0
+CLARK (149.6Gb)	kingdom	L1 norm error	2	0.0014101523857215303
+CLARK (149.6Gb)	phylum	L1 norm error	2	0.18257841808163483
+CLARK (149.6Gb)	class	L1 norm error	2	0.27250273736495045
+CLARK (149.6Gb)	order	L1 norm error	2	0.8282281778288527
+CLARK (149.6Gb)	family	L1 norm error	2	0.6032856434821374
+CLARK (149.6Gb)	genus	L1 norm error	2	0.7660307354991827
+CLARK (149.6Gb)	species	L1 norm error	2	1.6485771537822087
+CLARK (149.6Gb)	na	Weighted UniFrac error	2	0.03295134417054225
+CLARK (149.6Gb)	na	Unweighted UniFrac error	2	9.625869154673618
+CLARK (149.6Gb)	na	Weighted UniFrac (CAMI)	2	5.090507870929046
+CLARK (149.6Gb)	na	Unweighted UniFrac (CAMI)	2	65739.14190873527
+CLARK (149.6Gb)	kingdom	Sum of abundances	2	1.0
+CLARK (149.6Gb)	phylum	Sum of abundances	2	0.9999999999999999
+CLARK (149.6Gb)	class	Sum of abundances	2	0.9999999999999997
+CLARK (149.6Gb)	order	Sum of abundances	2	1.000000000000001
+CLARK (149.6Gb)	family	Sum of abundances	2	1.0
+CLARK (149.6Gb)	genus	Sum of abundances	2	1.0000000000000009
+CLARK (149.6Gb)	species	Sum of abundances	2	0.999999999999993
+CLARK (149.6Gb)	kingdom	Taxon counts	2	2.0
+CLARK (149.6Gb)	phylum	Taxon counts	2	147.0
+CLARK (149.6Gb)	class	Taxon counts	2	103.0
+CLARK (149.6Gb)	order	Taxon counts	2	228.0
+CLARK (149.6Gb)	family	Taxon counts	2	540.0
+CLARK (149.6Gb)	genus	Taxon counts	2	2243.0
+CLARK (149.6Gb)	species	Taxon counts	2	7565.0
+CLARK (149.6Gb)	kingdom	Bray-Curtis distance	3	0.006029666947247158
+CLARK (149.6Gb)	phylum	Bray-Curtis distance	3	0.07832967713401082
+CLARK (149.6Gb)	class	Bray-Curtis distance	3	0.13011683851886674
+CLARK (149.6Gb)	order	Bray-Curtis distance	3	0.3962042952253684
+CLARK (149.6Gb)	family	Bray-Curtis distance	3	0.2886702997741608
+CLARK (149.6Gb)	genus	Bray-Curtis distance	3	0.39786633147527845
+CLARK (149.6Gb)	species	Bray-Curtis distance	3	0.8347262592710533
+CLARK (149.6Gb)	kingdom	Shannon diversity	3	0.07671936511809109
+CLARK (149.6Gb)	kingdom	Shannon equitability	3	0.11068264759601974
+CLARK (149.6Gb)	phylum	Shannon diversity	3	1.202656249144173
+CLARK (149.6Gb)	phylum	Shannon equitability	3	0.24099238457411426
+CLARK (149.6Gb)	class	Shannon diversity	3	1.9563653148159954
+CLARK (149.6Gb)	class	Shannon equitability	3	0.4221099701372795
+CLARK (149.6Gb)	order	Shannon diversity	3	2.9728153683205236
+CLARK (149.6Gb)	order	Shannon equitability	3	0.5471047960083313
+CLARK (149.6Gb)	family	Shannon diversity	3	3.769285999673427
+CLARK (149.6Gb)	family	Shannon equitability	3	0.5991011011822145
+CLARK (149.6Gb)	genus	Shannon diversity	3	4.782191407746118
+CLARK (149.6Gb)	genus	Shannon equitability	3	0.6198105514246394
+CLARK (149.6Gb)	species	Shannon diversity	3	5.786831154404592
+CLARK (149.6Gb)	species	Shannon equitability	3	0.6478800514690117
+CLARK (149.6Gb)	kingdom	True positives	3	2.0
+CLARK (149.6Gb)	kingdom	False negatives	3	0.0
+CLARK (149.6Gb)	kingdom	False positives	3	0.0
+CLARK (149.6Gb)	kingdom	Completeness	3	1.0
+CLARK (149.6Gb)	kingdom	Purity	3	1.0
+CLARK (149.6Gb)	kingdom	F1 score	3	1.0
+CLARK (149.6Gb)	kingdom	Jaccard index	3	1.0
+CLARK (149.6Gb)	phylum	True positives	3	12.0
+CLARK (149.6Gb)	phylum	False negatives	3	0.0
+CLARK (149.6Gb)	phylum	False positives	3	135.0
+CLARK (149.6Gb)	phylum	Completeness	3	1.0
+CLARK (149.6Gb)	phylum	Purity	3	0.08163265306122448
+CLARK (149.6Gb)	phylum	F1 score	3	0.15094339622641506
+CLARK (149.6Gb)	phylum	Jaccard index	3	0.08163265306122448
+CLARK (149.6Gb)	class	True positives	3	21.0
+CLARK (149.6Gb)	class	False negatives	3	0.0
+CLARK (149.6Gb)	class	False positives	3	82.0
+CLARK (149.6Gb)	class	Completeness	3	1.0
+CLARK (149.6Gb)	class	Purity	3	0.20388349514563106
+CLARK (149.6Gb)	class	F1 score	3	0.33870967741935487
+CLARK (149.6Gb)	class	Jaccard index	3	0.20388349514563106
+CLARK (149.6Gb)	order	True positives	3	40.0
+CLARK (149.6Gb)	order	False negatives	3	0.0
+CLARK (149.6Gb)	order	False positives	3	189.0
+CLARK (149.6Gb)	order	Completeness	3	1.0
+CLARK (149.6Gb)	order	Purity	3	0.17467248908296942
+CLARK (149.6Gb)	order	F1 score	3	0.29739776951672864
+CLARK (149.6Gb)	order	Jaccard index	3	0.17467248908296942
+CLARK (149.6Gb)	family	True positives	3	83.0
+CLARK (149.6Gb)	family	False negatives	3	5.0
+CLARK (149.6Gb)	family	False positives	3	457.0
+CLARK (149.6Gb)	family	Completeness	3	0.9431818181818182
+CLARK (149.6Gb)	family	Purity	3	0.1537037037037037
+CLARK (149.6Gb)	family	F1 score	3	0.2643312101910828
+CLARK (149.6Gb)	family	Jaccard index	3	0.15229357798165138
+CLARK (149.6Gb)	genus	True positives	3	175.0
+CLARK (149.6Gb)	genus	False negatives	3	19.0
+CLARK (149.6Gb)	genus	False positives	3	2068.0
+CLARK (149.6Gb)	genus	Completeness	3	0.9020618556701031
+CLARK (149.6Gb)	genus	Purity	3	0.0780205082478823
+CLARK (149.6Gb)	genus	F1 score	3	0.14361920393926958
+CLARK (149.6Gb)	genus	Jaccard index	3	0.07736516357206012
+CLARK (149.6Gb)	species	True positives	3	56.0
+CLARK (149.6Gb)	species	False negatives	3	185.0
+CLARK (149.6Gb)	species	False positives	3	7514.0
+CLARK (149.6Gb)	species	Completeness	3	0.23236514522821577
+CLARK (149.6Gb)	species	Purity	3	0.007397622192866579
+CLARK (149.6Gb)	species	F1 score	3	0.014338753040583792
+CLARK (149.6Gb)	species	Jaccard index	3	0.007221147646679561
+CLARK (149.6Gb)	strain	True positives	3	0.0
+CLARK (149.6Gb)	strain	False negatives	3	596.0
+CLARK (149.6Gb)	strain	False positives	3	0.0
+CLARK (149.6Gb)	strain	Completeness	3	0.0
+CLARK (149.6Gb)	strain	Purity	3	0.0
+CLARK (149.6Gb)	strain	Jaccard index	3	0.0
+CLARK (149.6Gb)	kingdom	L1 norm error	3	0.012059333894494317
+CLARK (149.6Gb)	phylum	L1 norm error	3	0.1566593542680217
+CLARK (149.6Gb)	class	L1 norm error	3	0.26023367703773354
+CLARK (149.6Gb)	order	L1 norm error	3	0.7924085904507367
+CLARK (149.6Gb)	family	L1 norm error	3	0.5773405995483217
+CLARK (149.6Gb)	genus	L1 norm error	3	0.7957326629505564
+CLARK (149.6Gb)	species	L1 norm error	3	1.6694525185421136
+CLARK (149.6Gb)	na	Weighted UniFrac error	3	0.032388108999773686
+CLARK (149.6Gb)	na	Unweighted UniFrac error	3	9.626059381551075
+CLARK (149.6Gb)	na	Weighted UniFrac (CAMI)	3	5.055792445053082
+CLARK (149.6Gb)	na	Unweighted UniFrac (CAMI)	3	65775.15857875526
+CLARK (149.6Gb)	kingdom	Sum of abundances	3	1.0000000000000002
+CLARK (149.6Gb)	phylum	Sum of abundances	3	0.9999999999999996
+CLARK (149.6Gb)	class	Sum of abundances	3	1.0
+CLARK (149.6Gb)	order	Sum of abundances	3	0.9999999999999994
+CLARK (149.6Gb)	family	Sum of abundances	3	0.9999999999999983
+CLARK (149.6Gb)	genus	Sum of abundances	3	1.0000000000000002
+CLARK (149.6Gb)	species	Sum of abundances	3	1.000000000000002
+CLARK (149.6Gb)	kingdom	Taxon counts	3	2.0
+CLARK (149.6Gb)	phylum	Taxon counts	3	147.0
+CLARK (149.6Gb)	class	Taxon counts	3	103.0
+CLARK (149.6Gb)	order	Taxon counts	3	229.0
+CLARK (149.6Gb)	family	Taxon counts	3	540.0
+CLARK (149.6Gb)	genus	Taxon counts	3	2243.0
+CLARK (149.6Gb)	species	Taxon counts	3	7570.0
+CLARK (149.6Gb)	kingdom	Bray-Curtis distance	4	0.004906014099310018
+CLARK (149.6Gb)	phylum	Bray-Curtis distance	4	0.0785494438785183
+CLARK (149.6Gb)	class	Bray-Curtis distance	4	0.13766657024599524
+CLARK (149.6Gb)	order	Bray-Curtis distance	4	0.4014041328281961
+CLARK (149.6Gb)	family	Bray-Curtis distance	4	0.272019363240799
+CLARK (149.6Gb)	genus	Bray-Curtis distance	4	0.38724026167118547
+CLARK (149.6Gb)	species	Bray-Curtis distance	4	0.8379338140881737
+CLARK (149.6Gb)	kingdom	Shannon diversity	4	0.07195139686881857
+CLARK (149.6Gb)	kingdom	Shannon equitability	4	0.10380392344767825
+CLARK (149.6Gb)	phylum	Shannon diversity	4	1.1904815266379847
+CLARK (149.6Gb)	phylum	Shannon equitability	4	0.23887951377468436
+CLARK (149.6Gb)	class	Shannon diversity	4	1.968817022815641
+CLARK (149.6Gb)	class	Shannon equitability	4	0.42479657986813285
+CLARK (149.6Gb)	order	Shannon diversity	4	2.9969060316996723
+CLARK (149.6Gb)	order	Shannon equitability	4	0.5524301647097979
+CLARK (149.6Gb)	family	Shannon diversity	4	3.802330504597267
+CLARK (149.6Gb)	family	Shannon equitability	4	0.6045313912418697
+CLARK (149.6Gb)	genus	Shannon diversity	4	4.839384415394561
+CLARK (149.6Gb)	genus	Shannon equitability	4	0.6272232261977143
+CLARK (149.6Gb)	species	Shannon diversity	4	5.901965749306927
+CLARK (149.6Gb)	species	Shannon equitability	4	0.6608778447028163
+CLARK (149.6Gb)	kingdom	True positives	4	2.0
+CLARK (149.6Gb)	kingdom	False negatives	4	0.0
+CLARK (149.6Gb)	kingdom	False positives	4	0.0
+CLARK (149.6Gb)	kingdom	Completeness	4	1.0
+CLARK (149.6Gb)	kingdom	Purity	4	1.0
+CLARK (149.6Gb)	kingdom	F1 score	4	1.0
+CLARK (149.6Gb)	kingdom	Jaccard index	4	1.0
+CLARK (149.6Gb)	phylum	True positives	4	12.0
+CLARK (149.6Gb)	phylum	False negatives	4	0.0
+CLARK (149.6Gb)	phylum	False positives	4	134.0
+CLARK (149.6Gb)	phylum	Completeness	4	1.0
+CLARK (149.6Gb)	phylum	Purity	4	0.0821917808219178
+CLARK (149.6Gb)	phylum	F1 score	4	0.1518987341772152
+CLARK (149.6Gb)	phylum	Jaccard index	4	0.0821917808219178
+CLARK (149.6Gb)	class	True positives	4	21.0
+CLARK (149.6Gb)	class	False negatives	4	0.0
+CLARK (149.6Gb)	class	False positives	4	82.0
+CLARK (149.6Gb)	class	Completeness	4	1.0
+CLARK (149.6Gb)	class	Purity	4	0.20388349514563106
+CLARK (149.6Gb)	class	F1 score	4	0.33870967741935487
+CLARK (149.6Gb)	class	Jaccard index	4	0.20388349514563106
+CLARK (149.6Gb)	order	True positives	4	40.0
+CLARK (149.6Gb)	order	False negatives	4	0.0
+CLARK (149.6Gb)	order	False positives	4	187.0
+CLARK (149.6Gb)	order	Completeness	4	1.0
+CLARK (149.6Gb)	order	Purity	4	0.1762114537444934
+CLARK (149.6Gb)	order	F1 score	4	0.299625468164794
+CLARK (149.6Gb)	order	Jaccard index	4	0.1762114537444934
+CLARK (149.6Gb)	family	True positives	4	83.0
+CLARK (149.6Gb)	family	False negatives	4	5.0
+CLARK (149.6Gb)	family	False positives	4	456.0
+CLARK (149.6Gb)	family	Completeness	4	0.9431818181818182
+CLARK (149.6Gb)	family	Purity	4	0.15398886827458255
+CLARK (149.6Gb)	family	F1 score	4	0.2647527910685805
+CLARK (149.6Gb)	family	Jaccard index	4	0.15257352941176472
+CLARK (149.6Gb)	genus	True positives	4	175.0
+CLARK (149.6Gb)	genus	False negatives	4	19.0
+CLARK (149.6Gb)	genus	False positives	4	2068.0
+CLARK (149.6Gb)	genus	Completeness	4	0.9020618556701031
+CLARK (149.6Gb)	genus	Purity	4	0.0780205082478823
+CLARK (149.6Gb)	genus	F1 score	4	0.14361920393926958
+CLARK (149.6Gb)	genus	Jaccard index	4	0.07736516357206012
+CLARK (149.6Gb)	species	True positives	4	56.0
+CLARK (149.6Gb)	species	False negatives	4	185.0
+CLARK (149.6Gb)	species	False positives	4	7503.0
+CLARK (149.6Gb)	species	Completeness	4	0.23236514522821577
+CLARK (149.6Gb)	species	Purity	4	0.007408387352824447
+CLARK (149.6Gb)	species	F1 score	4	0.014358974358974359
+CLARK (149.6Gb)	species	Jaccard index	4	0.007231404958677686
+CLARK (149.6Gb)	strain	True positives	4	0.0
+CLARK (149.6Gb)	strain	False negatives	4	596.0
+CLARK (149.6Gb)	strain	False positives	4	0.0
+CLARK (149.6Gb)	strain	Completeness	4	0.0
+CLARK (149.6Gb)	strain	Purity	4	0.0
+CLARK (149.6Gb)	strain	Jaccard index	4	0.0
+CLARK (149.6Gb)	kingdom	L1 norm error	4	0.009812028198620036
+CLARK (149.6Gb)	phylum	L1 norm error	4	0.1570988877570365
+CLARK (149.6Gb)	class	L1 norm error	4	0.2753331404919905
+CLARK (149.6Gb)	order	L1 norm error	4	0.8028082656563928
+CLARK (149.6Gb)	family	L1 norm error	4	0.5440387264815981
+CLARK (149.6Gb)	genus	L1 norm error	4	0.7744805233423702
+CLARK (149.6Gb)	species	L1 norm error	4	1.6758676281763596
+CLARK (149.6Gb)	na	Weighted UniFrac error	4	0.032534968234258506
+CLARK (149.6Gb)	na	Unweighted UniFrac error	4	9.61605168365167
+CLARK (149.6Gb)	na	Weighted UniFrac (CAMI)	4	5.05984324298974
+CLARK (149.6Gb)	na	Unweighted UniFrac (CAMI)	4	65678.17263740816
+CLARK (149.6Gb)	kingdom	Sum of abundances	4	1.0
+CLARK (149.6Gb)	phylum	Sum of abundances	4	1.0
+CLARK (149.6Gb)	class	Sum of abundances	4	1.0000000000000002
+CLARK (149.6Gb)	order	Sum of abundances	4	1.0000000000000002
+CLARK (149.6Gb)	family	Sum of abundances	4	0.9999999999999993
+CLARK (149.6Gb)	genus	Sum of abundances	4	0.9999999999999973
+CLARK (149.6Gb)	species	Sum of abundances	4	1.0000000000000064
+CLARK (149.6Gb)	kingdom	Taxon counts	4	2.0
+CLARK (149.6Gb)	phylum	Taxon counts	4	146.0
+CLARK (149.6Gb)	class	Taxon counts	4	103.0
+CLARK (149.6Gb)	order	Taxon counts	4	227.0
+CLARK (149.6Gb)	family	Taxon counts	4	539.0
+CLARK (149.6Gb)	genus	Taxon counts	4	2243.0
+CLARK (149.6Gb)	species	Taxon counts	4	7559.0
+CLARK (149.6Gb)	kingdom	Bray-Curtis distance	5	0.006739281795140174
+CLARK (149.6Gb)	phylum	Bray-Curtis distance	5	0.09431732924562791
+CLARK (149.6Gb)	class	Bray-Curtis distance	5	0.15734023667673128
+CLARK (149.6Gb)	order	Bray-Curtis distance	5	0.41147170414821327
+CLARK (149.6Gb)	family	Bray-Curtis distance	5	0.2899039888156161
+CLARK (149.6Gb)	genus	Bray-Curtis distance	5	0.40261965562267077
+CLARK (149.6Gb)	species	Bray-Curtis distance	5	0.8508331953987489
+CLARK (149.6Gb)	kingdom	Shannon diversity	5	0.07968516731092781
+CLARK (149.6Gb)	kingdom	Shannon equitability	5	0.1149613957118829
+CLARK (149.6Gb)	phylum	Shannon diversity	5	1.175900634862352
+CLARK (149.6Gb)	phylum	Shannon equitability	5	0.2359537427653677
+CLARK (149.6Gb)	class	Shannon diversity	5	1.922067615076667
+CLARK (149.6Gb)	class	Shannon equitability	5	0.4147098179759707
+CLARK (149.6Gb)	order	Shannon diversity	5	2.9805493885982655
+CLARK (149.6Gb)	order	Shannon equitability	5	0.5480886208679531
+CLARK (149.6Gb)	family	Shannon diversity	5	3.744677056997124
+CLARK (149.6Gb)	family	Shannon equitability	5	0.5950147115708275
+CLARK (149.6Gb)	genus	Shannon diversity	5	4.743839896372666
+CLARK (149.6Gb)	genus	Shannon equitability	5	0.6147688712763562
+CLARK (149.6Gb)	species	Shannon diversity	5	5.795653304165202
+CLARK (149.6Gb)	species	Shannon equitability	5	0.6490311242227865
+CLARK (149.6Gb)	kingdom	True positives	5	2.0
+CLARK (149.6Gb)	kingdom	False negatives	5	0.0
+CLARK (149.6Gb)	kingdom	False positives	5	0.0
+CLARK (149.6Gb)	kingdom	Completeness	5	1.0
+CLARK (149.6Gb)	kingdom	Purity	5	1.0
+CLARK (149.6Gb)	kingdom	F1 score	5	1.0
+CLARK (149.6Gb)	kingdom	Jaccard index	5	1.0
+CLARK (149.6Gb)	phylum	True positives	5	12.0
+CLARK (149.6Gb)	phylum	False negatives	5	0.0
+CLARK (149.6Gb)	phylum	False positives	5	134.0
+CLARK (149.6Gb)	phylum	Completeness	5	1.0
+CLARK (149.6Gb)	phylum	Purity	5	0.0821917808219178
+CLARK (149.6Gb)	phylum	F1 score	5	0.1518987341772152
+CLARK (149.6Gb)	phylum	Jaccard index	5	0.0821917808219178
+CLARK (149.6Gb)	class	True positives	5	21.0
+CLARK (149.6Gb)	class	False negatives	5	0.0
+CLARK (149.6Gb)	class	False positives	5	82.0
+CLARK (149.6Gb)	class	Completeness	5	1.0
+CLARK (149.6Gb)	class	Purity	5	0.20388349514563106
+CLARK (149.6Gb)	class	F1 score	5	0.33870967741935487
+CLARK (149.6Gb)	class	Jaccard index	5	0.20388349514563106
+CLARK (149.6Gb)	order	True positives	5	40.0
+CLARK (149.6Gb)	order	False negatives	5	0.0
+CLARK (149.6Gb)	order	False positives	5	190.0
+CLARK (149.6Gb)	order	Completeness	5	1.0
+CLARK (149.6Gb)	order	Purity	5	0.17391304347826086
+CLARK (149.6Gb)	order	F1 score	5	0.29629629629629634
+CLARK (149.6Gb)	order	Jaccard index	5	0.17391304347826086
+CLARK (149.6Gb)	family	True positives	5	83.0
+CLARK (149.6Gb)	family	False negatives	5	5.0
+CLARK (149.6Gb)	family	False positives	5	458.0
+CLARK (149.6Gb)	family	Completeness	5	0.9431818181818182
+CLARK (149.6Gb)	family	Purity	5	0.1534195933456562
+CLARK (149.6Gb)	family	F1 score	5	0.26391096979332274
+CLARK (149.6Gb)	family	Jaccard index	5	0.152014652014652
+CLARK (149.6Gb)	genus	True positives	5	175.0
+CLARK (149.6Gb)	genus	False negatives	5	19.0
+CLARK (149.6Gb)	genus	False positives	5	2070.0
+CLARK (149.6Gb)	genus	Completeness	5	0.9020618556701031
+CLARK (149.6Gb)	genus	Purity	5	0.0779510022271715
+CLARK (149.6Gb)	genus	F1 score	5	0.14350143501435014
+CLARK (149.6Gb)	genus	Jaccard index	5	0.07729681978798586
+CLARK (149.6Gb)	species	True positives	5	56.0
+CLARK (149.6Gb)	species	False negatives	5	185.0
+CLARK (149.6Gb)	species	False positives	5	7497.0
+CLARK (149.6Gb)	species	Completeness	5	0.23236514522821577
+CLARK (149.6Gb)	species	Purity	5	0.0074142724745134385
+CLARK (149.6Gb)	species	F1 score	5	0.01437002822684116
+CLARK (149.6Gb)	species	Jaccard index	5	0.00723701214784182
+CLARK (149.6Gb)	strain	True positives	5	0.0
+CLARK (149.6Gb)	strain	False negatives	5	596.0
+CLARK (149.6Gb)	strain	False positives	5	0.0
+CLARK (149.6Gb)	strain	Completeness	5	0.0
+CLARK (149.6Gb)	strain	Purity	5	0.0
+CLARK (149.6Gb)	strain	Jaccard index	5	0.0
+CLARK (149.6Gb)	kingdom	L1 norm error	5	0.013478563590280348
+CLARK (149.6Gb)	phylum	L1 norm error	5	0.18863465849125596
+CLARK (149.6Gb)	class	L1 norm error	5	0.3146804733534626
+CLARK (149.6Gb)	order	L1 norm error	5	0.8229434082964272
+CLARK (149.6Gb)	family	L1 norm error	5	0.5798079776312324
+CLARK (149.6Gb)	genus	L1 norm error	5	0.8052393112453404
+CLARK (149.6Gb)	species	L1 norm error	5	1.7016663907974772
+CLARK (149.6Gb)	na	Weighted UniFrac error	5	0.03495475240540312
+CLARK (149.6Gb)	na	Unweighted UniFrac error	5	9.61324164179656
+CLARK (149.6Gb)	na	Weighted UniFrac (CAMI)	5	5.267761263291135
+CLARK (149.6Gb)	na	Unweighted UniFrac (CAMI)	5	65665.18509518728
+CLARK (149.6Gb)	kingdom	Sum of abundances	5	1.0
+CLARK (149.6Gb)	phylum	Sum of abundances	5	0.9999999999999993
+CLARK (149.6Gb)	class	Sum of abundances	5	1.0000000000000004
+CLARK (149.6Gb)	order	Sum of abundances	5	0.9999999999999997
+CLARK (149.6Gb)	family	Sum of abundances	5	1.0
+CLARK (149.6Gb)	genus	Sum of abundances	5	0.9999999999999989
+CLARK (149.6Gb)	species	Sum of abundances	5	0.9999999999999741
+CLARK (149.6Gb)	kingdom	Taxon counts	5	2.0
+CLARK (149.6Gb)	phylum	Taxon counts	5	146.0
+CLARK (149.6Gb)	class	Taxon counts	5	103.0
+CLARK (149.6Gb)	order	Taxon counts	5	230.0
+CLARK (149.6Gb)	family	Taxon counts	5	541.0
+CLARK (149.6Gb)	genus	Taxon counts	5	2245.0
+CLARK (149.6Gb)	species	Taxon counts	5	7553.0
+Bracken (46.5Gb)	kingdom	Bray-Curtis distance	1	0.0009772761988002354
+Bracken (46.5Gb)	phylum	Bray-Curtis distance	1	0.09066628485274877
+Bracken (46.5Gb)	class	Bray-Curtis distance	1	0.12138987548377568
+Bracken (46.5Gb)	order	Bray-Curtis distance	1	0.39304705936341344
+Bracken (46.5Gb)	family	Bray-Curtis distance	1	0.28450591433094413
+Bracken (46.5Gb)	genus	Bray-Curtis distance	1	0.3552252928381819
+Bracken (46.5Gb)	species	Bray-Curtis distance	1	0.8129376983517236
+Bracken (46.5Gb)	kingdom	Shannon diversity	1	0.04521898045101403
+Bracken (46.5Gb)	kingdom	Shannon equitability	1	0.06523719885073292
+Bracken (46.5Gb)	phylum	Shannon diversity	1	1.1403659783355207
+Bracken (46.5Gb)	phylum	Shannon equitability	1	0.3806635153623545
+Bracken (46.5Gb)	class	Shannon diversity	1	1.917982520407093
+Bracken (46.5Gb)	class	Shannon equitability	1	0.5009564286083057
+Bracken (46.5Gb)	order	Shannon diversity	1	2.9404163916479744
+Bracken (46.5Gb)	order	Shannon equitability	1	0.6163510320025215
+Bracken (46.5Gb)	family	Shannon diversity	1	3.7279024914188796
+Bracken (46.5Gb)	family	Shannon equitability	1	0.6555158511919745
+Bracken (46.5Gb)	genus	Shannon diversity	1	4.674045016425974
+Bracken (46.5Gb)	genus	Shannon equitability	1	0.6615200656898118
+Bracken (46.5Gb)	species	Shannon diversity	1	5.7180011704829115
+Bracken (46.5Gb)	species	Shannon equitability	1	0.7146291036988608
+Bracken (46.5Gb)	kingdom	True positives	1	2.0
+Bracken (46.5Gb)	kingdom	False negatives	1	0.0
+Bracken (46.5Gb)	kingdom	False positives	1	0.0
+Bracken (46.5Gb)	kingdom	Completeness	1	1.0
+Bracken (46.5Gb)	kingdom	Purity	1	1.0
+Bracken (46.5Gb)	kingdom	F1 score	1	1.0
+Bracken (46.5Gb)	kingdom	Jaccard index	1	1.0
+Bracken (46.5Gb)	phylum	True positives	1	10.0
+Bracken (46.5Gb)	phylum	False negatives	1	2.0
+Bracken (46.5Gb)	phylum	False positives	1	10.0
+Bracken (46.5Gb)	phylum	Completeness	1	0.8333333333333334
+Bracken (46.5Gb)	phylum	Purity	1	0.5
+Bracken (46.5Gb)	phylum	F1 score	1	0.625
+Bracken (46.5Gb)	phylum	Jaccard index	1	0.45454545454545453
+Bracken (46.5Gb)	class	True positives	1	19.0
+Bracken (46.5Gb)	class	False negatives	1	2.0
+Bracken (46.5Gb)	class	False positives	1	27.0
+Bracken (46.5Gb)	class	Completeness	1	0.9047619047619048
+Bracken (46.5Gb)	class	Purity	1	0.41304347826086957
+Bracken (46.5Gb)	class	F1 score	1	0.5671641791044776
+Bracken (46.5Gb)	class	Jaccard index	1	0.3958333333333333
+Bracken (46.5Gb)	order	True positives	1	38.0
+Bracken (46.5Gb)	order	False negatives	1	2.0
+Bracken (46.5Gb)	order	False positives	1	80.0
+Bracken (46.5Gb)	order	Completeness	1	0.95
+Bracken (46.5Gb)	order	Purity	1	0.3220338983050847
+Bracken (46.5Gb)	order	F1 score	1	0.48101265822784806
+Bracken (46.5Gb)	order	Jaccard index	1	0.31666666666666665
+Bracken (46.5Gb)	family	True positives	1	78.0
+Bracken (46.5Gb)	family	False negatives	1	10.0
+Bracken (46.5Gb)	family	False positives	1	217.0
+Bracken (46.5Gb)	family	Completeness	1	0.8863636363636364
+Bracken (46.5Gb)	family	Purity	1	0.26440677966101694
+Bracken (46.5Gb)	family	F1 score	1	0.4073107049608355
+Bracken (46.5Gb)	family	Jaccard index	1	0.25573770491803277
+Bracken (46.5Gb)	genus	True positives	1	170.0
+Bracken (46.5Gb)	genus	False negatives	1	24.0
+Bracken (46.5Gb)	genus	False positives	1	1001.0
+Bracken (46.5Gb)	genus	Completeness	1	0.8762886597938144
+Bracken (46.5Gb)	genus	Purity	1	0.14517506404782238
+Bracken (46.5Gb)	genus	F1 score	1	0.2490842490842491
+Bracken (46.5Gb)	genus	Jaccard index	1	0.14225941422594143
+Bracken (46.5Gb)	species	True positives	1	55.0
+Bracken (46.5Gb)	species	False negatives	1	186.0
+Bracken (46.5Gb)	species	False positives	1	2930.0
+Bracken (46.5Gb)	species	Completeness	1	0.22821576763485477
+Bracken (46.5Gb)	species	Purity	1	0.018425460636515914
+Bracken (46.5Gb)	species	F1 score	1	0.034097954122752634
+Bracken (46.5Gb)	species	Jaccard index	1	0.017344686218858405
+Bracken (46.5Gb)	strain	True positives	1	0.0
+Bracken (46.5Gb)	strain	False negatives	1	596.0
+Bracken (46.5Gb)	strain	False positives	1	0.0
+Bracken (46.5Gb)	strain	Completeness	1	0.0
+Bracken (46.5Gb)	strain	Purity	1	0.0
+Bracken (46.5Gb)	strain	Jaccard index	1	0.0
+Bracken (46.5Gb)	kingdom	L1 norm error	1	0.001954552397600471
+Bracken (46.5Gb)	phylum	L1 norm error	1	0.18133256970549752
+Bracken (46.5Gb)	class	L1 norm error	1	0.2427797509675513
+Bracken (46.5Gb)	order	L1 norm error	1	0.7860941187268269
+Bracken (46.5Gb)	family	L1 norm error	1	0.5690118286618886
+Bracken (46.5Gb)	genus	L1 norm error	1	0.7104505856763659
+Bracken (46.5Gb)	species	L1 norm error	1	1.6258753967034432
+Bracken (46.5Gb)	na	Weighted UniFrac error	1	0.03148165879754617
+Bracken (46.5Gb)	na	Unweighted UniFrac error	1	3.8541820920823344
+Bracken (46.5Gb)	na	Weighted UniFrac (CAMI)	1	4.91567081629967
+Bracken (46.5Gb)	na	Unweighted UniFrac (CAMI)	1	25933.089813649174
+Bracken (46.5Gb)	kingdom	Sum of abundances	1	1.0
+Bracken (46.5Gb)	phylum	Sum of abundances	1	0.9999999999999996
+Bracken (46.5Gb)	class	Sum of abundances	1	0.9999999999999997
+Bracken (46.5Gb)	order	Sum of abundances	1	0.9999999999999994
+Bracken (46.5Gb)	family	Sum of abundances	1	1.0000000000000007
+Bracken (46.5Gb)	genus	Sum of abundances	1	1.000000000000002
+Bracken (46.5Gb)	species	Sum of abundances	1	0.9999999999999843
+Bracken (46.5Gb)	kingdom	Taxon counts	1	2.0
+Bracken (46.5Gb)	phylum	Taxon counts	1	20.0
+Bracken (46.5Gb)	class	Taxon counts	1	46.0
+Bracken (46.5Gb)	order	Taxon counts	1	118.0
+Bracken (46.5Gb)	family	Taxon counts	1	295.0
+Bracken (46.5Gb)	genus	Taxon counts	1	1171.0
+Bracken (46.5Gb)	species	Taxon counts	1	2985.0
+Bracken (46.5Gb)	kingdom	Bray-Curtis distance	2	0.0017807890971926654
+Bracken (46.5Gb)	phylum	Bray-Curtis distance	2	0.08954029247653178
+Bracken (46.5Gb)	class	Bray-Curtis distance	2	0.14105444673530337
+Bracken (46.5Gb)	order	Bray-Curtis distance	2	0.3962185061535813
+Bracken (46.5Gb)	family	Bray-Curtis distance	2	0.27756893790863446
+Bracken (46.5Gb)	genus	Bray-Curtis distance	2	0.3751089744871455
+Bracken (46.5Gb)	species	Bray-Curtis distance	2	0.830731773714577
+Bracken (46.5Gb)	kingdom	Shannon diversity	2	0.041272822631086635
+Bracken (46.5Gb)	kingdom	Shannon equitability	2	0.059544096533358466
+Bracken (46.5Gb)	phylum	Shannon diversity	2	1.1285114263875968
+Bracken (46.5Gb)	phylum	Shannon equitability	2	0.36509088549123814
+Bracken (46.5Gb)	class	Shannon diversity	2	1.9678258807027982
+Bracken (46.5Gb)	class	Shannon equitability	2	0.5056312290827314
+Bracken (46.5Gb)	order	Shannon diversity	2	2.9572789829345894
+Bracken (46.5Gb)	order	Shannon equitability	2	0.6166405631809373
+Bracken (46.5Gb)	family	Shannon diversity	2	3.7341791584050283
+Bracken (46.5Gb)	family	Shannon equitability	2	0.6570118325538248
+Bracken (46.5Gb)	genus	Shannon diversity	2	4.733343072354753
+Bracken (46.5Gb)	genus	Shannon equitability	2	0.6676010968556215
+Bracken (46.5Gb)	species	Shannon diversity	2	5.748608984219917
+Bracken (46.5Gb)	species	Shannon equitability	2	0.7171134000677716
+Bracken (46.5Gb)	kingdom	True positives	2	2.0
+Bracken (46.5Gb)	kingdom	False negatives	2	0.0
+Bracken (46.5Gb)	kingdom	False positives	2	0.0
+Bracken (46.5Gb)	kingdom	Completeness	2	1.0
+Bracken (46.5Gb)	kingdom	Purity	2	1.0
+Bracken (46.5Gb)	kingdom	F1 score	2	1.0
+Bracken (46.5Gb)	kingdom	Jaccard index	2	1.0
+Bracken (46.5Gb)	phylum	True positives	2	11.0
+Bracken (46.5Gb)	phylum	False negatives	2	1.0
+Bracken (46.5Gb)	phylum	False positives	2	11.0
+Bracken (46.5Gb)	phylum	Completeness	2	0.9166666666666666
+Bracken (46.5Gb)	phylum	Purity	2	0.5
+Bracken (46.5Gb)	phylum	F1 score	2	0.6470588235294118
+Bracken (46.5Gb)	phylum	Jaccard index	2	0.4782608695652174
+Bracken (46.5Gb)	class	True positives	2	19.0
+Bracken (46.5Gb)	class	False negatives	2	2.0
+Bracken (46.5Gb)	class	False positives	2	30.0
+Bracken (46.5Gb)	class	Completeness	2	0.9047619047619048
+Bracken (46.5Gb)	class	Purity	2	0.3877551020408163
+Bracken (46.5Gb)	class	F1 score	2	0.5428571428571428
+Bracken (46.5Gb)	class	Jaccard index	2	0.37254901960784315
+Bracken (46.5Gb)	order	True positives	2	38.0
+Bracken (46.5Gb)	order	False negatives	2	2.0
+Bracken (46.5Gb)	order	False positives	2	83.0
+Bracken (46.5Gb)	order	Completeness	2	0.95
+Bracken (46.5Gb)	order	Purity	2	0.3140495867768595
+Bracken (46.5Gb)	order	F1 score	2	0.47204968944099374
+Bracken (46.5Gb)	order	Jaccard index	2	0.3089430894308943
+Bracken (46.5Gb)	family	True positives	2	78.0
+Bracken (46.5Gb)	family	False negatives	2	10.0
+Bracken (46.5Gb)	family	False positives	2	216.0
+Bracken (46.5Gb)	family	Completeness	2	0.8863636363636364
+Bracken (46.5Gb)	family	Purity	2	0.2653061224489796
+Bracken (46.5Gb)	family	F1 score	2	0.4083769633507854
+Bracken (46.5Gb)	family	Jaccard index	2	0.2565789473684211
+Bracken (46.5Gb)	genus	True positives	2	171.0
+Bracken (46.5Gb)	genus	False negatives	2	23.0
+Bracken (46.5Gb)	genus	False positives	2	1029.0
+Bracken (46.5Gb)	genus	Completeness	2	0.8814432989690721
+Bracken (46.5Gb)	genus	Purity	2	0.1425
+Bracken (46.5Gb)	genus	F1 score	2	0.24533715925394542
+Bracken (46.5Gb)	genus	Jaccard index	2	0.13982011447260834
+Bracken (46.5Gb)	species	True positives	2	55.0
+Bracken (46.5Gb)	species	False negatives	2	186.0
+Bracken (46.5Gb)	species	False positives	2	2975.0
+Bracken (46.5Gb)	species	Completeness	2	0.22821576763485477
+Bracken (46.5Gb)	species	Purity	2	0.018151815181518153
+Bracken (46.5Gb)	species	F1 score	2	0.033628859675940086
+Bracken (46.5Gb)	species	Jaccard index	2	0.017101990049751242
+Bracken (46.5Gb)	strain	True positives	2	0.0
+Bracken (46.5Gb)	strain	False negatives	2	596.0
+Bracken (46.5Gb)	strain	False positives	2	0.0
+Bracken (46.5Gb)	strain	Completeness	2	0.0
+Bracken (46.5Gb)	strain	Purity	2	0.0
+Bracken (46.5Gb)	strain	Jaccard index	2	0.0
+Bracken (46.5Gb)	kingdom	L1 norm error	2	0.003561578194385331
+Bracken (46.5Gb)	phylum	L1 norm error	2	0.17908058495306353
+Bracken (46.5Gb)	class	L1 norm error	2	0.28210889347060664
+Bracken (46.5Gb)	order	L1 norm error	2	0.7924370123071632
+Bracken (46.5Gb)	family	L1 norm error	2	0.5551378758172699
+Bracken (46.5Gb)	genus	L1 norm error	2	0.7502179489742861
+Bracken (46.5Gb)	species	L1 norm error	2	1.6614635474291541
+Bracken (46.5Gb)	na	Weighted UniFrac error	2	0.03238534141134869
+Bracken (46.5Gb)	na	Unweighted UniFrac error	2	3.930299310947617
+Bracken (46.5Gb)	na	Weighted UniFrac (CAMI)	2	5.013485807596378
+Bracken (46.5Gb)	na	Unweighted UniFrac (CAMI)	2	26398.09844063838
+Bracken (46.5Gb)	kingdom	Sum of abundances	2	1.0
+Bracken (46.5Gb)	phylum	Sum of abundances	2	1.0
+Bracken (46.5Gb)	class	Sum of abundances	2	1.0000000000000002
+Bracken (46.5Gb)	order	Sum of abundances	2	1.0000000000000007
+Bracken (46.5Gb)	family	Sum of abundances	2	1.0000000000000009
+Bracken (46.5Gb)	genus	Sum of abundances	2	0.9999999999999929
+Bracken (46.5Gb)	species	Sum of abundances	2	0.9999999999999812
+Bracken (46.5Gb)	kingdom	Taxon counts	2	2.0
+Bracken (46.5Gb)	phylum	Taxon counts	2	22.0
+Bracken (46.5Gb)	class	Taxon counts	2	49.0
+Bracken (46.5Gb)	order	Taxon counts	2	121.0
+Bracken (46.5Gb)	family	Taxon counts	2	294.0
+Bracken (46.5Gb)	genus	Taxon counts	2	1200.0
+Bracken (46.5Gb)	species	Taxon counts	2	3030.0
+Bracken (46.5Gb)	kingdom	Bray-Curtis distance	3	0.004157655092034814
+Bracken (46.5Gb)	phylum	Bray-Curtis distance	3	0.0785123216080388
+Bracken (46.5Gb)	class	Bray-Curtis distance	3	0.12184879440194984
+Bracken (46.5Gb)	order	Bray-Curtis distance	3	0.37166478816679677
+Bracken (46.5Gb)	family	Bray-Curtis distance	3	0.2604271237971629
+Bracken (46.5Gb)	genus	Bray-Curtis distance	3	0.390681275724359
+Bracken (46.5Gb)	species	Bray-Curtis distance	3	0.8412146978096084
+Bracken (46.5Gb)	kingdom	Shannon diversity	3	0.06872411423290962
+Bracken (46.5Gb)	kingdom	Shannon equitability	3	0.09914793879330534
+Bracken (46.5Gb)	phylum	Shannon diversity	3	1.1831220921068504
+Bracken (46.5Gb)	phylum	Shannon equitability	3	0.38275827975815313
+Bracken (46.5Gb)	class	Shannon diversity	3	1.9778442621135754
+Bracken (46.5Gb)	class	Shannon equitability	3	0.5109123128818678
+Bracken (46.5Gb)	order	Shannon diversity	3	3.0022892556351914
+Bracken (46.5Gb)	order	Shannon equitability	3	0.6260259340124321
+Bracken (46.5Gb)	family	Shannon diversity	3	3.7824146983712867
+Bracken (46.5Gb)	family	Shannon equitability	3	0.6635298902049239
+Bracken (46.5Gb)	genus	Shannon diversity	3	4.806348866715318
+Bracken (46.5Gb)	genus	Shannon equitability	3	0.6754681179251033
+Bracken (46.5Gb)	species	Shannon diversity	3	5.880280054536273
+Bracken (46.5Gb)	species	Shannon equitability	3	0.7306375640232131
+Bracken (46.5Gb)	kingdom	True positives	3	2.0
+Bracken (46.5Gb)	kingdom	False negatives	3	0.0
+Bracken (46.5Gb)	kingdom	False positives	3	0.0
+Bracken (46.5Gb)	kingdom	Completeness	3	1.0
+Bracken (46.5Gb)	kingdom	Purity	3	1.0
+Bracken (46.5Gb)	kingdom	F1 score	3	1.0
+Bracken (46.5Gb)	kingdom	Jaccard index	3	1.0
+Bracken (46.5Gb)	phylum	True positives	3	11.0
+Bracken (46.5Gb)	phylum	False negatives	3	1.0
+Bracken (46.5Gb)	phylum	False positives	3	11.0
+Bracken (46.5Gb)	phylum	Completeness	3	0.9166666666666666
+Bracken (46.5Gb)	phylum	Purity	3	0.5
+Bracken (46.5Gb)	phylum	F1 score	3	0.6470588235294118
+Bracken (46.5Gb)	phylum	Jaccard index	3	0.4782608695652174
+Bracken (46.5Gb)	class	True positives	3	19.0
+Bracken (46.5Gb)	class	False negatives	3	2.0
+Bracken (46.5Gb)	class	False positives	3	29.0
+Bracken (46.5Gb)	class	Completeness	3	0.9047619047619048
+Bracken (46.5Gb)	class	Purity	3	0.3958333333333333
+Bracken (46.5Gb)	class	F1 score	3	0.5507246376811594
+Bracken (46.5Gb)	class	Jaccard index	3	0.38
+Bracken (46.5Gb)	order	True positives	3	38.0
+Bracken (46.5Gb)	order	False negatives	3	2.0
+Bracken (46.5Gb)	order	False positives	3	83.0
+Bracken (46.5Gb)	order	Completeness	3	0.95
+Bracken (46.5Gb)	order	Purity	3	0.3140495867768595
+Bracken (46.5Gb)	order	F1 score	3	0.47204968944099374
+Bracken (46.5Gb)	order	Jaccard index	3	0.3089430894308943
+Bracken (46.5Gb)	family	True positives	3	78.0
+Bracken (46.5Gb)	family	False negatives	3	10.0
+Bracken (46.5Gb)	family	False positives	3	221.0
+Bracken (46.5Gb)	family	Completeness	3	0.8863636363636364
+Bracken (46.5Gb)	family	Purity	3	0.2608695652173913
+Bracken (46.5Gb)	family	F1 score	3	0.40310077519379844
+Bracken (46.5Gb)	family	Jaccard index	3	0.2524271844660194
+Bracken (46.5Gb)	genus	True positives	3	172.0
+Bracken (46.5Gb)	genus	False negatives	3	22.0
+Bracken (46.5Gb)	genus	False positives	3	1059.0
+Bracken (46.5Gb)	genus	Completeness	3	0.8865979381443299
+Bracken (46.5Gb)	genus	Purity	3	0.1397238017871649
+Bracken (46.5Gb)	genus	F1 score	3	0.2414035087719298
+Bracken (46.5Gb)	genus	Jaccard index	3	0.1372705506783719
+Bracken (46.5Gb)	species	True positives	3	55.0
+Bracken (46.5Gb)	species	False negatives	3	186.0
+Bracken (46.5Gb)	species	False positives	3	3073.0
+Bracken (46.5Gb)	species	Completeness	3	0.22821576763485477
+Bracken (46.5Gb)	species	Purity	3	0.01758312020460358
+Bracken (46.5Gb)	species	F1 score	3	0.03265063817156426
+Bracken (46.5Gb)	species	Jaccard index	3	0.01659625829812915
+Bracken (46.5Gb)	strain	True positives	3	0.0
+Bracken (46.5Gb)	strain	False negatives	3	596.0
+Bracken (46.5Gb)	strain	False positives	3	0.0
+Bracken (46.5Gb)	strain	Completeness	3	0.0
+Bracken (46.5Gb)	strain	Purity	3	0.0
+Bracken (46.5Gb)	strain	Jaccard index	3	0.0
+Bracken (46.5Gb)	kingdom	L1 norm error	3	0.008315310184069629
+Bracken (46.5Gb)	phylum	L1 norm error	3	0.1570246432160776
+Bracken (46.5Gb)	class	L1 norm error	3	0.24369758880389963
+Bracken (46.5Gb)	order	L1 norm error	3	0.7433295763335933
+Bracken (46.5Gb)	family	L1 norm error	3	0.5208542475943261
+Bracken (46.5Gb)	genus	L1 norm error	3	0.7813625514487121
+Bracken (46.5Gb)	species	L1 norm error	3	1.682429395619232
+Bracken (46.5Gb)	na	Weighted UniFrac error	3	0.031170644904760084
+Bracken (46.5Gb)	na	Unweighted UniFrac error	3	4.065883896461102
+Bracken (46.5Gb)	na	Weighted UniFrac (CAMI)	3	4.934953812339416
+Bracken (46.5Gb)	na	Unweighted UniFrac (CAMI)	3	27272.12063963852
+Bracken (46.5Gb)	kingdom	Sum of abundances	3	1.0
+Bracken (46.5Gb)	phylum	Sum of abundances	3	0.9999999999999999
+Bracken (46.5Gb)	class	Sum of abundances	3	1.0000000000000002
+Bracken (46.5Gb)	order	Sum of abundances	3	1.0000000000000002
+Bracken (46.5Gb)	family	Sum of abundances	3	1.0000000000000004
+Bracken (46.5Gb)	genus	Sum of abundances	3	0.9999999999999883
+Bracken (46.5Gb)	species	Sum of abundances	3	0.9999999999999999
+Bracken (46.5Gb)	kingdom	Taxon counts	3	2.0
+Bracken (46.5Gb)	phylum	Taxon counts	3	22.0
+Bracken (46.5Gb)	class	Taxon counts	3	48.0
+Bracken (46.5Gb)	order	Taxon counts	3	121.0
+Bracken (46.5Gb)	family	Taxon counts	3	299.0
+Bracken (46.5Gb)	genus	Taxon counts	3	1231.0
+Bracken (46.5Gb)	species	Taxon counts	3	3128.0
+Bracken (46.5Gb)	kingdom	Bray-Curtis distance	4	0.0031921470824628467
+Bracken (46.5Gb)	phylum	Bray-Curtis distance	4	0.08108149813095396
+Bracken (46.5Gb)	class	Bray-Curtis distance	4	0.12243563869629329
+Bracken (46.5Gb)	order	Bray-Curtis distance	4	0.38417179972075255
+Bracken (46.5Gb)	family	Bray-Curtis distance	4	0.25275420723550485
+Bracken (46.5Gb)	genus	Bray-Curtis distance	4	0.38300968016434356
+Bracken (46.5Gb)	species	Bray-Curtis distance	4	0.844527119143608
+Bracken (46.5Gb)	kingdom	Shannon diversity	4	0.06449474524163597
+Bracken (46.5Gb)	kingdom	Shannon equitability	4	0.09304624912350529
+Bracken (46.5Gb)	phylum	Shannon diversity	4	1.1704476386343698
+Bracken (46.5Gb)	phylum	Shannon equitability	4	0.38444375516233203
+Bracken (46.5Gb)	class	Shannon diversity	4	1.9759582776460745
+Bracken (46.5Gb)	class	Shannon equitability	4	0.5077208417370527
+Bracken (46.5Gb)	order	Shannon diversity	4	3.0108155710390707
+Bracken (46.5Gb)	order	Shannon equitability	4	0.6278038088638908
+Bracken (46.5Gb)	family	Shannon diversity	4	3.8002278228588167
+Bracken (46.5Gb)	family	Shannon equitability	4	0.6654892552336327
+Bracken (46.5Gb)	genus	Shannon diversity	4	4.855485061454799
+Bracken (46.5Gb)	genus	Shannon equitability	4	0.6819075899645494
+Bracken (46.5Gb)	species	Shannon diversity	4	6.0035154179557795
+Bracken (46.5Gb)	species	Shannon equitability	4	0.7448323072494742
+Bracken (46.5Gb)	kingdom	True positives	4	2.0
+Bracken (46.5Gb)	kingdom	False negatives	4	0.0
+Bracken (46.5Gb)	kingdom	False positives	4	0.0
+Bracken (46.5Gb)	kingdom	Completeness	4	1.0
+Bracken (46.5Gb)	kingdom	Purity	4	1.0
+Bracken (46.5Gb)	kingdom	F1 score	4	1.0
+Bracken (46.5Gb)	kingdom	Jaccard index	4	1.0
+Bracken (46.5Gb)	phylum	True positives	4	11.0
+Bracken (46.5Gb)	phylum	False negatives	4	1.0
+Bracken (46.5Gb)	phylum	False positives	4	10.0
+Bracken (46.5Gb)	phylum	Completeness	4	0.9166666666666666
+Bracken (46.5Gb)	phylum	Purity	4	0.5238095238095238
+Bracken (46.5Gb)	phylum	F1 score	4	0.6666666666666667
+Bracken (46.5Gb)	phylum	Jaccard index	4	0.5
+Bracken (46.5Gb)	class	True positives	4	19.0
+Bracken (46.5Gb)	class	False negatives	4	2.0
+Bracken (46.5Gb)	class	False positives	4	30.0
+Bracken (46.5Gb)	class	Completeness	4	0.9047619047619048
+Bracken (46.5Gb)	class	Purity	4	0.3877551020408163
+Bracken (46.5Gb)	class	F1 score	4	0.5428571428571428
+Bracken (46.5Gb)	class	Jaccard index	4	0.37254901960784315
+Bracken (46.5Gb)	order	True positives	4	38.0
+Bracken (46.5Gb)	order	False negatives	4	2.0
+Bracken (46.5Gb)	order	False positives	4	83.0
+Bracken (46.5Gb)	order	Completeness	4	0.95
+Bracken (46.5Gb)	order	Purity	4	0.3140495867768595
+Bracken (46.5Gb)	order	F1 score	4	0.47204968944099374
+Bracken (46.5Gb)	order	Jaccard index	4	0.3089430894308943
+Bracken (46.5Gb)	family	True positives	4	78.0
+Bracken (46.5Gb)	family	False negatives	4	10.0
+Bracken (46.5Gb)	family	False positives	4	224.0
+Bracken (46.5Gb)	family	Completeness	4	0.8863636363636364
+Bracken (46.5Gb)	family	Purity	4	0.2582781456953642
+Bracken (46.5Gb)	family	F1 score	4	0.3999999999999999
+Bracken (46.5Gb)	family	Jaccard index	4	0.25
+Bracken (46.5Gb)	genus	True positives	4	172.0
+Bracken (46.5Gb)	genus	False negatives	4	22.0
+Bracken (46.5Gb)	genus	False positives	4	1065.0
+Bracken (46.5Gb)	genus	Completeness	4	0.8865979381443299
+Bracken (46.5Gb)	genus	Purity	4	0.13904607922392886
+Bracken (46.5Gb)	genus	F1 score	4	0.2403913347309574
+Bracken (46.5Gb)	genus	Jaccard index	4	0.13661636219221604
+Bracken (46.5Gb)	species	True positives	4	55.0
+Bracken (46.5Gb)	species	False negatives	4	186.0
+Bracken (46.5Gb)	species	False positives	4	3111.0
+Bracken (46.5Gb)	species	Completeness	4	0.22821576763485477
+Bracken (46.5Gb)	species	Purity	4	0.01737207833228048
+Bracken (46.5Gb)	species	F1 score	4	0.03228646903434106
+Bracken (46.5Gb)	species	Jaccard index	4	0.016408114558472554
+Bracken (46.5Gb)	strain	True positives	4	0.0
+Bracken (46.5Gb)	strain	False negatives	4	596.0
+Bracken (46.5Gb)	strain	False positives	4	0.0
+Bracken (46.5Gb)	strain	Completeness	4	0.0
+Bracken (46.5Gb)	strain	Purity	4	0.0
+Bracken (46.5Gb)	strain	Jaccard index	4	0.0
+Bracken (46.5Gb)	kingdom	L1 norm error	4	0.006384294164925694
+Bracken (46.5Gb)	phylum	L1 norm error	4	0.16216299626190797
+Bracken (46.5Gb)	class	L1 norm error	4	0.24487127739258654
+Bracken (46.5Gb)	order	L1 norm error	4	0.7683435994415061
+Bracken (46.5Gb)	family	L1 norm error	4	0.5055084144710106
+Bracken (46.5Gb)	genus	L1 norm error	4	0.7660193603286857
+Bracken (46.5Gb)	species	L1 norm error	4	1.6890542382872231
+Bracken (46.5Gb)	na	Weighted UniFrac error	4	0.031544832443852505
+Bracken (46.5Gb)	na	Unweighted UniFrac error	4	4.114701439716372
+Bracken (46.5Gb)	na	Weighted UniFrac (CAMI)	4	4.966459123170167
+Bracken (46.5Gb)	na	Unweighted UniFrac (CAMI)	4	27592.146803792235
+Bracken (46.5Gb)	kingdom	Sum of abundances	4	1.0000000000000002
+Bracken (46.5Gb)	phylum	Sum of abundances	4	1.0
+Bracken (46.5Gb)	class	Sum of abundances	4	1.0000000000000002
+Bracken (46.5Gb)	order	Sum of abundances	4	1.0000000000000002
+Bracken (46.5Gb)	family	Sum of abundances	4	1.0000000000000009
+Bracken (46.5Gb)	genus	Sum of abundances	4	0.9999999999999973
+Bracken (46.5Gb)	species	Sum of abundances	4	0.9999999999999994
+Bracken (46.5Gb)	kingdom	Taxon counts	4	2.0
+Bracken (46.5Gb)	phylum	Taxon counts	4	21.0
+Bracken (46.5Gb)	class	Taxon counts	4	49.0
+Bracken (46.5Gb)	order	Taxon counts	4	121.0
+Bracken (46.5Gb)	family	Taxon counts	4	302.0
+Bracken (46.5Gb)	genus	Taxon counts	4	1237.0
+Bracken (46.5Gb)	species	Taxon counts	4	3166.0
+Bracken (46.5Gb)	kingdom	Bray-Curtis distance	5	0.0048847529874075195
+Bracken (46.5Gb)	phylum	Bray-Curtis distance	5	0.09176241150749369
+Bracken (46.5Gb)	class	Bray-Curtis distance	5	0.13955672709109965
+Bracken (46.5Gb)	order	Bray-Curtis distance	5	0.3936569400854626
+Bracken (46.5Gb)	family	Bray-Curtis distance	5	0.2692115306181816
+Bracken (46.5Gb)	genus	Bray-Curtis distance	5	0.3960184847942373
+Bracken (46.5Gb)	species	Bray-Curtis distance	5	0.855736776315255
+Bracken (46.5Gb)	kingdom	Shannon diversity	5	0.07186029601161854
+Bracken (46.5Gb)	kingdom	Shannon equitability	5	0.10367249269277504
+Bracken (46.5Gb)	phylum	Shannon diversity	5	1.161354821399013
+Bracken (46.5Gb)	phylum	Shannon equitability	5	0.3876697633000556
+Bracken (46.5Gb)	class	Shannon diversity	5	1.9423173853527476
+Bracken (46.5Gb)	class	Shannon equitability	5	0.5073124338920519
+Bracken (46.5Gb)	order	Shannon diversity	5	2.9979891342784266
+Bracken (46.5Gb)	order	Shannon equitability	5	0.6273094090578804
+Bracken (46.5Gb)	family	Shannon diversity	5	3.752018788520383
+Bracken (46.5Gb)	family	Shannon equitability	5	0.6597564704298648
+Bracken (46.5Gb)	genus	Shannon diversity	5	4.772249697045421
+Bracken (46.5Gb)	genus	Shannon equitability	5	0.6714456190119298
+Bracken (46.5Gb)	species	Shannon diversity	5	5.918607157369475
+Bracken (46.5Gb)	species	Shannon equitability	5	0.7358980849219219
+Bracken (46.5Gb)	kingdom	True positives	5	2.0
+Bracken (46.5Gb)	kingdom	False negatives	5	0.0
+Bracken (46.5Gb)	kingdom	False positives	5	0.0
+Bracken (46.5Gb)	kingdom	Completeness	5	1.0
+Bracken (46.5Gb)	kingdom	Purity	5	1.0
+Bracken (46.5Gb)	kingdom	F1 score	5	1.0
+Bracken (46.5Gb)	kingdom	Jaccard index	5	1.0
+Bracken (46.5Gb)	phylum	True positives	5	11.0
+Bracken (46.5Gb)	phylum	False negatives	5	1.0
+Bracken (46.5Gb)	phylum	False positives	5	9.0
+Bracken (46.5Gb)	phylum	Completeness	5	0.9166666666666666
+Bracken (46.5Gb)	phylum	Purity	5	0.55
+Bracken (46.5Gb)	phylum	F1 score	5	0.6874999999999999
+Bracken (46.5Gb)	phylum	Jaccard index	5	0.5238095238095238
+Bracken (46.5Gb)	class	True positives	5	19.0
+Bracken (46.5Gb)	class	False negatives	5	2.0
+Bracken (46.5Gb)	class	False positives	5	27.0
+Bracken (46.5Gb)	class	Completeness	5	0.9047619047619048
+Bracken (46.5Gb)	class	Purity	5	0.41304347826086957
+Bracken (46.5Gb)	class	F1 score	5	0.5671641791044776
+Bracken (46.5Gb)	class	Jaccard index	5	0.3958333333333333
+Bracken (46.5Gb)	order	True positives	5	38.0
+Bracken (46.5Gb)	order	False negatives	5	2.0
+Bracken (46.5Gb)	order	False positives	5	81.0
+Bracken (46.5Gb)	order	Completeness	5	0.95
+Bracken (46.5Gb)	order	Purity	5	0.31932773109243695
+Bracken (46.5Gb)	order	F1 score	5	0.4779874213836478
+Bracken (46.5Gb)	order	Jaccard index	5	0.3140495867768595
+Bracken (46.5Gb)	family	True positives	5	78.0
+Bracken (46.5Gb)	family	False negatives	5	10.0
+Bracken (46.5Gb)	family	False positives	5	217.0
+Bracken (46.5Gb)	family	Completeness	5	0.8863636363636364
+Bracken (46.5Gb)	family	Purity	5	0.26440677966101694
+Bracken (46.5Gb)	family	F1 score	5	0.4073107049608355
+Bracken (46.5Gb)	family	Jaccard index	5	0.25573770491803277
+Bracken (46.5Gb)	genus	True positives	5	172.0
+Bracken (46.5Gb)	genus	False negatives	5	22.0
+Bracken (46.5Gb)	genus	False positives	5	1049.0
+Bracken (46.5Gb)	genus	Completeness	5	0.8865979381443299
+Bracken (46.5Gb)	genus	Purity	5	0.14086814086814087
+Bracken (46.5Gb)	genus	F1 score	5	0.2431095406360424
+Bracken (46.5Gb)	genus	Jaccard index	5	0.13837489943684633
+Bracken (46.5Gb)	species	True positives	5	55.0
+Bracken (46.5Gb)	species	False negatives	5	186.0
+Bracken (46.5Gb)	species	False positives	5	3056.0
+Bracken (46.5Gb)	species	Completeness	5	0.22821576763485477
+Bracken (46.5Gb)	species	Purity	5	0.01767920282867245
+Bracken (46.5Gb)	species	F1 score	5	0.03281622911694511
+Bracken (46.5Gb)	species	Jaccard index	5	0.01668183196845617
+Bracken (46.5Gb)	strain	True positives	5	0.0
+Bracken (46.5Gb)	strain	False negatives	5	596.0
+Bracken (46.5Gb)	strain	False positives	5	0.0
+Bracken (46.5Gb)	strain	Completeness	5	0.0
+Bracken (46.5Gb)	strain	Purity	5	0.0
+Bracken (46.5Gb)	strain	Jaccard index	5	0.0
+Bracken (46.5Gb)	kingdom	L1 norm error	5	0.009769505974815039
+Bracken (46.5Gb)	phylum	L1 norm error	5	0.18352482301498735
+Bracken (46.5Gb)	class	L1 norm error	5	0.2791134541821993
+Bracken (46.5Gb)	order	L1 norm error	5	0.7873138801709244
+Bracken (46.5Gb)	family	L1 norm error	5	0.5384230612363625
+Bracken (46.5Gb)	genus	L1 norm error	5	0.7920369695884815
+Bracken (46.5Gb)	species	L1 norm error	5	1.7114735526304952
+Bracken (46.5Gb)	na	Weighted UniFrac error	5	0.033614176884310606
+Bracken (46.5Gb)	na	Unweighted UniFrac error	5	4.0329444636775955
+Bracken (46.5Gb)	na	Weighted UniFrac (CAMI)	5	5.1511731392570725
+Bracken (46.5Gb)	na	Unweighted UniFrac (CAMI)	5	27074.169105627632
+Bracken (46.5Gb)	kingdom	Sum of abundances	5	1.0
+Bracken (46.5Gb)	phylum	Sum of abundances	5	1.0000000000000004
+Bracken (46.5Gb)	class	Sum of abundances	5	0.9999999999999997
+Bracken (46.5Gb)	order	Sum of abundances	5	0.9999999999999996
+Bracken (46.5Gb)	family	Sum of abundances	5	0.9999999999999984
+Bracken (46.5Gb)	genus	Sum of abundances	5	1.0000000000000073
+Bracken (46.5Gb)	species	Sum of abundances	5	0.9999999999999538
+Bracken (46.5Gb)	kingdom	Taxon counts	5	2.0
+Bracken (46.5Gb)	phylum	Taxon counts	5	20.0
+Bracken (46.5Gb)	class	Taxon counts	5	46.0
+Bracken (46.5Gb)	order	Taxon counts	5	119.0
+Bracken (46.5Gb)	family	Taxon counts	5	295.0
+Bracken (46.5Gb)	genus	Taxon counts	5	1221.0
+Bracken (46.5Gb)	species	Taxon counts	5	3111.0
+Gold standard	kingdom	Bray-Curtis distance	1	0.0
+Gold standard	phylum	Bray-Curtis distance	1	0.0
+Gold standard	class	Bray-Curtis distance	1	0.0
+Gold standard	order	Bray-Curtis distance	1	0.0
+Gold standard	family	Bray-Curtis distance	1	0.0
+Gold standard	genus	Bray-Curtis distance	1	0.0
+Gold standard	species	Bray-Curtis distance	1	0.0
+Gold standard	strain	Bray-Curtis distance	1	0.0
+Gold standard	kingdom	Shannon diversity	1	0.04990545267260239
+Gold standard	kingdom	Shannon equitability	1	0.07199834908408234
+Gold standard	phylum	Shannon diversity	1	1.337312973728448
+Gold standard	phylum	Shannon equitability	1	0.5381743309522475
+Gold standard	class	Shannon diversity	1	2.132400177165668
+Gold standard	class	Shannon equitability	1	0.700405472708618
+Gold standard	order	Shannon diversity	1	2.6998077054385137
+Gold standard	order	Shannon equitability	1	0.7318774546638048
+Gold standard	family	Shannon diversity	1	3.713942369674692
+Gold standard	family	Shannon equitability	1	0.8294980975442917
+Gold standard	genus	Shannon diversity	1	4.481086136995922
+Gold standard	genus	Shannon equitability	1	0.850646695808662
+Gold standard	species	Shannon diversity	1	4.951330681141475
+Gold standard	species	Shannon equitability	1	0.9027372829262306
+Gold standard	strain	Shannon diversity	1	5.898978219176789
+Gold standard	strain	Shannon equitability	1	0.9231230131252368
+Gold standard	kingdom	True positives	1	2.0
+Gold standard	kingdom	False negatives	1	0.0
+Gold standard	kingdom	False positives	1	0.0
+Gold standard	kingdom	Completeness	1	1.0
+Gold standard	kingdom	Purity	1	1.0
+Gold standard	kingdom	F1 score	1	1.0
+Gold standard	kingdom	Jaccard index	1	1.0
+Gold standard	phylum	True positives	1	12.0
+Gold standard	phylum	False negatives	1	0.0
+Gold standard	phylum	False positives	1	0.0
+Gold standard	phylum	Completeness	1	1.0
+Gold standard	phylum	Purity	1	1.0
+Gold standard	phylum	F1 score	1	1.0
+Gold standard	phylum	Jaccard index	1	1.0
+Gold standard	class	True positives	1	21.0
+Gold standard	class	False negatives	1	0.0
+Gold standard	class	False positives	1	0.0
+Gold standard	class	Completeness	1	1.0
+Gold standard	class	Purity	1	1.0
+Gold standard	class	F1 score	1	1.0
+Gold standard	class	Jaccard index	1	1.0
+Gold standard	order	True positives	1	40.0
+Gold standard	order	False negatives	1	0.0
+Gold standard	order	False positives	1	0.0
+Gold standard	order	Completeness	1	1.0
+Gold standard	order	Purity	1	1.0
+Gold standard	order	F1 score	1	1.0
+Gold standard	order	Jaccard index	1	1.0
+Gold standard	family	True positives	1	88.0
+Gold standard	family	False negatives	1	0.0
+Gold standard	family	False positives	1	0.0
+Gold standard	family	Completeness	1	1.0
+Gold standard	family	Purity	1	1.0
+Gold standard	family	F1 score	1	1.0
+Gold standard	family	Jaccard index	1	1.0
+Gold standard	genus	True positives	1	194.0
+Gold standard	genus	False negatives	1	0.0
+Gold standard	genus	False positives	1	0.0
+Gold standard	genus	Completeness	1	1.0
+Gold standard	genus	Purity	1	1.0
+Gold standard	genus	F1 score	1	1.0
+Gold standard	genus	Jaccard index	1	1.0
+Gold standard	species	True positives	1	241.0
+Gold standard	species	False negatives	1	0.0
+Gold standard	species	False positives	1	0.0
+Gold standard	species	Completeness	1	1.0
+Gold standard	species	Purity	1	1.0
+Gold standard	species	F1 score	1	1.0
+Gold standard	species	Jaccard index	1	1.0
+Gold standard	strain	True positives	1	596.0
+Gold standard	strain	False negatives	1	0.0
+Gold standard	strain	False positives	1	0.0
+Gold standard	strain	Completeness	1	1.0
+Gold standard	strain	Purity	1	1.0
+Gold standard	strain	F1 score	1	1.0
+Gold standard	strain	Jaccard index	1	1.0
+Gold standard	kingdom	L1 norm error	1	0.0
+Gold standard	phylum	L1 norm error	1	0.0
+Gold standard	class	L1 norm error	1	0.0
+Gold standard	order	L1 norm error	1	0.0
+Gold standard	family	L1 norm error	1	0.0
+Gold standard	genus	L1 norm error	1	0.0
+Gold standard	species	L1 norm error	1	0.0
+Gold standard	strain	L1 norm error	1	0.0
+Gold standard	na	Weighted UniFrac error	1	0.0
+Gold standard	na	Unweighted UniFrac error	1	0.0
+Gold standard	na	Weighted UniFrac (CAMI)	1	0.0
+Gold standard	na	Unweighted UniFrac (CAMI)	1	0.0
+Gold standard	kingdom	Sum of abundances	1	1.0
+Gold standard	phylum	Sum of abundances	1	0.9999999999999999
+Gold standard	class	Sum of abundances	1	1.0
+Gold standard	order	Sum of abundances	1	1.0
+Gold standard	family	Sum of abundances	1	1.0000000000000007
+Gold standard	genus	Sum of abundances	1	0.9999999999999999
+Gold standard	species	Sum of abundances	1	1.0000000000000004
+Gold standard	strain	Sum of abundances	1	1.0000000000000002
+Gold standard	kingdom	Taxon counts	1	2.0
+Gold standard	phylum	Taxon counts	1	12.0
+Gold standard	class	Taxon counts	1	21.0
+Gold standard	order	Taxon counts	1	40.0
+Gold standard	family	Taxon counts	1	88.0
+Gold standard	genus	Taxon counts	1	194.0
+Gold standard	species	Taxon counts	1	241.0
+Gold standard	strain	Taxon counts	1	596.0
+Gold standard	kingdom	Bray-Curtis distance	2	0.0
+Gold standard	phylum	Bray-Curtis distance	2	0.0
+Gold standard	class	Bray-Curtis distance	2	0.0
+Gold standard	order	Bray-Curtis distance	2	0.0
+Gold standard	family	Bray-Curtis distance	2	0.0
+Gold standard	genus	Bray-Curtis distance	2	0.0
+Gold standard	species	Bray-Curtis distance	2	0.0
+Gold standard	strain	Bray-Curtis distance	2	0.0
+Gold standard	kingdom	Shannon diversity	2	0.04644975900106723
+Gold standard	kingdom	Shannon equitability	2	0.06701283696132719
+Gold standard	phylum	Shannon diversity	2	1.3235595240666163
+Gold standard	phylum	Shannon equitability	2	0.532639535645951
+Gold standard	class	Shannon diversity	2	2.1957589426345256
+Gold standard	class	Shannon equitability	2	0.7212162129034693
+Gold standard	order	Shannon diversity	2	2.771314484592129
+Gold standard	order	Shannon equitability	2	0.7512618720846206
+Gold standard	family	Shannon diversity	2	3.7556353060079695
+Gold standard	family	Shannon equitability	2	0.8388100921653925
+Gold standard	genus	Shannon diversity	2	4.542632688203831
+Gold standard	genus	Shannon equitability	2	0.862330106665505
+Gold standard	species	Shannon diversity	2	5.003665442866458
+Gold standard	species	Shannon equitability	2	0.9122790694972925
+Gold standard	strain	Shannon diversity	2	6.054791085457691
+Gold standard	strain	Shannon equitability	2	0.9475059549264659
+Gold standard	kingdom	True positives	2	2.0
+Gold standard	kingdom	False negatives	2	0.0
+Gold standard	kingdom	False positives	2	0.0
+Gold standard	kingdom	Completeness	2	1.0
+Gold standard	kingdom	Purity	2	1.0
+Gold standard	kingdom	F1 score	2	1.0
+Gold standard	kingdom	Jaccard index	2	1.0
+Gold standard	phylum	True positives	2	12.0
+Gold standard	phylum	False negatives	2	0.0
+Gold standard	phylum	False positives	2	0.0
+Gold standard	phylum	Completeness	2	1.0
+Gold standard	phylum	Purity	2	1.0
+Gold standard	phylum	F1 score	2	1.0
+Gold standard	phylum	Jaccard index	2	1.0
+Gold standard	class	True positives	2	21.0
+Gold standard	class	False negatives	2	0.0
+Gold standard	class	False positives	2	0.0
+Gold standard	class	Completeness	2	1.0
+Gold standard	class	Purity	2	1.0
+Gold standard	class	F1 score	2	1.0
+Gold standard	class	Jaccard index	2	1.0
+Gold standard	order	True positives	2	40.0
+Gold standard	order	False negatives	2	0.0
+Gold standard	order	False positives	2	0.0
+Gold standard	order	Completeness	2	1.0
+Gold standard	order	Purity	2	1.0
+Gold standard	order	F1 score	2	1.0
+Gold standard	order	Jaccard index	2	1.0
+Gold standard	family	True positives	2	88.0
+Gold standard	family	False negatives	2	0.0
+Gold standard	family	False positives	2	0.0
+Gold standard	family	Completeness	2	1.0
+Gold standard	family	Purity	2	1.0
+Gold standard	family	F1 score	2	1.0
+Gold standard	family	Jaccard index	2	1.0
+Gold standard	genus	True positives	2	194.0
+Gold standard	genus	False negatives	2	0.0
+Gold standard	genus	False positives	2	0.0
+Gold standard	genus	Completeness	2	1.0
+Gold standard	genus	Purity	2	1.0
+Gold standard	genus	F1 score	2	1.0
+Gold standard	genus	Jaccard index	2	1.0
+Gold standard	species	True positives	2	241.0
+Gold standard	species	False negatives	2	0.0
+Gold standard	species	False positives	2	0.0
+Gold standard	species	Completeness	2	1.0
+Gold standard	species	Purity	2	1.0
+Gold standard	species	F1 score	2	1.0
+Gold standard	species	Jaccard index	2	1.0
+Gold standard	strain	True positives	2	596.0
+Gold standard	strain	False negatives	2	0.0
+Gold standard	strain	False positives	2	0.0
+Gold standard	strain	Completeness	2	1.0
+Gold standard	strain	Purity	2	1.0
+Gold standard	strain	F1 score	2	1.0
+Gold standard	strain	Jaccard index	2	1.0
+Gold standard	kingdom	L1 norm error	2	0.0
+Gold standard	phylum	L1 norm error	2	0.0
+Gold standard	class	L1 norm error	2	0.0
+Gold standard	order	L1 norm error	2	0.0
+Gold standard	family	L1 norm error	2	0.0
+Gold standard	genus	L1 norm error	2	0.0
+Gold standard	species	L1 norm error	2	0.0
+Gold standard	strain	L1 norm error	2	0.0
+Gold standard	na	Weighted UniFrac error	2	0.0
+Gold standard	na	Unweighted UniFrac error	2	0.0
+Gold standard	na	Weighted UniFrac (CAMI)	2	0.0
+Gold standard	na	Unweighted UniFrac (CAMI)	2	0.0
+Gold standard	kingdom	Sum of abundances	2	1.0
+Gold standard	phylum	Sum of abundances	2	1.0
+Gold standard	class	Sum of abundances	2	1.0
+Gold standard	order	Sum of abundances	2	1.0
+Gold standard	family	Sum of abundances	2	0.9999999999999996
+Gold standard	genus	Sum of abundances	2	0.9999999999999994
+Gold standard	species	Sum of abundances	2	0.9999999999999994
+Gold standard	strain	Sum of abundances	2	0.9999999999999984
+Gold standard	kingdom	Taxon counts	2	2.0
+Gold standard	phylum	Taxon counts	2	12.0
+Gold standard	class	Taxon counts	2	21.0
+Gold standard	order	Taxon counts	2	40.0
+Gold standard	family	Taxon counts	2	88.0
+Gold standard	genus	Taxon counts	2	194.0
+Gold standard	species	Taxon counts	2	241.0
+Gold standard	strain	Taxon counts	2	596.0
+Gold standard	kingdom	Bray-Curtis distance	3	0.0
+Gold standard	phylum	Bray-Curtis distance	3	0.0
+Gold standard	class	Bray-Curtis distance	3	0.0
+Gold standard	order	Bray-Curtis distance	3	0.0
+Gold standard	family	Bray-Curtis distance	3	0.0
+Gold standard	genus	Bray-Curtis distance	3	0.0
+Gold standard	species	Bray-Curtis distance	3	0.0
+Gold standard	strain	Bray-Curtis distance	3	0.0
+Gold standard	kingdom	Shannon diversity	3	0.07437282252446445
+Gold standard	kingdom	Shannon equitability	3	0.10729730223295986
+Gold standard	phylum	Shannon diversity	3	1.378653930444844
+Gold standard	phylum	Shannon equitability	3	0.5548111558083938
+Gold standard	class	Shannon diversity	3	2.1898076323894706
+Gold standard	class	Shannon equitability	3	0.7192614530464504
+Gold standard	order	Shannon diversity	3	2.7698471255101302
+Gold standard	order	Shannon equitability	3	0.7508640930028557
+Gold standard	family	Shannon diversity	3	3.7570640754600553
+Gold standard	family	Shannon equitability	3	0.8391292036174203
+Gold standard	genus	Shannon diversity	3	4.564497118007164
+Gold standard	genus	Shannon equitability	3	0.8664806416919115
+Gold standard	species	Shannon diversity	3	5.094831279095093
+Gold standard	species	Shannon equitability	3	0.9289006212765332
+Gold standard	strain	Shannon diversity	3	6.1643542211796225
+Gold standard	strain	Shannon equitability	3	0.9646513398079163
+Gold standard	kingdom	True positives	3	2.0
+Gold standard	kingdom	False negatives	3	0.0
+Gold standard	kingdom	False positives	3	0.0
+Gold standard	kingdom	Completeness	3	1.0
+Gold standard	kingdom	Purity	3	1.0
+Gold standard	kingdom	F1 score	3	1.0
+Gold standard	kingdom	Jaccard index	3	1.0
+Gold standard	phylum	True positives	3	12.0
+Gold standard	phylum	False negatives	3	0.0
+Gold standard	phylum	False positives	3	0.0
+Gold standard	phylum	Completeness	3	1.0
+Gold standard	phylum	Purity	3	1.0
+Gold standard	phylum	F1 score	3	1.0
+Gold standard	phylum	Jaccard index	3	1.0
+Gold standard	class	True positives	3	21.0
+Gold standard	class	False negatives	3	0.0
+Gold standard	class	False positives	3	0.0
+Gold standard	class	Completeness	3	1.0
+Gold standard	class	Purity	3	1.0
+Gold standard	class	F1 score	3	1.0
+Gold standard	class	Jaccard index	3	1.0
+Gold standard	order	True positives	3	40.0
+Gold standard	order	False negatives	3	0.0
+Gold standard	order	False positives	3	0.0
+Gold standard	order	Completeness	3	1.0
+Gold standard	order	Purity	3	1.0
+Gold standard	order	F1 score	3	1.0
+Gold standard	order	Jaccard index	3	1.0
+Gold standard	family	True positives	3	88.0
+Gold standard	family	False negatives	3	0.0
+Gold standard	family	False positives	3	0.0
+Gold standard	family	Completeness	3	1.0
+Gold standard	family	Purity	3	1.0
+Gold standard	family	F1 score	3	1.0
+Gold standard	family	Jaccard index	3	1.0
+Gold standard	genus	True positives	3	194.0
+Gold standard	genus	False negatives	3	0.0
+Gold standard	genus	False positives	3	0.0
+Gold standard	genus	Completeness	3	1.0
+Gold standard	genus	Purity	3	1.0
+Gold standard	genus	F1 score	3	1.0
+Gold standard	genus	Jaccard index	3	1.0
+Gold standard	species	True positives	3	241.0
+Gold standard	species	False negatives	3	0.0
+Gold standard	species	False positives	3	0.0
+Gold standard	species	Completeness	3	1.0
+Gold standard	species	Purity	3	1.0
+Gold standard	species	F1 score	3	1.0
+Gold standard	species	Jaccard index	3	1.0
+Gold standard	strain	True positives	3	596.0
+Gold standard	strain	False negatives	3	0.0
+Gold standard	strain	False positives	3	0.0
+Gold standard	strain	Completeness	3	1.0
+Gold standard	strain	Purity	3	1.0
+Gold standard	strain	F1 score	3	1.0
+Gold standard	strain	Jaccard index	3	1.0
+Gold standard	kingdom	L1 norm error	3	0.0
+Gold standard	phylum	L1 norm error	3	0.0
+Gold standard	class	L1 norm error	3	0.0
+Gold standard	order	L1 norm error	3	0.0
+Gold standard	family	L1 norm error	3	0.0
+Gold standard	genus	L1 norm error	3	0.0
+Gold standard	species	L1 norm error	3	0.0
+Gold standard	strain	L1 norm error	3	0.0
+Gold standard	na	Weighted UniFrac error	3	0.0
+Gold standard	na	Unweighted UniFrac error	3	0.0
+Gold standard	na	Weighted UniFrac (CAMI)	3	0.0
+Gold standard	na	Unweighted UniFrac (CAMI)	3	0.0
+Gold standard	kingdom	Sum of abundances	3	1.0
+Gold standard	phylum	Sum of abundances	3	0.9999999999999997
+Gold standard	class	Sum of abundances	3	1.0
+Gold standard	order	Sum of abundances	3	1.0000000000000002
+Gold standard	family	Sum of abundances	3	0.9999999999999996
+Gold standard	genus	Sum of abundances	3	1.0
+Gold standard	species	Sum of abundances	3	1.0000000000000007
+Gold standard	strain	Sum of abundances	3	0.9999999999999996
+Gold standard	kingdom	Taxon counts	3	2.0
+Gold standard	phylum	Taxon counts	3	12.0
+Gold standard	class	Taxon counts	3	21.0
+Gold standard	order	Taxon counts	3	40.0
+Gold standard	family	Taxon counts	3	88.0
+Gold standard	genus	Taxon counts	3	194.0
+Gold standard	species	Taxon counts	3	241.0
+Gold standard	strain	Taxon counts	3	596.0
+Gold standard	kingdom	Bray-Curtis distance	4	0.0
+Gold standard	phylum	Bray-Curtis distance	4	0.0
+Gold standard	class	Bray-Curtis distance	4	0.0
+Gold standard	order	Bray-Curtis distance	4	0.0
+Gold standard	family	Bray-Curtis distance	4	0.0
+Gold standard	genus	Bray-Curtis distance	4	0.0
+Gold standard	species	Bray-Curtis distance	4	0.0
+Gold standard	strain	Bray-Curtis distance	4	0.0
+Gold standard	kingdom	Shannon diversity	4	0.06873429426189293
+Gold standard	kingdom	Shannon equitability	4	0.09916262547063566
+Gold standard	phylum	Shannon diversity	4	1.3384986591938233
+Gold standard	phylum	Shannon equitability	4	0.5386514858849998
+Gold standard	class	Shannon diversity	4	2.1405729611751925
+Gold standard	class	Shannon equitability	4	0.7030898950364874
+Gold standard	order	Shannon diversity	4	2.761643274787887
+Gold standard	order	Shannon equitability	4	0.7486401518781074
+Gold standard	family	Shannon diversity	4	3.7284250998111976
+Gold standard	family	Shannon equitability	4	0.8327327726953041
+Gold standard	genus	Shannon diversity	4	4.560829207605714
+Gold standard	genus	Shannon equitability	4	0.8657843605296824
+Gold standard	species	Shannon diversity	4	5.1022453979995985
+Gold standard	species	Shannon equitability	4	0.9302523794171553
+Gold standard	strain	Shannon diversity	4	6.160198424531574
+Gold standard	strain	Shannon equitability	4	0.9640010048886906
+Gold standard	kingdom	True positives	4	2.0
+Gold standard	kingdom	False negatives	4	0.0
+Gold standard	kingdom	False positives	4	0.0
+Gold standard	kingdom	Completeness	4	1.0
+Gold standard	kingdom	Purity	4	1.0
+Gold standard	kingdom	F1 score	4	1.0
+Gold standard	kingdom	Jaccard index	4	1.0
+Gold standard	phylum	True positives	4	12.0
+Gold standard	phylum	False negatives	4	0.0
+Gold standard	phylum	False positives	4	0.0
+Gold standard	phylum	Completeness	4	1.0
+Gold standard	phylum	Purity	4	1.0
+Gold standard	phylum	F1 score	4	1.0
+Gold standard	phylum	Jaccard index	4	1.0
+Gold standard	class	True positives	4	21.0
+Gold standard	class	False negatives	4	0.0
+Gold standard	class	False positives	4	0.0
+Gold standard	class	Completeness	4	1.0
+Gold standard	class	Purity	4	1.0
+Gold standard	class	F1 score	4	1.0
+Gold standard	class	Jaccard index	4	1.0
+Gold standard	order	True positives	4	40.0
+Gold standard	order	False negatives	4	0.0
+Gold standard	order	False positives	4	0.0
+Gold standard	order	Completeness	4	1.0
+Gold standard	order	Purity	4	1.0
+Gold standard	order	F1 score	4	1.0
+Gold standard	order	Jaccard index	4	1.0
+Gold standard	family	True positives	4	88.0
+Gold standard	family	False negatives	4	0.0
+Gold standard	family	False positives	4	0.0
+Gold standard	family	Completeness	4	1.0
+Gold standard	family	Purity	4	1.0
+Gold standard	family	F1 score	4	1.0
+Gold standard	family	Jaccard index	4	1.0
+Gold standard	genus	True positives	4	194.0
+Gold standard	genus	False negatives	4	0.0
+Gold standard	genus	False positives	4	0.0
+Gold standard	genus	Completeness	4	1.0
+Gold standard	genus	Purity	4	1.0
+Gold standard	genus	F1 score	4	1.0
+Gold standard	genus	Jaccard index	4	1.0
+Gold standard	species	True positives	4	241.0
+Gold standard	species	False negatives	4	0.0
+Gold standard	species	False positives	4	0.0
+Gold standard	species	Completeness	4	1.0
+Gold standard	species	Purity	4	1.0
+Gold standard	species	F1 score	4	1.0
+Gold standard	species	Jaccard index	4	1.0
+Gold standard	strain	True positives	4	596.0
+Gold standard	strain	False negatives	4	0.0
+Gold standard	strain	False positives	4	0.0
+Gold standard	strain	Completeness	4	1.0
+Gold standard	strain	Purity	4	1.0
+Gold standard	strain	F1 score	4	1.0
+Gold standard	strain	Jaccard index	4	1.0
+Gold standard	kingdom	L1 norm error	4	0.0
+Gold standard	phylum	L1 norm error	4	0.0
+Gold standard	class	L1 norm error	4	0.0
+Gold standard	order	L1 norm error	4	0.0
+Gold standard	family	L1 norm error	4	0.0
+Gold standard	genus	L1 norm error	4	0.0
+Gold standard	species	L1 norm error	4	0.0
+Gold standard	strain	L1 norm error	4	0.0
+Gold standard	na	Weighted UniFrac error	4	0.0
+Gold standard	na	Unweighted UniFrac error	4	0.0
+Gold standard	na	Weighted UniFrac (CAMI)	4	0.0
+Gold standard	na	Unweighted UniFrac (CAMI)	4	0.0
+Gold standard	kingdom	Sum of abundances	4	1.0
+Gold standard	phylum	Sum of abundances	4	1.0000000000000002
+Gold standard	class	Sum of abundances	4	1.0
+Gold standard	order	Sum of abundances	4	1.0000000000000002
+Gold standard	family	Sum of abundances	4	0.9999999999999996
+Gold standard	genus	Sum of abundances	4	1.0000000000000007
+Gold standard	species	Sum of abundances	4	1.0000000000000009
+Gold standard	strain	Sum of abundances	4	1.000000000000001
+Gold standard	kingdom	Taxon counts	4	2.0
+Gold standard	phylum	Taxon counts	4	12.0
+Gold standard	class	Taxon counts	4	21.0
+Gold standard	order	Taxon counts	4	40.0
+Gold standard	family	Taxon counts	4	88.0
+Gold standard	genus	Taxon counts	4	194.0
+Gold standard	species	Taxon counts	4	241.0
+Gold standard	strain	Taxon counts	4	596.0
+Gold standard	kingdom	Bray-Curtis distance	5	0.0
+Gold standard	phylum	Bray-Curtis distance	5	0.0
+Gold standard	class	Bray-Curtis distance	5	0.0
+Gold standard	order	Bray-Curtis distance	5	0.0
+Gold standard	family	Bray-Curtis distance	5	0.0
+Gold standard	genus	Bray-Curtis distance	5	0.0
+Gold standard	species	Bray-Curtis distance	5	0.0
+Gold standard	strain	Bray-Curtis distance	5	0.0
+Gold standard	kingdom	Shannon diversity	5	0.07784066011186004
+Gold standard	kingdom	Shannon equitability	5	0.11230033432290383
+Gold standard	phylum	Shannon diversity	5	1.343402095063052
+Gold standard	phylum	Shannon equitability	5	0.5406247736419654
+Gold standard	class	Shannon diversity	5	2.140870601648467
+Gold standard	class	Shannon equitability	5	0.7031876576509412
+Gold standard	order	Shannon diversity	5	2.7827976777747265
+Gold standard	order	Shannon equitability	5	0.7543747938608503
+Gold standard	family	Shannon diversity	5	3.7270327981913502
+Gold standard	family	Shannon equitability	5	0.8324218062262762
+Gold standard	genus	Shannon diversity	5	4.546502489383591
+Gold standard	genus	Shannon equitability	5	0.8630647128494437
+Gold standard	species	Shannon diversity	5	5.145090722324648
+Gold standard	species	Shannon equitability	5	0.9380640313059303
+Gold standard	strain	Shannon diversity	5	6.19748935238041
+Gold standard	strain	Shannon equitability	5	0.9698366110562376
+Gold standard	kingdom	True positives	5	2.0
+Gold standard	kingdom	False negatives	5	0.0
+Gold standard	kingdom	False positives	5	0.0
+Gold standard	kingdom	Completeness	5	1.0
+Gold standard	kingdom	Purity	5	1.0
+Gold standard	kingdom	F1 score	5	1.0
+Gold standard	kingdom	Jaccard index	5	1.0
+Gold standard	phylum	True positives	5	12.0
+Gold standard	phylum	False negatives	5	0.0
+Gold standard	phylum	False positives	5	0.0
+Gold standard	phylum	Completeness	5	1.0
+Gold standard	phylum	Purity	5	1.0
+Gold standard	phylum	F1 score	5	1.0
+Gold standard	phylum	Jaccard index	5	1.0
+Gold standard	class	True positives	5	21.0
+Gold standard	class	False negatives	5	0.0
+Gold standard	class	False positives	5	0.0
+Gold standard	class	Completeness	5	1.0
+Gold standard	class	Purity	5	1.0
+Gold standard	class	F1 score	5	1.0
+Gold standard	class	Jaccard index	5	1.0
+Gold standard	order	True positives	5	40.0
+Gold standard	order	False negatives	5	0.0
+Gold standard	order	False positives	5	0.0
+Gold standard	order	Completeness	5	1.0
+Gold standard	order	Purity	5	1.0
+Gold standard	order	F1 score	5	1.0
+Gold standard	order	Jaccard index	5	1.0
+Gold standard	family	True positives	5	88.0
+Gold standard	family	False negatives	5	0.0
+Gold standard	family	False positives	5	0.0
+Gold standard	family	Completeness	5	1.0
+Gold standard	family	Purity	5	1.0
+Gold standard	family	F1 score	5	1.0
+Gold standard	family	Jaccard index	5	1.0
+Gold standard	genus	True positives	5	194.0
+Gold standard	genus	False negatives	5	0.0
+Gold standard	genus	False positives	5	0.0
+Gold standard	genus	Completeness	5	1.0
+Gold standard	genus	Purity	5	1.0
+Gold standard	genus	F1 score	5	1.0
+Gold standard	genus	Jaccard index	5	1.0
+Gold standard	species	True positives	5	241.0
+Gold standard	species	False negatives	5	0.0
+Gold standard	species	False positives	5	0.0
+Gold standard	species	Completeness	5	1.0
+Gold standard	species	Purity	5	1.0
+Gold standard	species	F1 score	5	1.0
+Gold standard	species	Jaccard index	5	1.0
+Gold standard	strain	True positives	5	596.0
+Gold standard	strain	False negatives	5	0.0
+Gold standard	strain	False positives	5	0.0
+Gold standard	strain	Completeness	5	1.0
+Gold standard	strain	Purity	5	1.0
+Gold standard	strain	F1 score	5	1.0
+Gold standard	strain	Jaccard index	5	1.0
+Gold standard	kingdom	L1 norm error	5	0.0
+Gold standard	phylum	L1 norm error	5	0.0
+Gold standard	class	L1 norm error	5	0.0
+Gold standard	order	L1 norm error	5	0.0
+Gold standard	family	L1 norm error	5	0.0
+Gold standard	genus	L1 norm error	5	0.0
+Gold standard	species	L1 norm error	5	0.0
+Gold standard	strain	L1 norm error	5	0.0
+Gold standard	na	Weighted UniFrac error	5	0.0
+Gold standard	na	Unweighted UniFrac error	5	0.0
+Gold standard	na	Weighted UniFrac (CAMI)	5	0.0
+Gold standard	na	Unweighted UniFrac (CAMI)	5	0.0
+Gold standard	kingdom	Sum of abundances	5	1.0
+Gold standard	phylum	Sum of abundances	5	1.0000000000000002
+Gold standard	class	Sum of abundances	5	1.0
+Gold standard	order	Sum of abundances	5	1.0
+Gold standard	family	Sum of abundances	5	1.0000000000000002
+Gold standard	genus	Sum of abundances	5	1.0000000000000002
+Gold standard	species	Sum of abundances	5	1.0000000000000002
+Gold standard	strain	Sum of abundances	5	0.9999999999999994
+Gold standard	kingdom	Taxon counts	5	2.0
+Gold standard	phylum	Taxon counts	5	12.0
+Gold standard	class	Taxon counts	5	21.0
+Gold standard	order	Taxon counts	5	40.0
+Gold standard	family	Taxon counts	5	88.0
+Gold standard	genus	Taxon counts	5	194.0
+Gold standard	species	Taxon counts	5	241.0
+Gold standard	strain	Taxon counts	5	596.0
+CONSULT-II (140.7Gb)	kingdom	Bray-Curtis distance	1	0.0005698920832259552
+CONSULT-II (140.7Gb)	phylum	Bray-Curtis distance	1	0.05374975276347557
+CONSULT-II (140.7Gb)	class	Bray-Curtis distance	1	0.09081061053684746
+CONSULT-II (140.7Gb)	order	Bray-Curtis distance	1	0.35486706583991134
+CONSULT-II (140.7Gb)	family	Bray-Curtis distance	1	0.1903230157022507
+CONSULT-II (140.7Gb)	genus	Bray-Curtis distance	1	0.32385117118420886
+CONSULT-II (140.7Gb)	species	Bray-Curtis distance	1	0.8483860241341232
+CONSULT-II (140.7Gb)	strain	Bray-Curtis distance	1	1.0
+CONSULT-II (140.7Gb)	kingdom	Shannon diversity	1	0.047186889003986696
+CONSULT-II (140.7Gb)	kingdom	Shannon equitability	1	0.06807629076102957
+CONSULT-II (140.7Gb)	phylum	Shannon diversity	1	1.2687624543782468
+CONSULT-II (140.7Gb)	phylum	Shannon equitability	1	0.3463193954218364
+CONSULT-II (140.7Gb)	class	Shannon diversity	1	2.0673383434166612
+CONSULT-II (140.7Gb)	class	Shannon equitability	1	0.4691332094051807
+CONSULT-II (140.7Gb)	order	Shannon diversity	1	3.1471508987983947
+CONSULT-II (140.7Gb)	order	Shannon equitability	1	0.6028613765520813
+CONSULT-II (140.7Gb)	family	Shannon diversity	1	3.9748030910952314
+CONSULT-II (140.7Gb)	family	Shannon equitability	1	0.6601540735636982
+CONSULT-II (140.7Gb)	genus	Shannon diversity	1	5.135202945175857
+CONSULT-II (140.7Gb)	genus	Shannon equitability	1	0.6734166837605012
+CONSULT-II (140.7Gb)	species	Shannon diversity	1	6.576998754758434
+CONSULT-II (140.7Gb)	species	Shannon equitability	1	0.7238498519577086
+CONSULT-II (140.7Gb)	strain	Shannon diversity	1	2.050349509172176
+CONSULT-II (140.7Gb)	strain	Shannon equitability	1	0.8251213418206682
+CONSULT-II (140.7Gb)	kingdom	True positives	1	2.0
+CONSULT-II (140.7Gb)	kingdom	False negatives	1	0.0
+CONSULT-II (140.7Gb)	kingdom	False positives	1	0.0
+CONSULT-II (140.7Gb)	kingdom	Completeness	1	1.0
+CONSULT-II (140.7Gb)	kingdom	Purity	1	1.0
+CONSULT-II (140.7Gb)	kingdom	F1 score	1	1.0
+CONSULT-II (140.7Gb)	kingdom	Jaccard index	1	1.0
+CONSULT-II (140.7Gb)	phylum	True positives	1	12.0
+CONSULT-II (140.7Gb)	phylum	False negatives	1	0.0
+CONSULT-II (140.7Gb)	phylum	False positives	1	27.0
+CONSULT-II (140.7Gb)	phylum	Completeness	1	1.0
+CONSULT-II (140.7Gb)	phylum	Purity	1	0.3076923076923077
+CONSULT-II (140.7Gb)	phylum	F1 score	1	0.47058823529411764
+CONSULT-II (140.7Gb)	phylum	Jaccard index	1	0.3076923076923077
+CONSULT-II (140.7Gb)	class	True positives	1	21.0
+CONSULT-II (140.7Gb)	class	False negatives	1	0.0
+CONSULT-II (140.7Gb)	class	False positives	1	61.0
+CONSULT-II (140.7Gb)	class	Completeness	1	1.0
+CONSULT-II (140.7Gb)	class	Purity	1	0.25609756097560976
+CONSULT-II (140.7Gb)	class	F1 score	1	0.4077669902912621
+CONSULT-II (140.7Gb)	class	Jaccard index	1	0.25609756097560976
+CONSULT-II (140.7Gb)	order	True positives	1	40.0
+CONSULT-II (140.7Gb)	order	False negatives	1	0.0
+CONSULT-II (140.7Gb)	order	False positives	1	145.0
+CONSULT-II (140.7Gb)	order	Completeness	1	1.0
+CONSULT-II (140.7Gb)	order	Purity	1	0.21621621621621623
+CONSULT-II (140.7Gb)	order	F1 score	1	0.35555555555555557
+CONSULT-II (140.7Gb)	order	Jaccard index	1	0.21621621621621623
+CONSULT-II (140.7Gb)	family	True positives	1	84.0
+CONSULT-II (140.7Gb)	family	False negatives	1	4.0
+CONSULT-II (140.7Gb)	family	False positives	1	328.0
+CONSULT-II (140.7Gb)	family	Completeness	1	0.9545454545454546
+CONSULT-II (140.7Gb)	family	Purity	1	0.20388349514563106
+CONSULT-II (140.7Gb)	family	F1 score	1	0.336
+CONSULT-II (140.7Gb)	family	Jaccard index	1	0.20192307692307693
+CONSULT-II (140.7Gb)	genus	True positives	1	175.0
+CONSULT-II (140.7Gb)	genus	False negatives	1	19.0
+CONSULT-II (140.7Gb)	genus	False positives	1	1875.0
+CONSULT-II (140.7Gb)	genus	Completeness	1	0.9020618556701031
+CONSULT-II (140.7Gb)	genus	Purity	1	0.08536585365853659
+CONSULT-II (140.7Gb)	genus	F1 score	1	0.1559714795008913
+CONSULT-II (140.7Gb)	genus	Jaccard index	1	0.0845819236346061
+CONSULT-II (140.7Gb)	species	True positives	1	56.0
+CONSULT-II (140.7Gb)	species	False negatives	1	185.0
+CONSULT-II (140.7Gb)	species	False positives	1	8776.0
+CONSULT-II (140.7Gb)	species	Completeness	1	0.23236514522821577
+CONSULT-II (140.7Gb)	species	Purity	1	0.006340579710144928
+CONSULT-II (140.7Gb)	species	F1 score	1	0.01234431830706492
+CONSULT-II (140.7Gb)	species	Jaccard index	1	0.0062104912942220255
+CONSULT-II (140.7Gb)	strain	True positives	1	0.0
+CONSULT-II (140.7Gb)	strain	False negatives	1	596.0
+CONSULT-II (140.7Gb)	strain	False positives	1	12.0
+CONSULT-II (140.7Gb)	strain	Completeness	1	0.0
+CONSULT-II (140.7Gb)	strain	Purity	1	0.0
+CONSULT-II (140.7Gb)	strain	Jaccard index	1	0.0
+CONSULT-II (140.7Gb)	kingdom	L1 norm error	1	0.0011397841664519104
+CONSULT-II (140.7Gb)	phylum	L1 norm error	1	0.10749950552695114
+CONSULT-II (140.7Gb)	class	L1 norm error	1	0.18162122107369483
+CONSULT-II (140.7Gb)	order	L1 norm error	1	0.7097341316798235
+CONSULT-II (140.7Gb)	family	L1 norm error	1	0.38064603140450154
+CONSULT-II (140.7Gb)	genus	L1 norm error	1	0.6477023423684186
+CONSULT-II (140.7Gb)	species	L1 norm error	1	1.6967720482682398
+CONSULT-II (140.7Gb)	strain	L1 norm error	1	2.000000000000002
+CONSULT-II (140.7Gb)	na	Weighted UniFrac error	1	0.07044308101001105
+CONSULT-II (140.7Gb)	na	Unweighted UniFrac error	1	7.983394890126064
+CONSULT-II (140.7Gb)	na	Weighted UniFrac (CAMI)	1	10.710361472525689
+CONSULT-II (140.7Gb)	na	Unweighted UniFrac (CAMI)	1	62411.16723604435
+CONSULT-II (140.7Gb)	kingdom	Sum of abundances	1	1.0
+CONSULT-II (140.7Gb)	phylum	Sum of abundances	1	1.0
+CONSULT-II (140.7Gb)	class	Sum of abundances	1	1.0000000000000002
+CONSULT-II (140.7Gb)	order	Sum of abundances	1	1.0000000000000002
+CONSULT-II (140.7Gb)	family	Sum of abundances	1	0.9999999999999993
+CONSULT-II (140.7Gb)	genus	Sum of abundances	1	0.9999999999999999
+CONSULT-II (140.7Gb)	species	Sum of abundances	1	0.9999999999999987
+CONSULT-II (140.7Gb)	strain	Sum of abundances	1	1.0
+CONSULT-II (140.7Gb)	kingdom	Taxon counts	1	2.0
+CONSULT-II (140.7Gb)	phylum	Taxon counts	1	39.0
+CONSULT-II (140.7Gb)	class	Taxon counts	1	82.0
+CONSULT-II (140.7Gb)	order	Taxon counts	1	185.0
+CONSULT-II (140.7Gb)	family	Taxon counts	1	412.0
+CONSULT-II (140.7Gb)	genus	Taxon counts	1	2050.0
+CONSULT-II (140.7Gb)	species	Taxon counts	1	8832.0
+CONSULT-II (140.7Gb)	strain	Taxon counts	1	12.0
+CONSULT-II (140.7Gb)	kingdom	Bray-Curtis distance	2	0.0003413759093709623
+CONSULT-II (140.7Gb)	phylum	Bray-Curtis distance	2	0.05269644102751778
+CONSULT-II (140.7Gb)	class	Bray-Curtis distance	2	0.09599791133971189
+CONSULT-II (140.7Gb)	order	Bray-Curtis distance	2	0.3458103212822197
+CONSULT-II (140.7Gb)	family	Bray-Curtis distance	2	0.18619899907991388
+CONSULT-II (140.7Gb)	genus	Bray-Curtis distance	2	0.34141165514458593
+CONSULT-II (140.7Gb)	species	Bray-Curtis distance	2	0.8373442593704832
+CONSULT-II (140.7Gb)	strain	Bray-Curtis distance	2	1.0
+CONSULT-II (140.7Gb)	kingdom	Shannon diversity	2	0.04479546168971045
+CONSULT-II (140.7Gb)	kingdom	Shannon equitability	2	0.06462619043407682
+CONSULT-II (140.7Gb)	phylum	Shannon diversity	2	1.2542287942612975
+CONSULT-II (140.7Gb)	phylum	Shannon equitability	2	0.34235231051354686
+CONSULT-II (140.7Gb)	class	Shannon diversity	2	2.1105310173356027
+CONSULT-II (140.7Gb)	class	Shannon equitability	2	0.47893475824352705
+CONSULT-II (140.7Gb)	order	Shannon diversity	2	3.171505144580476
+CONSULT-II (140.7Gb)	order	Shannon equitability	2	0.6075266228682585
+CONSULT-II (140.7Gb)	family	Shannon diversity	2	3.977896568421834
+CONSULT-II (140.7Gb)	family	Shannon equitability	2	0.6606678528910839
+CONSULT-II (140.7Gb)	genus	Shannon diversity	2	5.184059314949806
+CONSULT-II (140.7Gb)	genus	Shannon equitability	2	0.6798235765094348
+CONSULT-II (140.7Gb)	species	Shannon diversity	2	6.645203232856134
+CONSULT-II (140.7Gb)	species	Shannon equitability	2	0.7312470122716808
+CONSULT-II (140.7Gb)	strain	Shannon diversity	2	2.0559924924542723
+CONSULT-II (140.7Gb)	strain	Shannon equitability	2	0.8273922453504156
+CONSULT-II (140.7Gb)	kingdom	True positives	2	2.0
+CONSULT-II (140.7Gb)	kingdom	False negatives	2	0.0
+CONSULT-II (140.7Gb)	kingdom	False positives	2	0.0
+CONSULT-II (140.7Gb)	kingdom	Completeness	2	1.0
+CONSULT-II (140.7Gb)	kingdom	Purity	2	1.0
+CONSULT-II (140.7Gb)	kingdom	F1 score	2	1.0
+CONSULT-II (140.7Gb)	kingdom	Jaccard index	2	1.0
+CONSULT-II (140.7Gb)	phylum	True positives	2	12.0
+CONSULT-II (140.7Gb)	phylum	False negatives	2	0.0
+CONSULT-II (140.7Gb)	phylum	False positives	2	27.0
+CONSULT-II (140.7Gb)	phylum	Completeness	2	1.0
+CONSULT-II (140.7Gb)	phylum	Purity	2	0.3076923076923077
+CONSULT-II (140.7Gb)	phylum	F1 score	2	0.47058823529411764
+CONSULT-II (140.7Gb)	phylum	Jaccard index	2	0.3076923076923077
+CONSULT-II (140.7Gb)	class	True positives	2	21.0
+CONSULT-II (140.7Gb)	class	False negatives	2	0.0
+CONSULT-II (140.7Gb)	class	False positives	2	61.0
+CONSULT-II (140.7Gb)	class	Completeness	2	1.0
+CONSULT-II (140.7Gb)	class	Purity	2	0.25609756097560976
+CONSULT-II (140.7Gb)	class	F1 score	2	0.4077669902912621
+CONSULT-II (140.7Gb)	class	Jaccard index	2	0.25609756097560976
+CONSULT-II (140.7Gb)	order	True positives	2	40.0
+CONSULT-II (140.7Gb)	order	False negatives	2	0.0
+CONSULT-II (140.7Gb)	order	False positives	2	145.0
+CONSULT-II (140.7Gb)	order	Completeness	2	1.0
+CONSULT-II (140.7Gb)	order	Purity	2	0.21621621621621623
+CONSULT-II (140.7Gb)	order	F1 score	2	0.35555555555555557
+CONSULT-II (140.7Gb)	order	Jaccard index	2	0.21621621621621623
+CONSULT-II (140.7Gb)	family	True positives	2	84.0
+CONSULT-II (140.7Gb)	family	False negatives	2	4.0
+CONSULT-II (140.7Gb)	family	False positives	2	328.0
+CONSULT-II (140.7Gb)	family	Completeness	2	0.9545454545454546
+CONSULT-II (140.7Gb)	family	Purity	2	0.20388349514563106
+CONSULT-II (140.7Gb)	family	F1 score	2	0.336
+CONSULT-II (140.7Gb)	family	Jaccard index	2	0.20192307692307693
+CONSULT-II (140.7Gb)	genus	True positives	2	175.0
+CONSULT-II (140.7Gb)	genus	False negatives	2	19.0
+CONSULT-II (140.7Gb)	genus	False positives	2	1875.0
+CONSULT-II (140.7Gb)	genus	Completeness	2	0.9020618556701031
+CONSULT-II (140.7Gb)	genus	Purity	2	0.08536585365853659
+CONSULT-II (140.7Gb)	genus	F1 score	2	0.1559714795008913
+CONSULT-II (140.7Gb)	genus	Jaccard index	2	0.0845819236346061
+CONSULT-II (140.7Gb)	species	True positives	2	56.0
+CONSULT-II (140.7Gb)	species	False negatives	2	185.0
+CONSULT-II (140.7Gb)	species	False positives	2	8788.0
+CONSULT-II (140.7Gb)	species	Completeness	2	0.23236514522821577
+CONSULT-II (140.7Gb)	species	Purity	2	0.006331976481230212
+CONSULT-II (140.7Gb)	species	F1 score	2	0.01232801320858558
+CONSULT-II (140.7Gb)	species	Jaccard index	2	0.006202237235574261
+CONSULT-II (140.7Gb)	strain	True positives	2	0.0
+CONSULT-II (140.7Gb)	strain	False negatives	2	596.0
+CONSULT-II (140.7Gb)	strain	False positives	2	12.0
+CONSULT-II (140.7Gb)	strain	Completeness	2	0.0
+CONSULT-II (140.7Gb)	strain	Purity	2	0.0
+CONSULT-II (140.7Gb)	strain	Jaccard index	2	0.0
+CONSULT-II (140.7Gb)	kingdom	L1 norm error	2	0.0006827518187419246
+CONSULT-II (140.7Gb)	phylum	L1 norm error	2	0.10539288205503557
+CONSULT-II (140.7Gb)	class	L1 norm error	2	0.19199582267942372
+CONSULT-II (140.7Gb)	order	L1 norm error	2	0.6916206425644397
+CONSULT-II (140.7Gb)	family	L1 norm error	2	0.37239799815982755
+CONSULT-II (140.7Gb)	genus	L1 norm error	2	0.6828233102891731
+CONSULT-II (140.7Gb)	species	L1 norm error	2	1.6746885187409644
+CONSULT-II (140.7Gb)	strain	L1 norm error	2	2.000000000000001
+CONSULT-II (140.7Gb)	na	Weighted UniFrac error	2	0.07816519385629805
+CONSULT-II (140.7Gb)	na	Unweighted UniFrac error	2	8.18184188497515
+CONSULT-II (140.7Gb)	na	Weighted UniFrac (CAMI)	2	10.69132481016575
+CONSULT-II (140.7Gb)	na	Unweighted UniFrac (CAMI)	2	62239.0640138229
+CONSULT-II (140.7Gb)	kingdom	Sum of abundances	2	1.0
+CONSULT-II (140.7Gb)	phylum	Sum of abundances	2	0.9999999999999997
+CONSULT-II (140.7Gb)	class	Sum of abundances	2	1.0000000000000002
+CONSULT-II (140.7Gb)	order	Sum of abundances	2	1.0000000000000002
+CONSULT-II (140.7Gb)	family	Sum of abundances	2	0.9999999999999999
+CONSULT-II (140.7Gb)	genus	Sum of abundances	2	1.0000000000000002
+CONSULT-II (140.7Gb)	species	Sum of abundances	2	1.000000000000001
+CONSULT-II (140.7Gb)	strain	Sum of abundances	2	0.9999999999999999
+CONSULT-II (140.7Gb)	kingdom	Taxon counts	2	2.0
+CONSULT-II (140.7Gb)	phylum	Taxon counts	2	39.0
+CONSULT-II (140.7Gb)	class	Taxon counts	2	82.0
+CONSULT-II (140.7Gb)	order	Taxon counts	2	185.0
+CONSULT-II (140.7Gb)	family	Taxon counts	2	412.0
+CONSULT-II (140.7Gb)	genus	Taxon counts	2	2050.0
+CONSULT-II (140.7Gb)	species	Taxon counts	2	8844.0
+CONSULT-II (140.7Gb)	strain	Taxon counts	2	12.0
+CONSULT-II (140.7Gb)	kingdom	Bray-Curtis distance	3	0.0025290194398630106
+CONSULT-II (140.7Gb)	phylum	Bray-Curtis distance	3	0.05310387641159136
+CONSULT-II (140.7Gb)	class	Bray-Curtis distance	3	0.09570026124470321
+CONSULT-II (140.7Gb)	order	Bray-Curtis distance	3	0.35139352897466164
+CONSULT-II (140.7Gb)	family	Bray-Curtis distance	3	0.1876778379307216
+CONSULT-II (140.7Gb)	genus	Bray-Curtis distance	3	0.34593165868984566
+CONSULT-II (140.7Gb)	species	Bray-Curtis distance	3	0.8457837126041811
+CONSULT-II (140.7Gb)	strain	Bray-Curtis distance	3	1.0
+CONSULT-II (140.7Gb)	kingdom	Shannon diversity	3	0.06339952430810314
+CONSULT-II (140.7Gb)	kingdom	Shannon equitability	3	0.0914661793140197
+CONSULT-II (140.7Gb)	phylum	Shannon diversity	3	1.3039798506035276
+CONSULT-II (140.7Gb)	phylum	Shannon equitability	3	0.35593228026642093
+CONSULT-II (140.7Gb)	class	Shannon diversity	3	2.118111565570367
+CONSULT-II (140.7Gb)	class	Shannon equitability	3	0.4806549831567593
+CONSULT-II (140.7Gb)	order	Shannon diversity	3	3.199017166376851
+CONSULT-II (140.7Gb)	order	Shannon equitability	3	0.6127967658849872
+CONSULT-II (140.7Gb)	family	Shannon diversity	3	3.9948772877067644
+CONSULT-II (140.7Gb)	family	Shannon equitability	3	0.6634880909635312
+CONSULT-II (140.7Gb)	genus	Shannon diversity	3	5.243211660617145
+CONSULT-II (140.7Gb)	genus	Shannon equitability	3	0.6875806558072209
+CONSULT-II (140.7Gb)	species	Shannon diversity	3	6.766081543374643
+CONSULT-II (140.7Gb)	species	Shannon equitability	3	0.7445393591229924
+CONSULT-II (140.7Gb)	strain	Shannon diversity	3	2.044759659690807
+CONSULT-II (140.7Gb)	strain	Shannon equitability	3	0.8228718209053267
+CONSULT-II (140.7Gb)	kingdom	True positives	3	2.0
+CONSULT-II (140.7Gb)	kingdom	False negatives	3	0.0
+CONSULT-II (140.7Gb)	kingdom	False positives	3	0.0
+CONSULT-II (140.7Gb)	kingdom	Completeness	3	1.0
+CONSULT-II (140.7Gb)	kingdom	Purity	3	1.0
+CONSULT-II (140.7Gb)	kingdom	F1 score	3	1.0
+CONSULT-II (140.7Gb)	kingdom	Jaccard index	3	1.0
+CONSULT-II (140.7Gb)	phylum	True positives	3	12.0
+CONSULT-II (140.7Gb)	phylum	False negatives	3	0.0
+CONSULT-II (140.7Gb)	phylum	False positives	3	27.0
+CONSULT-II (140.7Gb)	phylum	Completeness	3	1.0
+CONSULT-II (140.7Gb)	phylum	Purity	3	0.3076923076923077
+CONSULT-II (140.7Gb)	phylum	F1 score	3	0.47058823529411764
+CONSULT-II (140.7Gb)	phylum	Jaccard index	3	0.3076923076923077
+CONSULT-II (140.7Gb)	class	True positives	3	21.0
+CONSULT-II (140.7Gb)	class	False negatives	3	0.0
+CONSULT-II (140.7Gb)	class	False positives	3	61.0
+CONSULT-II (140.7Gb)	class	Completeness	3	1.0
+CONSULT-II (140.7Gb)	class	Purity	3	0.25609756097560976
+CONSULT-II (140.7Gb)	class	F1 score	3	0.4077669902912621
+CONSULT-II (140.7Gb)	class	Jaccard index	3	0.25609756097560976
+CONSULT-II (140.7Gb)	order	True positives	3	40.0
+CONSULT-II (140.7Gb)	order	False negatives	3	0.0
+CONSULT-II (140.7Gb)	order	False positives	3	145.0
+CONSULT-II (140.7Gb)	order	Completeness	3	1.0
+CONSULT-II (140.7Gb)	order	Purity	3	0.21621621621621623
+CONSULT-II (140.7Gb)	order	F1 score	3	0.35555555555555557
+CONSULT-II (140.7Gb)	order	Jaccard index	3	0.21621621621621623
+CONSULT-II (140.7Gb)	family	True positives	3	84.0
+CONSULT-II (140.7Gb)	family	False negatives	3	4.0
+CONSULT-II (140.7Gb)	family	False positives	3	328.0
+CONSULT-II (140.7Gb)	family	Completeness	3	0.9545454545454546
+CONSULT-II (140.7Gb)	family	Purity	3	0.20388349514563106
+CONSULT-II (140.7Gb)	family	F1 score	3	0.336
+CONSULT-II (140.7Gb)	family	Jaccard index	3	0.20192307692307693
+CONSULT-II (140.7Gb)	genus	True positives	3	175.0
+CONSULT-II (140.7Gb)	genus	False negatives	3	19.0
+CONSULT-II (140.7Gb)	genus	False positives	3	1875.0
+CONSULT-II (140.7Gb)	genus	Completeness	3	0.9020618556701031
+CONSULT-II (140.7Gb)	genus	Purity	3	0.08536585365853659
+CONSULT-II (140.7Gb)	genus	F1 score	3	0.1559714795008913
+CONSULT-II (140.7Gb)	genus	Jaccard index	3	0.0845819236346061
+CONSULT-II (140.7Gb)	species	True positives	3	56.0
+CONSULT-II (140.7Gb)	species	False negatives	3	185.0
+CONSULT-II (140.7Gb)	species	False positives	3	8789.0
+CONSULT-II (140.7Gb)	species	Completeness	3	0.23236514522821577
+CONSULT-II (140.7Gb)	species	Purity	3	0.0063312605992085925
+CONSULT-II (140.7Gb)	species	F1 score	3	0.012326656394453003
+CONSULT-II (140.7Gb)	species	Jaccard index	3	0.006201550387596899
+CONSULT-II (140.7Gb)	strain	True positives	3	0.0
+CONSULT-II (140.7Gb)	strain	False negatives	3	596.0
+CONSULT-II (140.7Gb)	strain	False positives	3	12.0
+CONSULT-II (140.7Gb)	strain	Completeness	3	0.0
+CONSULT-II (140.7Gb)	strain	Purity	3	0.0
+CONSULT-II (140.7Gb)	strain	Jaccard index	3	0.0
+CONSULT-II (140.7Gb)	kingdom	L1 norm error	3	0.005058038879726021
+CONSULT-II (140.7Gb)	phylum	L1 norm error	3	0.1062077528231827
+CONSULT-II (140.7Gb)	class	L1 norm error	3	0.19140052248940634
+CONSULT-II (140.7Gb)	order	L1 norm error	3	0.702787057949323
+CONSULT-II (140.7Gb)	family	L1 norm error	3	0.3753556758614427
+CONSULT-II (140.7Gb)	genus	L1 norm error	3	0.6918633173796898
+CONSULT-II (140.7Gb)	species	L1 norm error	3	1.691567425208367
+CONSULT-II (140.7Gb)	strain	L1 norm error	3	1.9999999999999998
+CONSULT-II (140.7Gb)	na	Weighted UniFrac error	3	0.07814675328646989
+CONSULT-II (140.7Gb)	na	Unweighted UniFrac error	3	8.111160714992918
+CONSULT-II (140.7Gb)	na	Weighted UniFrac (CAMI)	3	10.713377403471089
+CONSULT-II (140.7Gb)	na	Unweighted UniFrac (CAMI)	3	62258.1202085796
+CONSULT-II (140.7Gb)	kingdom	Sum of abundances	3	1.0
+CONSULT-II (140.7Gb)	phylum	Sum of abundances	3	1.0
+CONSULT-II (140.7Gb)	class	Sum of abundances	3	1.0
+CONSULT-II (140.7Gb)	order	Sum of abundances	3	0.9999999999999991
+CONSULT-II (140.7Gb)	family	Sum of abundances	3	0.9999999999999996
+CONSULT-II (140.7Gb)	genus	Sum of abundances	3	1.0000000000000013
+CONSULT-II (140.7Gb)	species	Sum of abundances	3	1.0000000000000024
+CONSULT-II (140.7Gb)	strain	Sum of abundances	3	1.0000000000000002
+CONSULT-II (140.7Gb)	kingdom	Taxon counts	3	2.0
+CONSULT-II (140.7Gb)	phylum	Taxon counts	3	39.0
+CONSULT-II (140.7Gb)	class	Taxon counts	3	82.0
+CONSULT-II (140.7Gb)	order	Taxon counts	3	185.0
+CONSULT-II (140.7Gb)	family	Taxon counts	3	412.0
+CONSULT-II (140.7Gb)	genus	Taxon counts	3	2050.0
+CONSULT-II (140.7Gb)	species	Taxon counts	3	8845.0
+CONSULT-II (140.7Gb)	strain	Taxon counts	3	12.0
+CONSULT-II (140.7Gb)	kingdom	Bray-Curtis distance	4	0.0019441066023880094
+CONSULT-II (140.7Gb)	phylum	Bray-Curtis distance	4	0.050879666870749594
+CONSULT-II (140.7Gb)	class	Bray-Curtis distance	4	0.09315478139024339
+CONSULT-II (140.7Gb)	order	Bray-Curtis distance	4	0.35273326795488924
+CONSULT-II (140.7Gb)	family	Bray-Curtis distance	4	0.18649880110233993
+CONSULT-II (140.7Gb)	genus	Bray-Curtis distance	4	0.35761481791282673
+CONSULT-II (140.7Gb)	species	Bray-Curtis distance	4	0.8605222669935892
+CONSULT-II (140.7Gb)	strain	Bray-Curtis distance	4	1.0
+CONSULT-II (140.7Gb)	kingdom	Shannon diversity	4	0.06013748417571544
+CONSULT-II (140.7Gb)	kingdom	Shannon equitability	4	0.08676005019184319
+CONSULT-II (140.7Gb)	phylum	Shannon diversity	4	1.2839085295150439
+CONSULT-II (140.7Gb)	phylum	Shannon equitability	4	0.35045364416657854
+CONSULT-II (140.7Gb)	class	Shannon diversity	4	2.092331503443118
+CONSULT-II (140.7Gb)	class	Shannon equitability	4	0.4748048119339719
+CONSULT-II (140.7Gb)	order	Shannon diversity	4	3.198223402616906
+CONSULT-II (140.7Gb)	order	Shannon equitability	4	0.6126447142267205
+CONSULT-II (140.7Gb)	family	Shannon diversity	4	3.9912163332720305
+CONSULT-II (140.7Gb)	family	Shannon equitability	4	0.6628800623573758
+CONSULT-II (140.7Gb)	genus	Shannon diversity	4	5.272350766733464
+CONSULT-II (140.7Gb)	genus	Shannon equitability	4	0.6914018797039378
+CONSULT-II (140.7Gb)	species	Shannon diversity	4	6.846496124300796
+CONSULT-II (140.7Gb)	species	Shannon equitability	4	0.7534163009423888
+CONSULT-II (140.7Gb)	strain	Shannon diversity	4	2.0735137321841837
+CONSULT-II (140.7Gb)	strain	Shannon equitability	4	0.8647223903837843
+CONSULT-II (140.7Gb)	kingdom	True positives	4	2.0
+CONSULT-II (140.7Gb)	kingdom	False negatives	4	0.0
+CONSULT-II (140.7Gb)	kingdom	False positives	4	0.0
+CONSULT-II (140.7Gb)	kingdom	Completeness	4	1.0
+CONSULT-II (140.7Gb)	kingdom	Purity	4	1.0
+CONSULT-II (140.7Gb)	kingdom	F1 score	4	1.0
+CONSULT-II (140.7Gb)	kingdom	Jaccard index	4	1.0
+CONSULT-II (140.7Gb)	phylum	True positives	4	12.0
+CONSULT-II (140.7Gb)	phylum	False negatives	4	0.0
+CONSULT-II (140.7Gb)	phylum	False positives	4	27.0
+CONSULT-II (140.7Gb)	phylum	Completeness	4	1.0
+CONSULT-II (140.7Gb)	phylum	Purity	4	0.3076923076923077
+CONSULT-II (140.7Gb)	phylum	F1 score	4	0.47058823529411764
+CONSULT-II (140.7Gb)	phylum	Jaccard index	4	0.3076923076923077
+CONSULT-II (140.7Gb)	class	True positives	4	21.0
+CONSULT-II (140.7Gb)	class	False negatives	4	0.0
+CONSULT-II (140.7Gb)	class	False positives	4	61.0
+CONSULT-II (140.7Gb)	class	Completeness	4	1.0
+CONSULT-II (140.7Gb)	class	Purity	4	0.25609756097560976
+CONSULT-II (140.7Gb)	class	F1 score	4	0.4077669902912621
+CONSULT-II (140.7Gb)	class	Jaccard index	4	0.25609756097560976
+CONSULT-II (140.7Gb)	order	True positives	4	40.0
+CONSULT-II (140.7Gb)	order	False negatives	4	0.0
+CONSULT-II (140.7Gb)	order	False positives	4	145.0
+CONSULT-II (140.7Gb)	order	Completeness	4	1.0
+CONSULT-II (140.7Gb)	order	Purity	4	0.21621621621621623
+CONSULT-II (140.7Gb)	order	F1 score	4	0.35555555555555557
+CONSULT-II (140.7Gb)	order	Jaccard index	4	0.21621621621621623
+CONSULT-II (140.7Gb)	family	True positives	4	84.0
+CONSULT-II (140.7Gb)	family	False negatives	4	4.0
+CONSULT-II (140.7Gb)	family	False positives	4	328.0
+CONSULT-II (140.7Gb)	family	Completeness	4	0.9545454545454546
+CONSULT-II (140.7Gb)	family	Purity	4	0.20388349514563106
+CONSULT-II (140.7Gb)	family	F1 score	4	0.336
+CONSULT-II (140.7Gb)	family	Jaccard index	4	0.20192307692307693
+CONSULT-II (140.7Gb)	genus	True positives	4	175.0
+CONSULT-II (140.7Gb)	genus	False negatives	4	19.0
+CONSULT-II (140.7Gb)	genus	False positives	4	1875.0
+CONSULT-II (140.7Gb)	genus	Completeness	4	0.9020618556701031
+CONSULT-II (140.7Gb)	genus	Purity	4	0.08536585365853659
+CONSULT-II (140.7Gb)	genus	F1 score	4	0.1559714795008913
+CONSULT-II (140.7Gb)	genus	Jaccard index	4	0.0845819236346061
+CONSULT-II (140.7Gb)	species	True positives	4	56.0
+CONSULT-II (140.7Gb)	species	False negatives	4	185.0
+CONSULT-II (140.7Gb)	species	False positives	4	8786.0
+CONSULT-II (140.7Gb)	species	Completeness	4	0.23236514522821577
+CONSULT-II (140.7Gb)	species	Purity	4	0.006333408731056322
+CONSULT-II (140.7Gb)	species	F1 score	4	0.01233072773312782
+CONSULT-II (140.7Gb)	species	Jaccard index	4	0.006203611388058048
+CONSULT-II (140.7Gb)	strain	True positives	4	0.0
+CONSULT-II (140.7Gb)	strain	False negatives	4	596.0
+CONSULT-II (140.7Gb)	strain	False positives	4	11.0
+CONSULT-II (140.7Gb)	strain	Completeness	4	0.0
+CONSULT-II (140.7Gb)	strain	Purity	4	0.0
+CONSULT-II (140.7Gb)	strain	Jaccard index	4	0.0
+CONSULT-II (140.7Gb)	kingdom	L1 norm error	4	0.003888213204776019
+CONSULT-II (140.7Gb)	phylum	L1 norm error	4	0.1017593337414992
+CONSULT-II (140.7Gb)	class	L1 norm error	4	0.18630956278048663
+CONSULT-II (140.7Gb)	order	L1 norm error	4	0.7054665359097778
+CONSULT-II (140.7Gb)	family	L1 norm error	4	0.37299760220467976
+CONSULT-II (140.7Gb)	genus	L1 norm error	4	0.7152296358256551
+CONSULT-II (140.7Gb)	species	L1 norm error	4	1.7210445339871807
+CONSULT-II (140.7Gb)	strain	L1 norm error	4	1.999999999999998
+CONSULT-II (140.7Gb)	na	Weighted UniFrac error	4	0.07508794996678186
+CONSULT-II (140.7Gb)	na	Unweighted UniFrac error	4	8.292165842157125
+CONSULT-II (140.7Gb)	na	Weighted UniFrac (CAMI)	4	10.744331560994384
+CONSULT-II (140.7Gb)	na	Unweighted UniFrac (CAMI)	4	62229.10674635579
+CONSULT-II (140.7Gb)	kingdom	Sum of abundances	4	1.0
+CONSULT-II (140.7Gb)	phylum	Sum of abundances	4	0.9999999999999999
+CONSULT-II (140.7Gb)	class	Sum of abundances	4	0.9999999999999996
+CONSULT-II (140.7Gb)	order	Sum of abundances	4	0.9999999999999993
+CONSULT-II (140.7Gb)	family	Sum of abundances	4	1.0000000000000013
+CONSULT-II (140.7Gb)	genus	Sum of abundances	4	1.0000000000000027
+CONSULT-II (140.7Gb)	species	Sum of abundances	4	1.000000000000002
+CONSULT-II (140.7Gb)	strain	Sum of abundances	4	1.0000000000000002
+CONSULT-II (140.7Gb)	kingdom	Taxon counts	4	2.0
+CONSULT-II (140.7Gb)	phylum	Taxon counts	4	39.0
+CONSULT-II (140.7Gb)	class	Taxon counts	4	82.0
+CONSULT-II (140.7Gb)	order	Taxon counts	4	185.0
+CONSULT-II (140.7Gb)	family	Taxon counts	4	412.0
+CONSULT-II (140.7Gb)	genus	Taxon counts	4	2050.0
+CONSULT-II (140.7Gb)	species	Taxon counts	4	8842.0
+CONSULT-II (140.7Gb)	strain	Taxon counts	4	11.0
+CONSULT-II (140.7Gb)	kingdom	Bray-Curtis distance	5	0.0029648779441289862
+CONSULT-II (140.7Gb)	phylum	Bray-Curtis distance	5	0.0528086525034553
+CONSULT-II (140.7Gb)	class	Bray-Curtis distance	5	0.09539728842447293
+CONSULT-II (140.7Gb)	order	Bray-Curtis distance	5	0.35513270740124675
+CONSULT-II (140.7Gb)	family	Bray-Curtis distance	5	0.1888603068250308
+CONSULT-II (140.7Gb)	genus	Bray-Curtis distance	5	0.34250178794003855
+CONSULT-II (140.7Gb)	species	Bray-Curtis distance	5	0.8635600344384365
+CONSULT-II (140.7Gb)	strain	Bray-Curtis distance	5	1.0
+CONSULT-II (140.7Gb)	kingdom	Shannon diversity	5	0.06511267497446575
+CONSULT-II (140.7Gb)	kingdom	Shannon equitability	5	0.09393773328467665
+CONSULT-II (140.7Gb)	phylum	Shannon diversity	5	1.2751084715091556
+CONSULT-II (140.7Gb)	phylum	Shannon equitability	5	0.34805159423378024
+CONSULT-II (140.7Gb)	class	Shannon diversity	5	2.067475211379556
+CONSULT-II (140.7Gb)	class	Shannon equitability	5	0.4691642683302483
+CONSULT-II (140.7Gb)	order	Shannon diversity	5	3.193531753699897
+CONSULT-II (140.7Gb)	order	Shannon equitability	5	0.6117459921713253
+CONSULT-II (140.7Gb)	family	Shannon diversity	5	3.9697554355096223
+CONSULT-II (140.7Gb)	family	Shannon equitability	5	0.6593157350798996
+CONSULT-II (140.7Gb)	genus	Shannon diversity	5	5.199924734549085
+CONSULT-II (140.7Gb)	genus	Shannon equitability	5	0.6819041249058817
+CONSULT-II (140.7Gb)	species	Shannon diversity	5	6.768485737379217
+CONSULT-II (140.7Gb)	species	Shannon equitability	5	0.7449523371355642
+CONSULT-II (140.7Gb)	strain	Shannon diversity	5	2.0611490865743987
+CONSULT-II (140.7Gb)	strain	Shannon equitability	5	0.8294674114821358
+CONSULT-II (140.7Gb)	kingdom	True positives	5	2.0
+CONSULT-II (140.7Gb)	kingdom	False negatives	5	0.0
+CONSULT-II (140.7Gb)	kingdom	False positives	5	0.0
+CONSULT-II (140.7Gb)	kingdom	Completeness	5	1.0
+CONSULT-II (140.7Gb)	kingdom	Purity	5	1.0
+CONSULT-II (140.7Gb)	kingdom	F1 score	5	1.0
+CONSULT-II (140.7Gb)	kingdom	Jaccard index	5	1.0
+CONSULT-II (140.7Gb)	phylum	True positives	5	12.0
+CONSULT-II (140.7Gb)	phylum	False negatives	5	0.0
+CONSULT-II (140.7Gb)	phylum	False positives	5	27.0
+CONSULT-II (140.7Gb)	phylum	Completeness	5	1.0
+CONSULT-II (140.7Gb)	phylum	Purity	5	0.3076923076923077
+CONSULT-II (140.7Gb)	phylum	F1 score	5	0.47058823529411764
+CONSULT-II (140.7Gb)	phylum	Jaccard index	5	0.3076923076923077
+CONSULT-II (140.7Gb)	class	True positives	5	21.0
+CONSULT-II (140.7Gb)	class	False negatives	5	0.0
+CONSULT-II (140.7Gb)	class	False positives	5	61.0
+CONSULT-II (140.7Gb)	class	Completeness	5	1.0
+CONSULT-II (140.7Gb)	class	Purity	5	0.25609756097560976
+CONSULT-II (140.7Gb)	class	F1 score	5	0.4077669902912621
+CONSULT-II (140.7Gb)	class	Jaccard index	5	0.25609756097560976
+CONSULT-II (140.7Gb)	order	True positives	5	40.0
+CONSULT-II (140.7Gb)	order	False negatives	5	0.0
+CONSULT-II (140.7Gb)	order	False positives	5	145.0
+CONSULT-II (140.7Gb)	order	Completeness	5	1.0
+CONSULT-II (140.7Gb)	order	Purity	5	0.21621621621621623
+CONSULT-II (140.7Gb)	order	F1 score	5	0.35555555555555557
+CONSULT-II (140.7Gb)	order	Jaccard index	5	0.21621621621621623
+CONSULT-II (140.7Gb)	family	True positives	5	84.0
+CONSULT-II (140.7Gb)	family	False negatives	5	4.0
+CONSULT-II (140.7Gb)	family	False positives	5	328.0
+CONSULT-II (140.7Gb)	family	Completeness	5	0.9545454545454546
+CONSULT-II (140.7Gb)	family	Purity	5	0.20388349514563106
+CONSULT-II (140.7Gb)	family	F1 score	5	0.336
+CONSULT-II (140.7Gb)	family	Jaccard index	5	0.20192307692307693
+CONSULT-II (140.7Gb)	genus	True positives	5	175.0
+CONSULT-II (140.7Gb)	genus	False negatives	5	19.0
+CONSULT-II (140.7Gb)	genus	False positives	5	1875.0
+CONSULT-II (140.7Gb)	genus	Completeness	5	0.9020618556701031
+CONSULT-II (140.7Gb)	genus	Purity	5	0.08536585365853659
+CONSULT-II (140.7Gb)	genus	F1 score	5	0.1559714795008913
+CONSULT-II (140.7Gb)	genus	Jaccard index	5	0.0845819236346061
+CONSULT-II (140.7Gb)	species	True positives	5	56.0
+CONSULT-II (140.7Gb)	species	False negatives	5	185.0
+CONSULT-II (140.7Gb)	species	False positives	5	8773.0
+CONSULT-II (140.7Gb)	species	Completeness	5	0.23236514522821577
+CONSULT-II (140.7Gb)	species	Purity	5	0.006342734171480349
+CONSULT-II (140.7Gb)	species	F1 score	5	0.012348401323042999
+CONSULT-II (140.7Gb)	species	Jaccard index	5	0.006212558242733526
+CONSULT-II (140.7Gb)	strain	True positives	5	0.0
+CONSULT-II (140.7Gb)	strain	False negatives	5	596.0
+CONSULT-II (140.7Gb)	strain	False positives	5	12.0
+CONSULT-II (140.7Gb)	strain	Completeness	5	0.0
+CONSULT-II (140.7Gb)	strain	Purity	5	0.0
+CONSULT-II (140.7Gb)	strain	Jaccard index	5	0.0
+CONSULT-II (140.7Gb)	kingdom	L1 norm error	5	0.0059297558882579725
+CONSULT-II (140.7Gb)	phylum	L1 norm error	5	0.10561730500691059
+CONSULT-II (140.7Gb)	class	L1 norm error	5	0.1907945768489457
+CONSULT-II (140.7Gb)	order	L1 norm error	5	0.7102654148024938
+CONSULT-II (140.7Gb)	family	L1 norm error	5	0.3777206136500619
+CONSULT-II (140.7Gb)	genus	L1 norm error	5	0.6850035758800772
+CONSULT-II (140.7Gb)	species	L1 norm error	5	1.7271200688768753
+CONSULT-II (140.7Gb)	strain	L1 norm error	5	2.0
+CONSULT-II (140.7Gb)	na	Weighted UniFrac error	5	0.07612485330663382
+CONSULT-II (140.7Gb)	na	Unweighted UniFrac error	5	7.806830643610329
+CONSULT-II (140.7Gb)	na	Weighted UniFrac (CAMI)	5	10.792358506121667
+CONSULT-II (140.7Gb)	na	Unweighted UniFrac (CAMI)	5	61631.30119899763
+CONSULT-II (140.7Gb)	kingdom	Sum of abundances	5	1.0
+CONSULT-II (140.7Gb)	phylum	Sum of abundances	5	1.0000000000000004
+CONSULT-II (140.7Gb)	class	Sum of abundances	5	0.9999999999999996
+CONSULT-II (140.7Gb)	order	Sum of abundances	5	0.9999999999999997
+CONSULT-II (140.7Gb)	family	Sum of abundances	5	0.9999999999999994
+CONSULT-II (140.7Gb)	genus	Sum of abundances	5	1.0000000000000009
+CONSULT-II (140.7Gb)	species	Sum of abundances	5	0.9999999999999938
+CONSULT-II (140.7Gb)	strain	Sum of abundances	5	1.0000000000000002
+CONSULT-II (140.7Gb)	kingdom	Taxon counts	5	2.0
+CONSULT-II (140.7Gb)	phylum	Taxon counts	5	39.0
+CONSULT-II (140.7Gb)	class	Taxon counts	5	82.0
+CONSULT-II (140.7Gb)	order	Taxon counts	5	185.0
+CONSULT-II (140.7Gb)	family	Taxon counts	5	412.0
+CONSULT-II (140.7Gb)	genus	Taxon counts	5	2050.0
+CONSULT-II (140.7Gb)	species	Taxon counts	5	8829.0
+CONSULT-II (140.7Gb)	strain	Taxon counts	5	12.0
+KRANK-hs (51.2Gb)	kingdom	Bray-Curtis distance	1	0.0009660353465869881
+KRANK-hs (51.2Gb)	phylum	Bray-Curtis distance	1	0.06839660411927907
+KRANK-hs (51.2Gb)	class	Bray-Curtis distance	1	0.10914099108538092
+KRANK-hs (51.2Gb)	order	Bray-Curtis distance	1	0.37394624603478877
+KRANK-hs (51.2Gb)	family	Bray-Curtis distance	1	0.20732734793779514
+KRANK-hs (51.2Gb)	genus	Bray-Curtis distance	1	0.3506238977190047
+KRANK-hs (51.2Gb)	species	Bray-Curtis distance	1	0.8675461641677845
+KRANK-hs (51.2Gb)	strain	Bray-Curtis distance	1	1.0
+KRANK-hs (51.2Gb)	kingdom	Shannon diversity	1	0.045273566204578994
+KRANK-hs (51.2Gb)	kingdom	Shannon equitability	1	0.06531594944670428
+KRANK-hs (51.2Gb)	phylum	Shannon diversity	1	1.242889752094282
+KRANK-hs (51.2Gb)	phylum	Shannon equitability	1	0.3392572234746828
+KRANK-hs (51.2Gb)	class	Shannon diversity	1	1.9977333406363806
+KRANK-hs (51.2Gb)	class	Shannon equitability	1	0.4533380114643334
+KRANK-hs (51.2Gb)	order	Shannon diversity	1	3.1220736734080727
+KRANK-hs (51.2Gb)	order	Shannon equitability	1	0.5980576378356796
+KRANK-hs (51.2Gb)	family	Shannon diversity	1	3.9621889564862642
+KRANK-hs (51.2Gb)	family	Shannon equitability	1	0.6580590585011291
+KRANK-hs (51.2Gb)	genus	Shannon diversity	1	5.103237820243039
+KRANK-hs (51.2Gb)	genus	Shannon equitability	1	0.6692248633674104
+KRANK-hs (51.2Gb)	species	Shannon diversity	1	6.897520395996525
+KRANK-hs (51.2Gb)	species	Shannon equitability	1	0.7580930219918257
+KRANK-hs (51.2Gb)	strain	Shannon diversity	1	2.1652150864675654
+KRANK-hs (51.2Gb)	strain	Shannon equitability	1	0.871346650648744
+KRANK-hs (51.2Gb)	kingdom	True positives	1	2.0
+KRANK-hs (51.2Gb)	kingdom	False negatives	1	0.0
+KRANK-hs (51.2Gb)	kingdom	False positives	1	0.0
+KRANK-hs (51.2Gb)	kingdom	Completeness	1	1.0
+KRANK-hs (51.2Gb)	kingdom	Purity	1	1.0
+KRANK-hs (51.2Gb)	kingdom	F1 score	1	1.0
+KRANK-hs (51.2Gb)	kingdom	Jaccard index	1	1.0
+KRANK-hs (51.2Gb)	phylum	True positives	1	12.0
+KRANK-hs (51.2Gb)	phylum	False negatives	1	0.0
+KRANK-hs (51.2Gb)	phylum	False positives	1	27.0
+KRANK-hs (51.2Gb)	phylum	Completeness	1	1.0
+KRANK-hs (51.2Gb)	phylum	Purity	1	0.3076923076923077
+KRANK-hs (51.2Gb)	phylum	F1 score	1	0.47058823529411764
+KRANK-hs (51.2Gb)	phylum	Jaccard index	1	0.3076923076923077
+KRANK-hs (51.2Gb)	class	True positives	1	21.0
+KRANK-hs (51.2Gb)	class	False negatives	1	0.0
+KRANK-hs (51.2Gb)	class	False positives	1	61.0
+KRANK-hs (51.2Gb)	class	Completeness	1	1.0
+KRANK-hs (51.2Gb)	class	Purity	1	0.25609756097560976
+KRANK-hs (51.2Gb)	class	F1 score	1	0.4077669902912621
+KRANK-hs (51.2Gb)	class	Jaccard index	1	0.25609756097560976
+KRANK-hs (51.2Gb)	order	True positives	1	40.0
+KRANK-hs (51.2Gb)	order	False negatives	1	0.0
+KRANK-hs (51.2Gb)	order	False positives	1	145.0
+KRANK-hs (51.2Gb)	order	Completeness	1	1.0
+KRANK-hs (51.2Gb)	order	Purity	1	0.21621621621621623
+KRANK-hs (51.2Gb)	order	F1 score	1	0.35555555555555557
+KRANK-hs (51.2Gb)	order	Jaccard index	1	0.21621621621621623
+KRANK-hs (51.2Gb)	family	True positives	1	84.0
+KRANK-hs (51.2Gb)	family	False negatives	1	4.0
+KRANK-hs (51.2Gb)	family	False positives	1	328.0
+KRANK-hs (51.2Gb)	family	Completeness	1	0.9545454545454546
+KRANK-hs (51.2Gb)	family	Purity	1	0.20388349514563106
+KRANK-hs (51.2Gb)	family	F1 score	1	0.336
+KRANK-hs (51.2Gb)	family	Jaccard index	1	0.20192307692307693
+KRANK-hs (51.2Gb)	genus	True positives	1	175.0
+KRANK-hs (51.2Gb)	genus	False negatives	1	19.0
+KRANK-hs (51.2Gb)	genus	False positives	1	1875.0
+KRANK-hs (51.2Gb)	genus	Completeness	1	0.9020618556701031
+KRANK-hs (51.2Gb)	genus	Purity	1	0.08536585365853659
+KRANK-hs (51.2Gb)	genus	F1 score	1	0.1559714795008913
+KRANK-hs (51.2Gb)	genus	Jaccard index	1	0.0845819236346061
+KRANK-hs (51.2Gb)	species	True positives	1	56.0
+KRANK-hs (51.2Gb)	species	False negatives	1	185.0
+KRANK-hs (51.2Gb)	species	False positives	1	8886.0
+KRANK-hs (51.2Gb)	species	Completeness	1	0.23236514522821577
+KRANK-hs (51.2Gb)	species	Purity	1	0.0062625810780586
+KRANK-hs (51.2Gb)	species	F1 score	1	0.012196449961886095
+KRANK-hs (51.2Gb)	species	Jaccard index	1	0.0061356415032321684
+KRANK-hs (51.2Gb)	strain	True positives	1	0.0
+KRANK-hs (51.2Gb)	strain	False negatives	1	596.0
+KRANK-hs (51.2Gb)	strain	False positives	1	12.0
+KRANK-hs (51.2Gb)	strain	Completeness	1	0.0
+KRANK-hs (51.2Gb)	strain	Purity	1	0.0
+KRANK-hs (51.2Gb)	strain	Jaccard index	1	0.0
+KRANK-hs (51.2Gb)	kingdom	L1 norm error	1	0.0019320706931739763
+KRANK-hs (51.2Gb)	phylum	L1 norm error	1	0.13679320823855817
+KRANK-hs (51.2Gb)	class	L1 norm error	1	0.2182819821707618
+KRANK-hs (51.2Gb)	order	L1 norm error	1	0.7478924920695772
+KRANK-hs (51.2Gb)	family	L1 norm error	1	0.41465469587559084
+KRANK-hs (51.2Gb)	genus	L1 norm error	1	0.7012477954380096
+KRANK-hs (51.2Gb)	species	L1 norm error	1	1.7350923283355675
+KRANK-hs (51.2Gb)	strain	L1 norm error	1	2.000000000000002
+KRANK-hs (51.2Gb)	na	Weighted UniFrac error	1	0.06643105253379163
+KRANK-hs (51.2Gb)	na	Unweighted UniFrac error	1	7.709542453940238
+KRANK-hs (51.2Gb)	na	Weighted UniFrac (CAMI)	1	11.046436160269055
+KRANK-hs (51.2Gb)	na	Unweighted UniFrac (CAMI)	1	61192.74502736015
+KRANK-hs (51.2Gb)	class	Sum of abundances	1	0.9999999999999994
+KRANK-hs (51.2Gb)	family	Sum of abundances	1	0.9999999999999999
+KRANK-hs (51.2Gb)	phylum	Sum of abundances	1	1.0000000000000009
+KRANK-hs (51.2Gb)	genus	Sum of abundances	1	1.0000000000000002
+KRANK-hs (51.2Gb)	kingdom	Sum of abundances	1	1.0
+KRANK-hs (51.2Gb)	order	Sum of abundances	1	0.9999999999999999
+KRANK-hs (51.2Gb)	species	Sum of abundances	1	0.999999999999997
+KRANK-hs (51.2Gb)	strain	Sum of abundances	1	1.0
+KRANK-hs (51.2Gb)	class	Taxon counts	1	82.0
+KRANK-hs (51.2Gb)	family	Taxon counts	1	412.0
+KRANK-hs (51.2Gb)	phylum	Taxon counts	1	39.0
+KRANK-hs (51.2Gb)	genus	Taxon counts	1	2050.0
+KRANK-hs (51.2Gb)	kingdom	Taxon counts	1	2.0
+KRANK-hs (51.2Gb)	order	Taxon counts	1	185.0
+KRANK-hs (51.2Gb)	species	Taxon counts	1	8942.0
+KRANK-hs (51.2Gb)	strain	Taxon counts	1	12.0
+KRANK-hs (51.2Gb)	kingdom	Bray-Curtis distance	2	0.0007079674776909717
+KRANK-hs (51.2Gb)	phylum	Bray-Curtis distance	2	0.06650667178780052
+KRANK-hs (51.2Gb)	class	Bray-Curtis distance	2	0.11884497291908451
+KRANK-hs (51.2Gb)	order	Bray-Curtis distance	2	0.3689155353017597
+KRANK-hs (51.2Gb)	family	Bray-Curtis distance	2	0.2065572216734306
+KRANK-hs (51.2Gb)	genus	Bray-Curtis distance	2	0.36975637824640584
+KRANK-hs (51.2Gb)	species	Bray-Curtis distance	2	0.8536110564825798
+KRANK-hs (51.2Gb)	strain	Bray-Curtis distance	2	1.0
+KRANK-hs (51.2Gb)	kingdom	Shannon diversity	2	0.043001803798315856
+KRANK-hs (51.2Gb)	kingdom	Shannon equitability	2	0.06203848908911048
+KRANK-hs (51.2Gb)	phylum	Shannon diversity	2	1.2289841949363967
+KRANK-hs (51.2Gb)	phylum	Shannon equitability	2	0.3354615845579538
+KRANK-hs (51.2Gb)	class	Shannon diversity	2	2.042901088838668
+KRANK-hs (51.2Gb)	class	Shannon equitability	2	0.46358775638065136
+KRANK-hs (51.2Gb)	order	Shannon diversity	2	3.1471147122727183
+KRANK-hs (51.2Gb)	order	Shannon equitability	2	0.602854444739981
+KRANK-hs (51.2Gb)	family	Shannon diversity	2	3.9619642829491695
+KRANK-hs (51.2Gb)	family	Shannon equitability	2	0.6580217436587744
+KRANK-hs (51.2Gb)	genus	Shannon diversity	2	5.137566167933186
+KRANK-hs (51.2Gb)	genus	Shannon equitability	2	0.6737265904281088
+KRANK-hs (51.2Gb)	species	Shannon diversity	2	6.91508841902985
+KRANK-hs (51.2Gb)	species	Shannon equitability	2	0.7600238891596105
+KRANK-hs (51.2Gb)	strain	Shannon diversity	2	2.1740760035681665
+KRANK-hs (51.2Gb)	strain	Shannon equitability	2	0.8749125460119992
+KRANK-hs (51.2Gb)	kingdom	True positives	2	2.0
+KRANK-hs (51.2Gb)	kingdom	False negatives	2	0.0
+KRANK-hs (51.2Gb)	kingdom	False positives	2	0.0
+KRANK-hs (51.2Gb)	kingdom	Completeness	2	1.0
+KRANK-hs (51.2Gb)	kingdom	Purity	2	1.0
+KRANK-hs (51.2Gb)	kingdom	F1 score	2	1.0
+KRANK-hs (51.2Gb)	kingdom	Jaccard index	2	1.0
+KRANK-hs (51.2Gb)	phylum	True positives	2	12.0
+KRANK-hs (51.2Gb)	phylum	False negatives	2	0.0
+KRANK-hs (51.2Gb)	phylum	False positives	2	27.0
+KRANK-hs (51.2Gb)	phylum	Completeness	2	1.0
+KRANK-hs (51.2Gb)	phylum	Purity	2	0.3076923076923077
+KRANK-hs (51.2Gb)	phylum	F1 score	2	0.47058823529411764
+KRANK-hs (51.2Gb)	phylum	Jaccard index	2	0.3076923076923077
+KRANK-hs (51.2Gb)	class	True positives	2	21.0
+KRANK-hs (51.2Gb)	class	False negatives	2	0.0
+KRANK-hs (51.2Gb)	class	False positives	2	61.0
+KRANK-hs (51.2Gb)	class	Completeness	2	1.0
+KRANK-hs (51.2Gb)	class	Purity	2	0.25609756097560976
+KRANK-hs (51.2Gb)	class	F1 score	2	0.4077669902912621
+KRANK-hs (51.2Gb)	class	Jaccard index	2	0.25609756097560976
+KRANK-hs (51.2Gb)	order	True positives	2	40.0
+KRANK-hs (51.2Gb)	order	False negatives	2	0.0
+KRANK-hs (51.2Gb)	order	False positives	2	145.0
+KRANK-hs (51.2Gb)	order	Completeness	2	1.0
+KRANK-hs (51.2Gb)	order	Purity	2	0.21621621621621623
+KRANK-hs (51.2Gb)	order	F1 score	2	0.35555555555555557
+KRANK-hs (51.2Gb)	order	Jaccard index	2	0.21621621621621623
+KRANK-hs (51.2Gb)	family	True positives	2	84.0
+KRANK-hs (51.2Gb)	family	False negatives	2	4.0
+KRANK-hs (51.2Gb)	family	False positives	2	328.0
+KRANK-hs (51.2Gb)	family	Completeness	2	0.9545454545454546
+KRANK-hs (51.2Gb)	family	Purity	2	0.20388349514563106
+KRANK-hs (51.2Gb)	family	F1 score	2	0.336
+KRANK-hs (51.2Gb)	family	Jaccard index	2	0.20192307692307693
+KRANK-hs (51.2Gb)	genus	True positives	2	175.0
+KRANK-hs (51.2Gb)	genus	False negatives	2	19.0
+KRANK-hs (51.2Gb)	genus	False positives	2	1875.0
+KRANK-hs (51.2Gb)	genus	Completeness	2	0.9020618556701031
+KRANK-hs (51.2Gb)	genus	Purity	2	0.08536585365853659
+KRANK-hs (51.2Gb)	genus	F1 score	2	0.1559714795008913
+KRANK-hs (51.2Gb)	genus	Jaccard index	2	0.0845819236346061
+KRANK-hs (51.2Gb)	species	True positives	2	56.0
+KRANK-hs (51.2Gb)	species	False negatives	2	185.0
+KRANK-hs (51.2Gb)	species	False positives	2	8886.0
+KRANK-hs (51.2Gb)	species	Completeness	2	0.23236514522821577
+KRANK-hs (51.2Gb)	species	Purity	2	0.0062625810780586
+KRANK-hs (51.2Gb)	species	F1 score	2	0.012196449961886095
+KRANK-hs (51.2Gb)	species	Jaccard index	2	0.0061356415032321684
+KRANK-hs (51.2Gb)	strain	True positives	2	0.0
+KRANK-hs (51.2Gb)	strain	False negatives	2	596.0
+KRANK-hs (51.2Gb)	strain	False positives	2	12.0
+KRANK-hs (51.2Gb)	strain	Completeness	2	0.0
+KRANK-hs (51.2Gb)	strain	Purity	2	0.0
+KRANK-hs (51.2Gb)	strain	Jaccard index	2	0.0
+KRANK-hs (51.2Gb)	kingdom	L1 norm error	2	0.0014159349553819435
+KRANK-hs (51.2Gb)	phylum	L1 norm error	2	0.13301334357560102
+KRANK-hs (51.2Gb)	class	L1 norm error	2	0.23768994583816902
+KRANK-hs (51.2Gb)	order	L1 norm error	2	0.737831070603519
+KRANK-hs (51.2Gb)	family	L1 norm error	2	0.4131144433468608
+KRANK-hs (51.2Gb)	genus	L1 norm error	2	0.7395127564928113
+KRANK-hs (51.2Gb)	species	L1 norm error	2	1.7072221129651646
+KRANK-hs (51.2Gb)	strain	L1 norm error	2	1.9999999999999987
+KRANK-hs (51.2Gb)	na	Weighted UniFrac error	2	0.07244688631104612
+KRANK-hs (51.2Gb)	na	Unweighted UniFrac error	2	7.971275719316322
+KRANK-hs (51.2Gb)	na	Weighted UniFrac (CAMI)	2	11.056644859445946
+KRANK-hs (51.2Gb)	na	Unweighted UniFrac (CAMI)	2	61375.67269236914
+KRANK-hs (51.2Gb)	class	Sum of abundances	2	0.9999999999999996
+KRANK-hs (51.2Gb)	family	Sum of abundances	2	1.0000000000000009
+KRANK-hs (51.2Gb)	phylum	Sum of abundances	2	0.9999999999999999
+KRANK-hs (51.2Gb)	genus	Sum of abundances	2	0.9999999999999984
+KRANK-hs (51.2Gb)	kingdom	Sum of abundances	2	1.0
+KRANK-hs (51.2Gb)	order	Sum of abundances	2	0.9999999999999999
+KRANK-hs (51.2Gb)	species	Sum of abundances	2	1.0000000000000022
+KRANK-hs (51.2Gb)	strain	Sum of abundances	2	1.0
+KRANK-hs (51.2Gb)	class	Taxon counts	2	82.0
+KRANK-hs (51.2Gb)	family	Taxon counts	2	412.0
+KRANK-hs (51.2Gb)	phylum	Taxon counts	2	39.0
+KRANK-hs (51.2Gb)	genus	Taxon counts	2	2050.0
+KRANK-hs (51.2Gb)	kingdom	Taxon counts	2	2.0
+KRANK-hs (51.2Gb)	order	Taxon counts	2	185.0
+KRANK-hs (51.2Gb)	species	Taxon counts	2	8942.0
+KRANK-hs (51.2Gb)	strain	Taxon counts	2	12.0
+KRANK-hs (51.2Gb)	kingdom	Bray-Curtis distance	3	0.003432325379932012
+KRANK-hs (51.2Gb)	phylum	Bray-Curtis distance	3	0.07020273220076526
+KRANK-hs (51.2Gb)	class	Bray-Curtis distance	3	0.11574176924836058
+KRANK-hs (51.2Gb)	order	Bray-Curtis distance	3	0.37518047140773053
+KRANK-hs (51.2Gb)	family	Bray-Curtis distance	3	0.21070127807785585
+KRANK-hs (51.2Gb)	genus	Bray-Curtis distance	3	0.372312485858959
+KRANK-hs (51.2Gb)	species	Bray-Curtis distance	3	0.8618557098980778
+KRANK-hs (51.2Gb)	strain	Bray-Curtis distance	3	1.0
+KRANK-hs (51.2Gb)	kingdom	Shannon diversity	3	0.05935082991844342
+KRANK-hs (51.2Gb)	kingdom	Shannon equitability	3	0.08562514799598264
+KRANK-hs (51.2Gb)	phylum	Shannon diversity	3	1.2720026904336819
+KRANK-hs (51.2Gb)	phylum	Shannon equitability	3	0.34720384513728153
+KRANK-hs (51.2Gb)	class	Shannon diversity	3	2.045123006703774
+KRANK-hs (51.2Gb)	class	Shannon equitability	3	0.4640919677316434
+KRANK-hs (51.2Gb)	order	Shannon diversity	3	3.1691852531958538
+KRANK-hs (51.2Gb)	order	Shannon equitability	3	0.6070822295237518
+KRANK-hs (51.2Gb)	family	Shannon diversity	3	3.97127511332368
+KRANK-hs (51.2Gb)	family	Shannon equitability	3	0.6595681303499199
+KRANK-hs (51.2Gb)	genus	Shannon diversity	3	5.1798903040473006
+KRANK-hs (51.2Gb)	genus	Shannon equitability	3	0.6792768636479375
+KRANK-hs (51.2Gb)	species	Shannon diversity	3	7.040074375033482
+KRANK-hs (51.2Gb)	species	Shannon equitability	3	0.7737703630700637
+KRANK-hs (51.2Gb)	strain	Shannon diversity	3	2.16435763647746
+KRANK-hs (51.2Gb)	strain	Shannon equitability	3	0.8710015873884486
+KRANK-hs (51.2Gb)	kingdom	True positives	3	2.0
+KRANK-hs (51.2Gb)	kingdom	False negatives	3	0.0
+KRANK-hs (51.2Gb)	kingdom	False positives	3	0.0
+KRANK-hs (51.2Gb)	kingdom	Completeness	3	1.0
+KRANK-hs (51.2Gb)	kingdom	Purity	3	1.0
+KRANK-hs (51.2Gb)	kingdom	F1 score	3	1.0
+KRANK-hs (51.2Gb)	kingdom	Jaccard index	3	1.0
+KRANK-hs (51.2Gb)	phylum	True positives	3	12.0
+KRANK-hs (51.2Gb)	phylum	False negatives	3	0.0
+KRANK-hs (51.2Gb)	phylum	False positives	3	27.0
+KRANK-hs (51.2Gb)	phylum	Completeness	3	1.0
+KRANK-hs (51.2Gb)	phylum	Purity	3	0.3076923076923077
+KRANK-hs (51.2Gb)	phylum	F1 score	3	0.47058823529411764
+KRANK-hs (51.2Gb)	phylum	Jaccard index	3	0.3076923076923077
+KRANK-hs (51.2Gb)	class	True positives	3	21.0
+KRANK-hs (51.2Gb)	class	False negatives	3	0.0
+KRANK-hs (51.2Gb)	class	False positives	3	61.0
+KRANK-hs (51.2Gb)	class	Completeness	3	1.0
+KRANK-hs (51.2Gb)	class	Purity	3	0.25609756097560976
+KRANK-hs (51.2Gb)	class	F1 score	3	0.4077669902912621
+KRANK-hs (51.2Gb)	class	Jaccard index	3	0.25609756097560976
+KRANK-hs (51.2Gb)	order	True positives	3	40.0
+KRANK-hs (51.2Gb)	order	False negatives	3	0.0
+KRANK-hs (51.2Gb)	order	False positives	3	145.0
+KRANK-hs (51.2Gb)	order	Completeness	3	1.0
+KRANK-hs (51.2Gb)	order	Purity	3	0.21621621621621623
+KRANK-hs (51.2Gb)	order	F1 score	3	0.35555555555555557
+KRANK-hs (51.2Gb)	order	Jaccard index	3	0.21621621621621623
+KRANK-hs (51.2Gb)	family	True positives	3	84.0
+KRANK-hs (51.2Gb)	family	False negatives	3	4.0
+KRANK-hs (51.2Gb)	family	False positives	3	328.0
+KRANK-hs (51.2Gb)	family	Completeness	3	0.9545454545454546
+KRANK-hs (51.2Gb)	family	Purity	3	0.20388349514563106
+KRANK-hs (51.2Gb)	family	F1 score	3	0.336
+KRANK-hs (51.2Gb)	family	Jaccard index	3	0.20192307692307693
+KRANK-hs (51.2Gb)	genus	True positives	3	175.0
+KRANK-hs (51.2Gb)	genus	False negatives	3	19.0
+KRANK-hs (51.2Gb)	genus	False positives	3	1875.0
+KRANK-hs (51.2Gb)	genus	Completeness	3	0.9020618556701031
+KRANK-hs (51.2Gb)	genus	Purity	3	0.08536585365853659
+KRANK-hs (51.2Gb)	genus	F1 score	3	0.1559714795008913
+KRANK-hs (51.2Gb)	genus	Jaccard index	3	0.0845819236346061
+KRANK-hs (51.2Gb)	species	True positives	3	56.0
+KRANK-hs (51.2Gb)	species	False negatives	3	185.0
+KRANK-hs (51.2Gb)	species	False positives	3	8885.0
+KRANK-hs (51.2Gb)	species	Completeness	3	0.23236514522821577
+KRANK-hs (51.2Gb)	species	Purity	3	0.006263281512135108
+KRANK-hs (51.2Gb)	species	F1 score	3	0.012197778261816597
+KRANK-hs (51.2Gb)	species	Jaccard index	3	0.006136313828621521
+KRANK-hs (51.2Gb)	strain	True positives	3	0.0
+KRANK-hs (51.2Gb)	strain	False negatives	3	596.0
+KRANK-hs (51.2Gb)	strain	False positives	3	12.0
+KRANK-hs (51.2Gb)	strain	Completeness	3	0.0
+KRANK-hs (51.2Gb)	strain	Purity	3	0.0
+KRANK-hs (51.2Gb)	strain	Jaccard index	3	0.0
+KRANK-hs (51.2Gb)	kingdom	L1 norm error	3	0.006864650759864024
+KRANK-hs (51.2Gb)	phylum	L1 norm error	3	0.14040546440153054
+KRANK-hs (51.2Gb)	class	L1 norm error	3	0.2314835384967212
+KRANK-hs (51.2Gb)	order	L1 norm error	3	0.7503609428154613
+KRANK-hs (51.2Gb)	family	L1 norm error	3	0.4214025561557119
+KRANK-hs (51.2Gb)	genus	L1 norm error	3	0.7446249717179184
+KRANK-hs (51.2Gb)	species	L1 norm error	3	1.7237114197961616
+KRANK-hs (51.2Gb)	strain	L1 norm error	3	1.9999999999999991
+KRANK-hs (51.2Gb)	na	Weighted UniFrac error	3	0.06744984764065871
+KRANK-hs (51.2Gb)	na	Unweighted UniFrac error	3	7.889044603465866
+KRANK-hs (51.2Gb)	na	Weighted UniFrac (CAMI)	3	11.088715148988209
+KRANK-hs (51.2Gb)	na	Unweighted UniFrac (CAMI)	3	61316.76101010221
+KRANK-hs (51.2Gb)	class	Sum of abundances	3	1.0
+KRANK-hs (51.2Gb)	family	Sum of abundances	3	0.9999999999999986
+KRANK-hs (51.2Gb)	phylum	Sum of abundances	3	1.0000000000000002
+KRANK-hs (51.2Gb)	genus	Sum of abundances	3	1.000000000000004
+KRANK-hs (51.2Gb)	kingdom	Sum of abundances	3	1.0
+KRANK-hs (51.2Gb)	order	Sum of abundances	3	1.0000000000000004
+KRANK-hs (51.2Gb)	species	Sum of abundances	3	1.000000000000006
+KRANK-hs (51.2Gb)	strain	Sum of abundances	3	0.9999999999999999
+KRANK-hs (51.2Gb)	class	Taxon counts	3	82.0
+KRANK-hs (51.2Gb)	family	Taxon counts	3	412.0
+KRANK-hs (51.2Gb)	phylum	Taxon counts	3	39.0
+KRANK-hs (51.2Gb)	genus	Taxon counts	3	2050.0
+KRANK-hs (51.2Gb)	kingdom	Taxon counts	3	2.0
+KRANK-hs (51.2Gb)	order	Taxon counts	3	185.0
+KRANK-hs (51.2Gb)	species	Taxon counts	3	8941.0
+KRANK-hs (51.2Gb)	strain	Taxon counts	3	12.0
+KRANK-hs (51.2Gb)	kingdom	Bray-Curtis distance	4	0.0026537816058460175
+KRANK-hs (51.2Gb)	phylum	Bray-Curtis distance	4	0.06715413061880553
+KRANK-hs (51.2Gb)	class	Bray-Curtis distance	4	0.1094134891472117
+KRANK-hs (51.2Gb)	order	Bray-Curtis distance	4	0.37291249473687704
+KRANK-hs (51.2Gb)	family	Bray-Curtis distance	4	0.20890928054705069
+KRANK-hs (51.2Gb)	genus	Bray-Curtis distance	4	0.3824603138833545
+KRANK-hs (51.2Gb)	species	Bray-Curtis distance	4	0.8766324057433681
+KRANK-hs (51.2Gb)	strain	Bray-Curtis distance	4	1.0
+KRANK-hs (51.2Gb)	kingdom	Shannon diversity	4	0.05691497535604417
+KRANK-hs (51.2Gb)	kingdom	Shannon equitability	4	0.0821109526984825
+KRANK-hs (51.2Gb)	phylum	Shannon diversity	4	1.2530769957069594
+KRANK-hs (51.2Gb)	phylum	Shannon equitability	4	0.3420379173995249
+KRANK-hs (51.2Gb)	class	Shannon diversity	4	2.0205086278440514
+KRANK-hs (51.2Gb)	class	Shannon equitability	4	0.4585063205690738
+KRANK-hs (51.2Gb)	order	Shannon diversity	4	3.16441320240201
+KRANK-hs (51.2Gb)	order	Shannon equitability	4	0.6061681058598208
+KRANK-hs (51.2Gb)	family	Shannon diversity	4	3.964302731931917
+KRANK-hs (51.2Gb)	family	Shannon equitability	4	0.658410124312206
+KRANK-hs (51.2Gb)	genus	Shannon diversity	4	5.192547190996539
+KRANK-hs (51.2Gb)	genus	Shannon equitability	4	0.6809366537140915
+KRANK-hs (51.2Gb)	species	Shannon diversity	4	7.1187806346195845
+KRANK-hs (51.2Gb)	species	Shannon equitability	4	0.7824305397320565
+KRANK-hs (51.2Gb)	strain	Shannon diversity	4	2.175287944775018
+KRANK-hs (51.2Gb)	strain	Shannon equitability	4	0.8754002670324065
+KRANK-hs (51.2Gb)	kingdom	True positives	4	2.0
+KRANK-hs (51.2Gb)	kingdom	False negatives	4	0.0
+KRANK-hs (51.2Gb)	kingdom	False positives	4	0.0
+KRANK-hs (51.2Gb)	kingdom	Completeness	4	1.0
+KRANK-hs (51.2Gb)	kingdom	Purity	4	1.0
+KRANK-hs (51.2Gb)	kingdom	F1 score	4	1.0
+KRANK-hs (51.2Gb)	kingdom	Jaccard index	4	1.0
+KRANK-hs (51.2Gb)	phylum	True positives	4	12.0
+KRANK-hs (51.2Gb)	phylum	False negatives	4	0.0
+KRANK-hs (51.2Gb)	phylum	False positives	4	27.0
+KRANK-hs (51.2Gb)	phylum	Completeness	4	1.0
+KRANK-hs (51.2Gb)	phylum	Purity	4	0.3076923076923077
+KRANK-hs (51.2Gb)	phylum	F1 score	4	0.47058823529411764
+KRANK-hs (51.2Gb)	phylum	Jaccard index	4	0.3076923076923077
+KRANK-hs (51.2Gb)	class	True positives	4	21.0
+KRANK-hs (51.2Gb)	class	False negatives	4	0.0
+KRANK-hs (51.2Gb)	class	False positives	4	61.0
+KRANK-hs (51.2Gb)	class	Completeness	4	1.0
+KRANK-hs (51.2Gb)	class	Purity	4	0.25609756097560976
+KRANK-hs (51.2Gb)	class	F1 score	4	0.4077669902912621
+KRANK-hs (51.2Gb)	class	Jaccard index	4	0.25609756097560976
+KRANK-hs (51.2Gb)	order	True positives	4	40.0
+KRANK-hs (51.2Gb)	order	False negatives	4	0.0
+KRANK-hs (51.2Gb)	order	False positives	4	145.0
+KRANK-hs (51.2Gb)	order	Completeness	4	1.0
+KRANK-hs (51.2Gb)	order	Purity	4	0.21621621621621623
+KRANK-hs (51.2Gb)	order	F1 score	4	0.35555555555555557
+KRANK-hs (51.2Gb)	order	Jaccard index	4	0.21621621621621623
+KRANK-hs (51.2Gb)	family	True positives	4	84.0
+KRANK-hs (51.2Gb)	family	False negatives	4	4.0
+KRANK-hs (51.2Gb)	family	False positives	4	328.0
+KRANK-hs (51.2Gb)	family	Completeness	4	0.9545454545454546
+KRANK-hs (51.2Gb)	family	Purity	4	0.20388349514563106
+KRANK-hs (51.2Gb)	family	F1 score	4	0.336
+KRANK-hs (51.2Gb)	family	Jaccard index	4	0.20192307692307693
+KRANK-hs (51.2Gb)	genus	True positives	4	175.0
+KRANK-hs (51.2Gb)	genus	False negatives	4	19.0
+KRANK-hs (51.2Gb)	genus	False positives	4	1875.0
+KRANK-hs (51.2Gb)	genus	Completeness	4	0.9020618556701031
+KRANK-hs (51.2Gb)	genus	Purity	4	0.08536585365853659
+KRANK-hs (51.2Gb)	genus	F1 score	4	0.1559714795008913
+KRANK-hs (51.2Gb)	genus	Jaccard index	4	0.0845819236346061
+KRANK-hs (51.2Gb)	species	True positives	4	56.0
+KRANK-hs (51.2Gb)	species	False negatives	4	185.0
+KRANK-hs (51.2Gb)	species	False positives	4	8884.0
+KRANK-hs (51.2Gb)	species	Completeness	4	0.23236514522821577
+KRANK-hs (51.2Gb)	species	Purity	4	0.006263982102908278
+KRANK-hs (51.2Gb)	species	F1 score	4	0.012199106851105545
+KRANK-hs (51.2Gb)	species	Jaccard index	4	0.006136986301369863
+KRANK-hs (51.2Gb)	strain	True positives	4	0.0
+KRANK-hs (51.2Gb)	strain	False negatives	4	596.0
+KRANK-hs (51.2Gb)	strain	False positives	4	12.0
+KRANK-hs (51.2Gb)	strain	Completeness	4	0.0
+KRANK-hs (51.2Gb)	strain	Purity	4	0.0
+KRANK-hs (51.2Gb)	strain	Jaccard index	4	0.0
+KRANK-hs (51.2Gb)	kingdom	L1 norm error	4	0.005307563211692035
+KRANK-hs (51.2Gb)	phylum	L1 norm error	4	0.13430826123761105
+KRANK-hs (51.2Gb)	class	L1 norm error	4	0.21882697829442344
+KRANK-hs (51.2Gb)	order	L1 norm error	4	0.7458249894737544
+KRANK-hs (51.2Gb)	family	L1 norm error	4	0.41781856109410115
+KRANK-hs (51.2Gb)	genus	L1 norm error	4	0.7649206277667087
+KRANK-hs (51.2Gb)	species	L1 norm error	4	1.7532648114867362
+KRANK-hs (51.2Gb)	strain	L1 norm error	4	2.000000000000001
+KRANK-hs (51.2Gb)	na	Weighted UniFrac error	4	0.06544730882088566
+KRANK-hs (51.2Gb)	na	Unweighted UniFrac error	4	8.087732642479597
+KRANK-hs (51.2Gb)	na	Weighted UniFrac (CAMI)	4	11.091826187756485
+KRANK-hs (51.2Gb)	na	Unweighted UniFrac (CAMI)	4	61392.70824763957
+KRANK-hs (51.2Gb)	class	Sum of abundances	4	1.0
+KRANK-hs (51.2Gb)	family	Sum of abundances	4	0.999999999999999
+KRANK-hs (51.2Gb)	phylum	Sum of abundances	4	1.0
+KRANK-hs (51.2Gb)	genus	Sum of abundances	4	0.9999999999999981
+KRANK-hs (51.2Gb)	kingdom	Sum of abundances	4	1.0
+KRANK-hs (51.2Gb)	order	Sum of abundances	4	0.9999999999999991
+KRANK-hs (51.2Gb)	species	Sum of abundances	4	1.0000000000000009
+KRANK-hs (51.2Gb)	strain	Sum of abundances	4	1.0000000000000002
+KRANK-hs (51.2Gb)	class	Taxon counts	4	82.0
+KRANK-hs (51.2Gb)	family	Taxon counts	4	412.0
+KRANK-hs (51.2Gb)	phylum	Taxon counts	4	39.0
+KRANK-hs (51.2Gb)	genus	Taxon counts	4	2050.0
+KRANK-hs (51.2Gb)	kingdom	Taxon counts	4	2.0
+KRANK-hs (51.2Gb)	order	Taxon counts	4	185.0
+KRANK-hs (51.2Gb)	species	Taxon counts	4	8940.0
+KRANK-hs (51.2Gb)	strain	Taxon counts	4	12.0
+KRANK-hs (51.2Gb)	kingdom	Bray-Curtis distance	5	0.003866251553186985
+KRANK-hs (51.2Gb)	phylum	Bray-Curtis distance	5	0.06786558465697631
+KRANK-hs (51.2Gb)	class	Bray-Curtis distance	5	0.11113557308093862
+KRANK-hs (51.2Gb)	order	Bray-Curtis distance	5	0.37696645151334535
+KRANK-hs (51.2Gb)	family	Bray-Curtis distance	5	0.2100711765678536
+KRANK-hs (51.2Gb)	genus	Bray-Curtis distance	5	0.36632305079015576
+KRANK-hs (51.2Gb)	species	Bray-Curtis distance	5	0.8783182688347181
+KRANK-hs (51.2Gb)	strain	Bray-Curtis distance	5	1.0
+KRANK-hs (51.2Gb)	kingdom	Shannon diversity	5	0.061103755179614375
+KRANK-hs (51.2Gb)	kingdom	Shannon equitability	5	0.08815408457732297
+KRANK-hs (51.2Gb)	phylum	Shannon diversity	5	1.2433190463844965
+KRANK-hs (51.2Gb)	phylum	Shannon equitability	5	0.3393744029660305
+KRANK-hs (51.2Gb)	class	Shannon diversity	5	1.997258833540382
+KRANK-hs (51.2Gb)	class	Shannon equitability	5	0.4532303333778991
+KRANK-hs (51.2Gb)	order	Shannon diversity	5	3.157608687569147
+KRANK-hs (51.2Gb)	order	Shannon equitability	5	0.6048646478081351
+KRANK-hs (51.2Gb)	family	Shannon diversity	5	3.9458181376612864
+KRANK-hs (51.2Gb)	family	Shannon equitability	5	0.6553401155781214
+KRANK-hs (51.2Gb)	genus	Shannon diversity	5	5.129997730225439
+KRANK-hs (51.2Gb)	genus	Shannon equitability	5	0.6727340858909342
+KRANK-hs (51.2Gb)	species	Shannon diversity	5	7.050956687741389
+KRANK-hs (51.2Gb)	species	Shannon equitability	5	0.7749759586617269
+KRANK-hs (51.2Gb)	strain	Shannon diversity	5	2.178675962796604
+KRANK-hs (51.2Gb)	strain	Shannon equitability	5	0.8767637057844718
+KRANK-hs (51.2Gb)	kingdom	True positives	5	2.0
+KRANK-hs (51.2Gb)	kingdom	False negatives	5	0.0
+KRANK-hs (51.2Gb)	kingdom	False positives	5	0.0
+KRANK-hs (51.2Gb)	kingdom	Completeness	5	1.0
+KRANK-hs (51.2Gb)	kingdom	Purity	5	1.0
+KRANK-hs (51.2Gb)	kingdom	F1 score	5	1.0
+KRANK-hs (51.2Gb)	kingdom	Jaccard index	5	1.0
+KRANK-hs (51.2Gb)	phylum	True positives	5	12.0
+KRANK-hs (51.2Gb)	phylum	False negatives	5	0.0
+KRANK-hs (51.2Gb)	phylum	False positives	5	27.0
+KRANK-hs (51.2Gb)	phylum	Completeness	5	1.0
+KRANK-hs (51.2Gb)	phylum	Purity	5	0.3076923076923077
+KRANK-hs (51.2Gb)	phylum	F1 score	5	0.47058823529411764
+KRANK-hs (51.2Gb)	phylum	Jaccard index	5	0.3076923076923077
+KRANK-hs (51.2Gb)	class	True positives	5	21.0
+KRANK-hs (51.2Gb)	class	False negatives	5	0.0
+KRANK-hs (51.2Gb)	class	False positives	5	61.0
+KRANK-hs (51.2Gb)	class	Completeness	5	1.0
+KRANK-hs (51.2Gb)	class	Purity	5	0.25609756097560976
+KRANK-hs (51.2Gb)	class	F1 score	5	0.4077669902912621
+KRANK-hs (51.2Gb)	class	Jaccard index	5	0.25609756097560976
+KRANK-hs (51.2Gb)	order	True positives	5	40.0
+KRANK-hs (51.2Gb)	order	False negatives	5	0.0
+KRANK-hs (51.2Gb)	order	False positives	5	145.0
+KRANK-hs (51.2Gb)	order	Completeness	5	1.0
+KRANK-hs (51.2Gb)	order	Purity	5	0.21621621621621623
+KRANK-hs (51.2Gb)	order	F1 score	5	0.35555555555555557
+KRANK-hs (51.2Gb)	order	Jaccard index	5	0.21621621621621623
+KRANK-hs (51.2Gb)	family	True positives	5	84.0
+KRANK-hs (51.2Gb)	family	False negatives	5	4.0
+KRANK-hs (51.2Gb)	family	False positives	5	328.0
+KRANK-hs (51.2Gb)	family	Completeness	5	0.9545454545454546
+KRANK-hs (51.2Gb)	family	Purity	5	0.20388349514563106
+KRANK-hs (51.2Gb)	family	F1 score	5	0.336
+KRANK-hs (51.2Gb)	family	Jaccard index	5	0.20192307692307693
+KRANK-hs (51.2Gb)	genus	True positives	5	175.0
+KRANK-hs (51.2Gb)	genus	False negatives	5	19.0
+KRANK-hs (51.2Gb)	genus	False positives	5	1875.0
+KRANK-hs (51.2Gb)	genus	Completeness	5	0.9020618556701031
+KRANK-hs (51.2Gb)	genus	Purity	5	0.08536585365853659
+KRANK-hs (51.2Gb)	genus	F1 score	5	0.1559714795008913
+KRANK-hs (51.2Gb)	genus	Jaccard index	5	0.0845819236346061
+KRANK-hs (51.2Gb)	species	True positives	5	56.0
+KRANK-hs (51.2Gb)	species	False negatives	5	185.0
+KRANK-hs (51.2Gb)	species	False positives	5	8884.0
+KRANK-hs (51.2Gb)	species	Completeness	5	0.23236514522821577
+KRANK-hs (51.2Gb)	species	Purity	5	0.006263982102908278
+KRANK-hs (51.2Gb)	species	F1 score	5	0.012199106851105545
+KRANK-hs (51.2Gb)	species	Jaccard index	5	0.006136986301369863
+KRANK-hs (51.2Gb)	strain	True positives	5	0.0
+KRANK-hs (51.2Gb)	strain	False negatives	5	596.0
+KRANK-hs (51.2Gb)	strain	False positives	5	12.0
+KRANK-hs (51.2Gb)	strain	Completeness	5	0.0
+KRANK-hs (51.2Gb)	strain	Purity	5	0.0
+KRANK-hs (51.2Gb)	strain	Jaccard index	5	0.0
+KRANK-hs (51.2Gb)	kingdom	L1 norm error	5	0.007732503106373971
+KRANK-hs (51.2Gb)	phylum	L1 norm error	5	0.13573116931395268
+KRANK-hs (51.2Gb)	class	L1 norm error	5	0.2222711461618772
+KRANK-hs (51.2Gb)	order	L1 norm error	5	0.7539329030266902
+KRANK-hs (51.2Gb)	family	L1 norm error	5	0.4201423531357074
+KRANK-hs (51.2Gb)	genus	L1 norm error	5	0.7326461015803108
+KRANK-hs (51.2Gb)	species	L1 norm error	5	1.7566365376694362
+KRANK-hs (51.2Gb)	strain	L1 norm error	5	2.0
+KRANK-hs (51.2Gb)	na	Weighted UniFrac error	5	0.0701513407905316
+KRANK-hs (51.2Gb)	na	Unweighted UniFrac error	5	7.662132274245947
+KRANK-hs (51.2Gb)	na	Weighted UniFrac (CAMI)	5	11.123185674036552
+KRANK-hs (51.2Gb)	na	Unweighted UniFrac (CAMI)	5	61148.92076463124
+KRANK-hs (51.2Gb)	class	Sum of abundances	5	0.9999999999999997
+KRANK-hs (51.2Gb)	family	Sum of abundances	5	1.0000000000000004
+KRANK-hs (51.2Gb)	phylum	Sum of abundances	5	1.0000000000000002
+KRANK-hs (51.2Gb)	genus	Sum of abundances	5	1.000000000000002
+KRANK-hs (51.2Gb)	kingdom	Sum of abundances	5	1.0
+KRANK-hs (51.2Gb)	order	Sum of abundances	5	0.9999999999999994
+KRANK-hs (51.2Gb)	species	Sum of abundances	5	0.9999999999999984
+KRANK-hs (51.2Gb)	strain	Sum of abundances	5	0.9999999999999999
+KRANK-hs (51.2Gb)	class	Taxon counts	5	82.0
+KRANK-hs (51.2Gb)	family	Taxon counts	5	412.0
+KRANK-hs (51.2Gb)	phylum	Taxon counts	5	39.0
+KRANK-hs (51.2Gb)	genus	Taxon counts	5	2050.0
+KRANK-hs (51.2Gb)	kingdom	Taxon counts	5	2.0
+KRANK-hs (51.2Gb)	order	Taxon counts	5	185.0
+KRANK-hs (51.2Gb)	species	Taxon counts	5	8940.0
+KRANK-hs (51.2Gb)	strain	Taxon counts	5	12.0
