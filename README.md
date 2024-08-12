@@ -1,5 +1,7 @@
 # KRANK shared scripts, results and dataset information
 
+See https://ter-trees.ucsd.edu/data/krank/ for a catalog of libraries, and query reads that we had simulated for benchmarking. Descriptions of libraries and a tutorial can be found in the main GitHub repository.
+
 ## Results and evaluation metrics
 - `results/cscores-10kSpecies_-_combined.csv` : taxonomic classification results for all tools on WoL queries
 - `results/all_tools-profiling_evaluation-CAMI1_hc.tsv` : abundance profiling metrics of all tools on CAMI-I high-complexity dataset
