@@ -34,14 +34,53 @@ p1 <- ggplot(
   geom_point(size = 2.5, alpha = 0.85) +
   labs(shape = "Constraint", colour = "Taxonomic rank", linetype = "Constraint", x = "Constraint", y = "F1") +
   scale_colour_brewer(palette = "Paired") +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 5)) +
   scale_shape_manual(values = c(15,17,19,8)) +
   theme_cowplot(font_size = 18) +
   theme(strip.background = element_rect(fill = "gray")) +
   theme(
     axis.text.y = element_text(),
     axis.text.x = element_text(angle = 20)
-  ) + guides(color=guide_legend(nrow=1, byrow=TRUE))
+  ) + theme(legend.position = "none")
 p1
+ggsave2("../figures/size_const_comparison-wrt_group_size.pdf", width = 7, height = 6)
+
+options(scipen=10000)
+ggplot(scores %>% mutate(
+      Reference_genome_in_phylum = cut(
+      Reference_genome_in_phylum,
+      include.lowest = TRUE,
+      dig.lab = 50,
+      breaks = c(0, 10, 100, 1000))
+    ) %>% filter(Method %in% c("None", "Mixed")) %>% filter(!is.na(Reference_genome_in_phylum))) +
+  aes(y = F1, x = Reference_genome_in_phylum, color = Method, shape = Method) +
+  # geom_point(position = position_dodge2(width = 0.5), size = 0.75, alpha = 0.25) +
+  stat_summary(aes(y = F1, group = Method), geom = "line", color="darkgrey", linewidth=1) +
+  stat_summary(size = 1) + 
+  scale_colour_brewer(palette = "Dark2") +
+  # scale_x_continuous(trans="log10") +
+  theme_cowplot(font_size = 18) +
+  theme(strip.background = element_rect(fill = "gray")) +
+  theme(axis.text.y = element_text(), axis.text.x = element_text()) + labs(x="Number of genomes in the same phylum")
+px <- ggplot(
+  scores %>% filter(Reference_genome_in_phylum < 1000) %>% filter(Method %in% c("None", "Mixed")) %>% filter(!is.na(Taxonomic_rank)) %>% group_by(Method, Taxonomic_rank) %>%  summarise(Precision = mean(Precision), Recall = mean(Recall), F1 = mean(F1))
+) +
+  aes(x = Taxonomic_rank, y = F1, color = Method, shape = Method) +
+  # geom_boxplot() +
+  # geom_point(size = 5,alpha = 1) +
+  geom_line(aes(group = Method, color = Method), linewidth = 2, alpha = 0.5) +
+  geom_point(size = 5, alpha = 1)+
+  # geom_smooth() + 
+  # facet_wrap(c("expt")) +
+  # facet_wrap(c("Taxonomic_rank")) +
+  labs(shape = "Approach", colour = "Approach", x = "Taxonomic rank", y = "F1") +
+  # geom_line(aes(group = Distance_to_closest), color = "grey20") +
+  scale_colour_brewer(palette = "Dark2") +
+  # scale_x_continuous(trans="log10") +
+  theme_cowplot(font_size = 21) +
+  theme(strip.background = element_rect(fill = "gray")) +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 5))
+px
 
 p2 <- ggplot(
   scores %>% 
@@ -73,7 +112,7 @@ prow <- plot_grid(
   rel_heights = c(1, 1.25),
   vjust = 2,
   hjust = 2,
-  labels = c("B", "C"),
+  labels = c("A", "B"),
   label_size = 20,
   label_x = 0.075, label_y = 1
 )
@@ -113,3 +152,17 @@ ggsave2("../figures/num_genomes_per_taxon.pdf", width = 12, height = 4)
 
 plot_grid(p3 + theme(legend.position = "none"), plot_grid(prow, legend, rel_heights =  c(3, .4), nrow=2), ncol=1, rel_widths = c(1, 5), rel_heights = c(1, 3), labels = c("A", ""), label_size = 20)
 ggsave2("../figures/size_const_comparison-10kSpecies.pdf", width = 14, height = 9.5)
+
+ggplot(data=data.frame(x=0:1)) +
+  geom_vline(xintercept = 0.7, color = "black", linetype = 2) +
+  # geom_hline(yintercept = 0.1, color = "navy", linetype = 2) + geom_hline(yintercept = sqrt(0.1), color = "darkred", linetype = 2) + 
+  geom_vline(xintercept = 0.1, color = "black", linetype = 4) +
+  # geom_hline(yintercept = 0.25, color = "navy", linetype = 4) + geom_hline(yintercept = sqrt(0.25), color = "darkred", linetype = 4) + 
+  stat_function(xlim = c(0, 1), fun = function(x) {x}, linewidth = 1, aes(color = "linear")) +
+  stat_function(xlim = c(0, 1), fun = function(x) {sqrt(x)}, linewidth = 1, aes(color = "square root")) +
+  theme_cowplot() +
+  scale_color_manual(
+    values=c("navy", "darkred"),
+    breaks=c("linear", "square root")
+  ) + 
+  labs(y = "r(t)", x = "Total k-mer count ratio", color = "")
